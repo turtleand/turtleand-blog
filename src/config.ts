@@ -1,12 +1,12 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://your-deployed-domain.com", // replace this with your deployed domain
+  website: "https://blog.turtleand.com",
   author: "Turtleand",
-  profile: "",
+  profile: "https://blog.turtleand.com/about",
   desc: "A strategic thinker's blog on AI, crypto, and humanity.",
   title: "Turtleand",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "turtle-phase-1-tinified.webp",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
@@ -42,13 +42,13 @@ export const SOCIALS: SocialObjects = [
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/leandro-matayoshi",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    active: false,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:hello@turtleand.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
   {
     name: "X",

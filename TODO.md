@@ -1,10 +1,11 @@
 # TODO
 
-- [ ] Deploy to Netlify
+- [ ] Add customized `logo.png` / `logo.svg`
 - [ ] Add First Articles
-- [ ] Buy domain
 - [ ] Remove Paper references
 - [ ] Fix "Suggest Changes"
 - [ ] Link YouTube channel
-- [ ] Add email to socials
-- [ ] Add SVG images as in ../layouts/AboutLayout.astro
+- [ ] Add SVG images as in `../layouts/AboutLayout.astro`
+- [x] Add email to socials
+- [x] Buy domain
+- [x] Deploy to Netlify
