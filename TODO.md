@@ -1,5 +1,6 @@
 # TODO
 
+- [ ] Standard way for adding read time. Fix estimatedReadTime
 - [ ] Add customized `logo.png` / `logo.svg`
 - [ ] Add First Articles
 - [ ] Remove Paper references

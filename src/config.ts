@@ -13,7 +13,7 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "/edit/main/src/content/blog",
+    url: "https://github.com/turtlean/turtlean-blog-astro-paper",
     text: "Suggest Changes",
     appendFilePath: true,
   },
