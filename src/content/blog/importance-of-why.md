@@ -23,17 +23,17 @@ So far, humans have focused on the 'How' — How to execute tasks? How to optimi
 
 But now, with the advent of artificial intelligence, much of the 'How' is increasingly automated. Machines can handle many tasks at scale, quickly and efficiently. 
 
-This presented an opportunity for some people to step back and ask a different question: 'What'? What is the most important thing we’re trying to accomplish? What actions will yield the greatest value for the least effort? What’s the next logical step in achieving our goals? By asking 'What', we clarify our priorities and ensure that our efforts are aligned with meaningful objectives.
+This shift presents an opportunity to step back and ask a different question: 'What'. What is the most important thing we’re trying to accomplish? What actions will yield the greatest value for the least effort? What’s the next logical step in achieving our goals? By asking 'What', we clarify our priorities and ensure that our efforts are aligned with meaningful objectives.
 
 
 ## The Next Question
 
-Even though asking 'What' helps set a clear direction, as it outlines the path we’ll take there’s an even deeper and more crucial question: 'Why'. While 'What' defines the goals and actions, 'Why' reveals the underlying motivations, the long-term purpose, and the values driving those goals. Without asking 'Why', we may succeed in execution but fail to understand the true significance of things. It would not only limit our ability to innovate and adapt to change. More importantly, it prevents us from understanding the fundamental aspects of nature and humanity. It's in the 'Why' where we have the opportunity to understand the very core and underlying reasons behind the world around us.
+Even though asking 'What' helps set a clear direction, as it outlines the path we’ll take, there’s an even deeper and more crucial question: 'Why'. While 'What' defines the goals and actions, 'Why' reveals the underlying motivations, the long-term purpose, and the values driving those goals. Without asking 'Why', we may succeed in execution but fail to understand the true significance of things. It would not only limit our ability to innovate and adapt to change. More importantly, it prevents us from understanding the fundamental aspects of nature and humanity. It's in the 'Why' where we have the opportunity to understand the very core and underlying reasons behind the world around us.
 
 
 ## My own example
 
-I used the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). However, I went beyond to explore a deep fear of mine. I was willing to see where the questions would lead, pursuing the root causes. The goal was to understand the underlying factors at play, and the process helped me uncover unexpected insights.
+I applied the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). However, I went beyond to explore a deep fear of mine. I was willing to see where the questions would lead, pursuing the root causes. The goal was to understand the underlying factors at play, and the process helped me uncover unexpected insights.
 
 1️⃣ Why do I always want to earn more money?
 
@@ -75,7 +75,7 @@ I used the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). However
 
 The 'Why' chain may have led to a profound insight: the root cause of financial insecurity isn’t just money — it’s a deep societal pattern of fear, short-sightedness, and a lack of reflection.
 
-People act out of fear. They protect themselves, sometimes at the expense of others, Because they don’t pause to ask why. This creates a cycle — one that leads to insecurity, inequality, and a lack of trust in the system.
+People act out of fear. They protect themselves, sometimes at the expense of others, because they don’t pause to ask why. This creates a cycle — one that leads to insecurity, inequality, and a lack of trust in the system.
 
 If so, how can you apply this realization to your own financial goals? Is earning more money the only solution, or could redefining security and trust play a role?
 
@@ -96,5 +96,3 @@ In conclusion, the long-term embrace of asking 'Why' transformed society into a 
 ## Call to Action
 
 Create the habit of asking '_Why_' daily. **Why** does _this_ matter?
-
-
