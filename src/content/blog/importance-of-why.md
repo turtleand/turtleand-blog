@@ -73,7 +73,7 @@ I used the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). However
 
 ### Reflection: What Does This Reveal?
 
-The why chain may have led to a profound insight: the root cause of financial insecurity isn’t just money — it’s a deep societal pattern of fear, short-sightedness, and a lack of reflection.
+The 'Why' chain may have led to a profound insight: the root cause of financial insecurity isn’t just money — it’s a deep societal pattern of fear, short-sightedness, and a lack of reflection.
 
 People act out of fear. They protect themselves, sometimes at the expense of others, Because they don’t pause to ask why. This creates a cycle — one that leads to insecurity, inequality, and a lack of trust in the system.
 
@@ -81,17 +81,17 @@ If so, how can you apply this realization to your own financial goals? Is earnin
 
 ## The Challenge
 
-Use your preferred, most advanced AI reasoning model to  the following (or similar) prompt:
+Use your preferred, most advanced AI reasoning model to run the following (or similar) prompt:
 
 > Imagine a world where everyone—from students to CEOs—starts every task by asking 'Why'. This shift doesn’t replace knowing 'How' or 'What', but it adds purpose to every action. Let’s explore how society might evolve over decades with this mindset by running a multi-decade simulation
 
 ### Summary of my simulation
 
-In the early decades, educators, business leaders, and community innovators began encouraging everyone to start with “why.” This early movement saw schools experimenting with purpose-driven lessons and companies rethinking their strategies to include clear, meaningful objectives. These initial shifts fostered deeper engagement, critical thinking, and a shared curiosity about the reasons behind everyday tasks.
+In the early decades, educators, business leaders, and community innovators began encouraging everyone to start with 'Why'. This early movement saw schools experimenting with purpose-driven lessons and companies rethinking their strategies to include clear, meaningful objectives. These initial shifts fostered deeper engagement, critical thinking, and a shared curiosity about the reasons behind everyday tasks.
 
 As the mindset matured, institutions began to embed the “why-first” approach into their core practices. Educational systems redesigned curricula to prioritize inquiry and personal connection to learning, while corporations introduced “purpose audits” to ensure every project aligned with ethical and long-term goals. Even government policies were influenced, with public consultations becoming more common and sustainable strategies taking root in areas like renewable energy and healthcare.
 
-In conclusion, the long-term embrace of asking “why” transformed society into a more reflective, purpose-driven community. This shift not only enhanced individual fulfillment and ethical innovation but also paved the way for more resilient institutions, equitable policies, and a sustainable future where actions are aligned with deeper, collective values.
+In conclusion, the long-term embrace of asking 'Why' transformed society into a more reflective, purpose-driven community. This shift not only enhanced individual fulfillment and ethical innovation but also paved the way for more resilient institutions, equitable policies, and a sustainable future where actions are aligned with deeper, collective values.
 
 ## Call to Action
 
