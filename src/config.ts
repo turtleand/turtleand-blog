@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://blog.turtleand.com",
   author: "Turtleand",
   profile: "https://blog.turtleand.com/about",
-  desc: "A strategic thinker's blog on AI, crypto, and humanity.",
+  desc: "A strategic thinker's blog on AI, Blockchain, and humanity.",
   title: "Turtleand",
   ogImage: "turtle-phase-1-tinified.webp",
   lightAndDarkMode: true,
