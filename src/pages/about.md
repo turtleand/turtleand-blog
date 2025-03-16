@@ -6,7 +6,7 @@ title: "About me"
 - Strategic Thinker
 - Software Engineer with +10 years of experience
 - Global Citizen
-- Crytpo Enthusiast
+- Blockchain Enthusiast
 - AI learner
 - Optimist
 - Believer in Humanity
