@@ -17,7 +17,7 @@ Read time: 10 minutes
 
 ## Table of contents
 
-## Rear mirror and Today
+## Rear-view mirror and Today
 
 So far, humans have focused on the 'How' — How to execute tasks? How to optimize processes? How to achieve outcomes? This focus on execution has driven tremendous innovation and progress.
 
@@ -28,12 +28,12 @@ This presented an opportunity for some people to step back and ask a different q
 
 ## The Next Question
 
-Even though asking 'What' helps set a clear direction, as it outlines the path we’ll take there’s an even deeper and more crucial question: 'Why'. While 'What' defines the goals and actions, 'Why' reveals the underlying motivations, the long-term purpose, and the values driving those goals. Without asking 'Why', we may succeed in execution but fail to understand the true significance of things. It would not only limit our ability to innovate and adapt to change. More importantly, it prevents us from understanding the fundamental aspects of nature and humanity. It's in the 'Why' where we have the opportunity to understand the very core and underlying reasons behind the things.
+Even though asking 'What' helps set a clear direction, as it outlines the path we’ll take there’s an even deeper and more crucial question: 'Why'. While 'What' defines the goals and actions, 'Why' reveals the underlying motivations, the long-term purpose, and the values driving those goals. Without asking 'Why', we may succeed in execution but fail to understand the true significance of things. It would not only limit our ability to innovate and adapt to change. More importantly, it prevents us from understanding the fundamental aspects of nature and humanity. It's in the 'Why' where we have the opportunity to understand the very core and underlying reasons behind the world around us.
 
 
 ## My own example
 
-I tried using the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys) to explore a deep fear of mine. I had a willingness to see where the questions would lead, so I pursuit root causes. The goal understanding what might be behind it, and the process helped me uncover unexpected insights.
+I used the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). However, I went beyond to explore a deep fear of mine. I was willing to see where the questions would lead, pursuing the root causes. The goal was to understand the underlying factors at play, and the process helped me uncover unexpected insights.
 
 1️⃣ Why do I always want to earn more money?
 
