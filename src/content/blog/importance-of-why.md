@@ -17,13 +17,13 @@ Read time: 10 minutes
 
 ## Table of contents
 
-## Rear-View mirror and Today
+## Rear-View Mirror and Today
 
-So far, humans have focused on the 'How' — How do we execute tasks? How to optimize processes? How to achieve outcomes? This focus on execution has driven tremendous innovation and progress.
+So far, humans have focused on the 'How' — How do we execute tasks? How do we optimize processes? How do we achieve outcomes? This focus on execution has driven tremendous innovation and progress.
 
 But now, with the advent of artificial intelligence, much of the 'How' is increasingly automated. Machines can handle many tasks at scale, quickly and efficiently. 
 
-This shift presents an opportunity to step back and ask a different question: 'What?'. What is the most important thing we’re trying to accomplish? What actions will yield the greatest value for the least effort? What’s the next logical step in achieving our goals? By asking 'What', we clarify our priorities and ensure that our efforts are aligned with meaningful objectives.
+This shift presents an opportunity to step back and ask a different question: 'What'? What is the most important thing we’re trying to accomplish? What actions will yield the greatest value for the least effort? What’s the next logical step in achieving our goals? By asking 'What', we clarify our priorities and ensure that our efforts are aligned with meaningful objectives.
 
 
 ## The Next Question
@@ -33,7 +33,7 @@ Even though asking 'What' helps set a clear direction, by outlining the path we�
 
 ## My own example
 
-I applied the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). However, I took some steps further to explore a deep fear of mine. I was willing to see where the questions would lead, pursuing the root causes. The goal was to understand the underlying factors at play, and the process helped me uncover unexpected insights.
+I applied the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). However, I went further to explore a deep fear of mine. I was willing to see where the questions would lead, pursuing the root causes. The goal was to understand the underlying factors at play, and the process helped me uncover unexpected insights.
 
 1️⃣ Why do I always want to earn more money?
 
@@ -53,7 +53,7 @@ I applied the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). Howe
 
 5️⃣ Why do we fear that someone more powerful will take what we have?
 
-> Because it does happen sometimes. And when it does, it’s a very painful experience that leaves deep scars.
+> Because it does happen sometimes, and when it does, it’s a very painful experience that leaves deep scars.
 
 6️⃣ Why is it such a painful experience that leaves deep scars?
 
@@ -65,7 +65,7 @@ I applied the "5 Whys" technique (https://en.wikipedia.org/wiki/Five_whys). Howe
 
 8️⃣ Why do people act so short-sightedly, without considering the consequences?
 
-> Because they act impulsively, without first asking why, and end up creating a cycle of fear, revenge, and hate.
+> Because they act impulsively, without first asking 'Why', and they end up creating a cycle of fear, revenge, and hate.
 
 9️⃣ Why do people act impulsively, without asking why first, and create a cycle of fear, revenge, and hate?
 
@@ -83,7 +83,7 @@ If this is the case, how can you apply this realization to your own financial go
 
 Use your preferred, most advanced AI reasoning model to run the following (or similar) prompt:
 
-> Imagine a world where everyone—from students to CEOs—starts every task by asking 'Why'. This shift doesn’t replace knowing 'How' or 'What', but it adds purpose to every action. Let’s explore how society might evolve over decades with this mindset by running a multi-decade simulation
+> Imagine a world where everyone—from students to CEOs—starts every task by asking 'Why'. This shift doesn’t replace knowing 'How' or 'What', but it adds purpose to every action. Let’s explore how society might evolve over decades with this mindset by running a multi-decade simulation.
 
 ### Summary of my simulation
 
