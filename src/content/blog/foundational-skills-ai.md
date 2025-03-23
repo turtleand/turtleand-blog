@@ -9,7 +9,7 @@ draft: false
 tags:
   - skills
   - AI
-description: Foundational Skills for the AI Era
+description: Find out which core skills will make you thrive in the age of artificial intelligence.
 ogImage: turtle-phase-1-tinified.webp
 ---
 

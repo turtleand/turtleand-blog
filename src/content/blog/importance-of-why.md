@@ -9,7 +9,7 @@ draft: false
 tags:
   - personal-growth
   - AI
-description: The Importance of Why
+description: Stop just doing. Start understanding why you're doing it.
 ogImage: turtle-phase-1-tinified.webp
 ---
 
