@@ -114,4 +114,8 @@ By prioritizing these foundational abilities, individuals can retain a competiti
 
 Give it a try yourself: What foundational skills do you think will stand strong in the face of rapid AI change? Use your favorite AI tool or the most advanced reasoning model available to explore the question by running the following prompt (or something similar):
 
-_"Identify and rank the top foundational skills that are least likely to be replaced by artificial intelligence, based on their importance to human life. For each skill, include a short explanation of why it's likely to remain valuable and resistant to automation."_ 
+_"Identify and rank the top foundational skills that are least likely to be replaced by artificial intelligence, based on their importance to human life. For each skill, include a short explanation of why it's likely to remain valuable and resistant to automation."_
+
+To complement this, you might also want to explore which skills or professional areas are most at risk of being replaced by AI. You can try a prompt like the one below to guide your thinking:
+
+_"Identify the most important skills or professional fields that were historically significant but are now highly susceptible to being replaced by artificial intelligence. For each one, provide a brief explanation of why it is especially vulnerable to automation."_
