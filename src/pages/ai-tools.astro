@@ -1,0 +1,55 @@
+---
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import AIToolsMap from "@components/AIToolsMap";
+---
+
+<Layout title={`AI Tools | ${SITE.title}`}>
+  <Header activeNav="ai-tools" />
+  <section class="prose mx-auto mb-2 max-w-3xl px-4">
+    <h1 class="mb-0 text-2xl font-bold tracking-wider sm:text-3xl">
+      AI Tools Map
+    </h1>
+  </section>
+  <main
+    id="main-content"
+    class="flex max-w-none items-center justify-center p-0"
+  >
+    <div class="fullscreen-container">
+      <AIToolsMap client:visible />
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  /* Override any main content styles */
+  :global(#main-content) {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .fullscreen-container {
+    width: 95%;
+    height: 80vh;
+    max-height: calc(80vh - var(--header-height) - var(--footer-height));
+    overflow: hidden;
+    margin: auto;
+  }
+
+  /* Define these variables to account for header and footer */
+  :root {
+    --header-height: 64px;
+    --footer-height: 60px;
+  }
+
+  /* Remove default margins from prose */
+  :global(.prose) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+</style>

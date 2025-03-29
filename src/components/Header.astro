@@ -4,10 +4,17 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "archives" | "tags" | "about" | "search";
+  activeNav?: "posts" | "archives" | "tags" | "about" | "search" | "ai-tools";
 }
 
 const { activeNav } = Astro.props;
+
+const navItems: { title: string; path: string }[] = [
+  { title: "Posts", path: "/posts" },
+  { title: "Tags", path: "/tags" },
+  { title: "Tools", path: "/ai-tools" },
+  { title: "About", path: "/about" },
+];
 ---
 
 <header>
@@ -55,21 +62,18 @@ const { activeNav } = Astro.props;
           </svg>
         </button>
         <ul id="menu-items" class="display-none sm:flex">
-          <li>
-            <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
-              Posts
-            </a>
-          </li>
-          <li>
-            <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
-              Tags
-            </a>
-          </li>
-          <li>
-            <a href="/about/" class={activeNav === "about" ? "active" : ""}>
-              About
-            </a>
-          </li>
+          {
+            navItems.map(item => (
+              <li key={item.path}>
+                <a
+                  href={item.path}
+                  class={activeNav === item.path.slice(1) ? "active" : ""}
+                >
+                  {item.title}
+                </a>
+              </li>
+            ))
+          }
           {
             SITE.showArchives && (
               <li>
