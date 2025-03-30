@@ -67,6 +67,7 @@ const AIToolsMap = () => {
     { id: 'dalle3', label: 'DALL-E 3', category: 'Images', value: 25, url: 'https://openai.com/dall-e-3/', description: "OpenAI DALL-E 3", used: true },
     { id: 'midjourney', label: 'Midjourney', category: 'Images', value: 30, url: 'https://www.midjourney.com/', description: "Midjourney" },
     { id: 'stable-diffusion', label: 'Stable Diffusion', category: 'Images', value: 28, url: 'https://stability.ai/', description: "Stable Diffusion" },
+    { id: 'reve', label: 'Reve', category: 'Images', value: 28, url: 'https://reveai.org/', description: "Create AI images online with the free text-to-image generator", used: true },
 
     { id: 'github-copilot', label: 'GitHub Copilot', category: 'Code', value: 30, url: 'https://github.com/features/copilot', description: "GitHub Copilot", used: true },
     { id: 'codewhisperer', label: 'CodeWhisperer', category: 'Code', value: 25, url: 'https://aws.amazon.com/codewhisperer/', description: "AWS CodeWhisperer" },
@@ -74,6 +75,9 @@ const AIToolsMap = () => {
     // Missing nodes that appear in links
     { id: 'sesame', label: 'Sesame', category: 'Chatbot', value: 15, url: 'https://www.sesamechat.ai/', description: "Voice-based AI assistant", used: true },
     { id: 'sora', label: 'Sora', category: 'Video Generation', value: 25, url: 'https://openai.com/sora', description: "OpenAI's text-to-video model", used: true },
+    {
+      id: 'luma', label: 'Luma', category: 'Video Generation', value: 25, url: 'https://lumalabs.ai/', used: false, description: "Multimodal general intelligence for the physical world"
+    },
     { id: 'gemini-co-drawing', label: 'Gemini Drawing', category: 'Images', value: 20, url: 'https://gemini.google.com/', description: "Collaborative AI drawing with Gemini", used: true },
     { id: 'google-ai-studio', label: 'Google AI Studio', category: 'General', value: 22, url: 'https://makersuite.google.com/', description: "Google's AI development platform", used: true },
     { id: 'chatgpt-deep-search', label: 'ChatGPT Deep Search', category: 'Research', value: 18, url: 'https://chat.openai.com/', description: "Advanced search capabilities in ChatGPT", used: true },
@@ -93,10 +97,12 @@ const AIToolsMap = () => {
     { source: 'Video Generation', target: 'runway-ml' },
     { source: 'Video Generation', target: 'pika' },
     { source: 'Video Generation', target: 'sora' },
+    { source: 'Video Generation', target: 'luma' },
     { source: 'Images', target: 'dalle3' },
     { source: 'Images', target: 'midjourney' },
     { source: 'Images', target: 'stable-diffusion' },
     { source: 'Images', target: 'gemini-co-drawing' },
+    { source: 'Images', target: 'reve' },
     { source: 'General', target: 'google-ai-studio' },
     { source: 'Research', target: 'chatgpt-deep-search' },
     { source: 'Education', target: 'notebook-lm' },
