@@ -4,7 +4,14 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "archives" | "tags" | "about" | "search" | "ai-tools";
+  activeNav?:
+    | "posts"
+    | "archives"
+    | "tags"
+    | "about"
+    | "search"
+    | "ai-tools"
+    | "tools";
 }
 
 const { activeNav } = Astro.props;
@@ -19,6 +26,7 @@ const navItems: { title: string; path: string }[] = [
 // Tools dropdown items
 const toolItems: { title: string; path: string }[] = [
   { title: "AI Tools Map", path: "/tools/ai-tools-map" },
+  { title: "React Hooks", path: "/tools/react-hooks-explorer" },
 ];
 
 // Check if we're on any tools page

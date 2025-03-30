@@ -3,9 +3,9 @@ import { select, create, zoom, zoomIdentity, forceX, forceY } from 'd3';
 import { forceSimulation, forceManyBody, forceCenter, forceCollide, forceLink } from 'd3-force';
 import type { Simulation, SimulationNodeDatum } from 'd3-force';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Tooltip, TooltipTrigger, TooltipContent } from "./tools/Tooltip"
-import { Button } from "./tools/Button"
-import { cn } from "./tools/utils"
+import { Tooltip, TooltipTrigger, TooltipContent } from "./Tooltip"
+import { Button } from "./Button"
+import { cn } from "./utils"
 
 interface Node extends SimulationNodeDatum {
   id: string;

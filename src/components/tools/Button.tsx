@@ -7,6 +7,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "default" | "outline";
   className?: string;
   children?: React.ReactNode;
+  ref?: React.Ref<HTMLButtonElement>;
 }
 
 export function Button({
