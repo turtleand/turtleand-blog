@@ -9,12 +9,21 @@ export interface Props {
 
 const { activeNav } = Astro.props;
 
+// Modified navItems - we'll handle Tools differently
 const navItems: { title: string; path: string }[] = [
   { title: "Posts", path: "/posts" },
   { title: "Tags", path: "/tags" },
-  { title: "Tools", path: "/ai-tools" },
   { title: "About", path: "/about" },
 ];
+
+// Tools dropdown items
+const toolItems: { title: string; path: string }[] = [
+  { title: "AI Tools Map", path: "/tools/ai-tools-map" },
+];
+
+// Check if we're on any tools page
+const isToolActive =
+  activeNav?.startsWith("ai-tools") || Astro.url.pathname.startsWith("/tools/");
 ---
 
 <header>
@@ -64,7 +73,7 @@ const navItems: { title: string; path: string }[] = [
         <ul id="menu-items" class="display-none sm:flex">
           {
             navItems.map(item => (
-              <li key={item.path}>
+              <li>
                 <a
                   href={item.path}
                   class={activeNav === item.path.slice(1) ? "active" : ""}
@@ -74,6 +83,49 @@ const navItems: { title: string; path: string }[] = [
               </li>
             ))
           }
+
+          <!-- Custom Tools Dropdown -->
+          <li class="tools-dropdown-container">
+            <button
+              class={`tools-dropdown-toggle ${isToolActive ? "active" : ""}`}
+              aria-expanded="false"
+              aria-haspopup="true"
+            >
+              Tools
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="dropdown-arrow"
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <ul class="tools-dropdown-menu">
+              {
+                toolItems.map(tool => (
+                  <li>
+                    <a
+                      href={tool.path}
+                      class={
+                        activeNav === tool.path.split("/").pop() ||
+                        Astro.url.pathname === tool.path
+                          ? "active"
+                          : ""
+                      }
+                    >
+                      {tool.title}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+
           {
             SITE.showArchives && (
               <li>
@@ -226,6 +278,95 @@ const navItems: { title: string; path: string }[] = [
   .menu-icon.is-active .close {
     @apply opacity-100;
   }
+
+  /* Custom dropdown styles */
+  .tools-dropdown-container {
+    @apply relative col-span-2 flex items-center justify-center;
+  }
+
+  .tools-dropdown-toggle {
+    @apply flex w-full cursor-pointer items-center justify-center px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
+  }
+
+  .dropdown-arrow {
+    @apply ml-1 transition-transform duration-200;
+  }
+
+  .tools-dropdown-toggle[aria-expanded="true"] .dropdown-arrow {
+    @apply rotate-180 transform;
+  }
+
+  .tools-dropdown-menu {
+    @apply absolute left-0 top-full z-50 mt-1 hidden w-40 flex-col overflow-hidden rounded-md border border-skin-line bg-skin-card shadow-lg;
+  }
+
+  .tools-dropdown-container:hover .tools-dropdown-menu,
+  .tools-dropdown-toggle[aria-expanded="true"] + .tools-dropdown-menu {
+    @apply flex;
+  }
+
+  .tools-dropdown-menu li {
+    @apply w-full;
+  }
+
+  .tools-dropdown-menu a {
+    @apply block w-full px-4 py-2 text-left hover:bg-skin-card hover:text-skin-accent;
+  }
+
+  /* Adjust mobile styles */
+  @media (max-width: 640px) {
+    /* Adjust general navigation layout to be more compact */
+    nav ul {
+      display: grid;
+      grid-template-rows: min-content;
+    }
+
+    /* Tools dropdown specific mobile styles */
+    .tools-dropdown-container {
+      @apply mb-2 w-full;
+    }
+
+    .tools-dropdown-toggle {
+      @apply justify-center;
+    }
+
+    .tools-dropdown-menu {
+      @apply static mt-2 w-full border-none bg-transparent shadow-none;
+    }
+
+    .tools-dropdown-menu li {
+      @apply flex justify-center;
+    }
+
+    .tools-dropdown-menu a {
+      @apply w-auto py-3 text-center;
+    }
+
+    /* Only show dropdown when expanded on mobile */
+    .tools-dropdown-container:hover .tools-dropdown-menu {
+      @apply hidden;
+    }
+
+    .tools-dropdown-toggle[aria-expanded="true"] + .tools-dropdown-menu {
+      @apply flex;
+    }
+
+    /* When expanded, the Tools dropdown is allowed to expand vertically */
+    .tools-dropdown-toggle[aria-expanded="true"] + .tools-dropdown-menu {
+      ixed: using proper Tailwind row class * / @apply flex;
+    }
+
+    /* But standard navigation items stay compact */
+    nav ul li:not(.tools-dropdown-container) {
+      height: min-content;
+    }
+
+    /* Make the Search and Theme buttons maintain normal positioning */
+    nav ul li:nth-last-child(1),
+    nav ul li:nth-last-child(2) {
+      @apply col-span-1 w-auto;
+    }
+  }
 </style>
 
 <script>
@@ -247,8 +388,42 @@ const navItems: { title: string; path: string }[] = [
     });
   }
 
+  function setupDropdowns() {
+    const dropdownToggle = document.querySelector(".tools-dropdown-toggle");
+    const dropdownContainer = document.querySelector(
+      ".tools-dropdown-container"
+    );
+
+    if (dropdownToggle) {
+      // Toggle dropdown on button click
+      dropdownToggle.addEventListener("click", e => {
+        e.stopPropagation(); // Prevent this click from triggering the document click handler
+        const expanded =
+          dropdownToggle.getAttribute("aria-expanded") === "true";
+        dropdownToggle.setAttribute(
+          "aria-expanded",
+          !expanded ? "true" : "false"
+        );
+      });
+
+      // Close dropdown when clicking outside
+      document.addEventListener("click", event => {
+        if (
+          dropdownContainer &&
+          !dropdownContainer.contains(event.target as Node)
+        ) {
+          dropdownToggle.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }
+
   toggleNav();
+  setupDropdowns();
 
   // Runs on view transitions navigation
-  document.addEventListener("astro:after-swap", toggleNav);
+  document.addEventListener("astro:after-swap", () => {
+    toggleNav();
+    setupDropdowns();
+  });
 </script>
