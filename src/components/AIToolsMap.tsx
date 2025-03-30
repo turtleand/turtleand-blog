@@ -44,6 +44,7 @@ const AIToolsMap = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const listViewRef = useRef<HTMLDivElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
   const [nodes, setNodes] = useState<Node[]>([
     // Category nodes
     { id: 'Chatbot', label: 'Chatbots', category: 'Chatbot', value: 60, description: "General Chatbot Tools" },
@@ -392,6 +393,29 @@ const AIToolsMap = () => {
     };
   }, [tooltipContent]);
 
+  // Add event handler to clear search when clicking outside
+  useEffect(() => {
+    if (!searchQuery) return;
+
+    const handleOutsideSearchClick = (event: MouseEvent) => {
+      if (
+        searchInputRef.current &&
+        !searchInputRef.current.contains(event.target as Element) &&
+        event.target instanceof Element &&
+        !event.target.closest('.search-container') && // Not clicking within search area
+        !event.target.closest('.list-item') // Not clicking on a list item
+      ) {
+        setSearchQuery('');
+      }
+    };
+
+    document.addEventListener('mousedown', handleOutsideSearchClick);
+
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideSearchClick);
+    };
+  }, [searchQuery]);
+
   return (
     <div ref={containerRef} className="w-full h-full relative bg-gray-100/80 rounded-lg">
       <svg ref={svgRef} className="w-full h-full">
@@ -476,7 +500,7 @@ const AIToolsMap = () => {
                    shadow-sm text-red-500 border-red-300 hover:bg-red-50/80 
                    transition-all duration-200"
         >
-          Reset Filters
+          Reset
         </Button>
 
       </div>
@@ -494,13 +518,14 @@ const AIToolsMap = () => {
               height: 'auto'
             }}
           >
-            <div className="sticky top-0 bg-white/95 z-10 border-b border-gray-200 p-4 pb-3">
+            <div className="sticky top-0 bg-white/95 z-10 border-b border-gray-200 p-4 pb-3 search-container">
               <h2 className="text-lg font-semibold mb-3 text-gray-800">
                 {selectedCategory
                   ? `${selectedCategory} Tools`
                   : "All AI Tools"}
               </h2>
               <input
+                ref={searchInputRef}
                 type="text"
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
