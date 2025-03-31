@@ -2,6 +2,7 @@
 
 - [ ] Add tests for the tools, to check they're not broken
 - [ ] Improve / simplify examples for Tools React Demos
+- [ ] Fix buttons stop working after navigating away and back
 - [ ] Fix the node sizes. Come up with some format / order
 - [ ] Standard way for adding read time. Fix estimatedReadTime
 - [ ] Remove Paper references
