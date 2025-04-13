@@ -88,6 +88,8 @@ This chaotic mix of abstract concepts and minute details makes the overall purpo
 
 ### **Low-Level: Optimizing Daily Tasks**
 
+At the lowest level, you focus on efficiently managing your everyday tasks, routines, and immediate responsibilities. This involves clearly defining, simplifying, and streamlining daily actions to ensure they're completed effectively and with minimal friction.
+
 * How can I better organize my daily routine?
 * What simple changes can I make to be more productive?
 * How can I streamline repetitive tasks?
@@ -106,7 +108,7 @@ This chaotic mix of abstract concepts and minute details makes the overall purpo
 
 ### **Medium-Level: Refining Systems and Habits**
 
-This level addresses how effectively your routines and systems support your life:
+At the medium level, you strategically refine your personal systems and routines to support your broader life goals and overall well-being. This involves thoughtfully evaluating and improving key areas such as professional growth, financial management, personal health, relationships, and daily environments.
 
 * How can I acquire and refine skills at work?  
 * What's my financial strategy?  
@@ -126,7 +128,7 @@ This level addresses how effectively your routines and systems support your life
 
 ### **High-Level: Clarifying Purpose and Direction**
 
-At the highest level, AI supports deeper existential reflection and goal setting:
+At the highest level, you engage in deep reflection on your life's purpose, direction, and meaning. This involves exploring fundamental questions about your fundamentals and core values.
 
 * What truly matters to me?
 * What is life really about for me?
