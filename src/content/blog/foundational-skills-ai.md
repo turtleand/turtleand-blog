@@ -4,7 +4,7 @@ pubDatetime: 2025-03-23T20:00:00Z
 modDatetime: 2025-03-23T20:00:00Z
 title: Foundational Skills for the AI Era
 slug: foundational-skills-AI-era
-featured: true
+featured: false
 draft: false
 tags:
   - skills

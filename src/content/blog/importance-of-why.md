@@ -4,7 +4,7 @@ pubDatetime: 2025-03-10T03:00:00Z
 modDatetime: 2025-03-10T03:00:00Z
 title: The Importance of Why
 slug: importance-of-why
-featured: true
+featured: false
 draft: false
 tags:
   - personal-growth

@@ -4,7 +4,7 @@ pubDatetime: 2025-03-16T20:00:00Z
 modDatetime: 2025-03-16T20:00:00Z
 title: Admin Only - Turtleand Blog Payment Credentials
 slug: turtleand-blog-keys-admin-only
-featured: true
+featured: false
 draft: false
 description: ERROR [AWS-DEPLOY:403] - Exposed Credentials Detected 0x9AF3B2E71C 
 ogImage: turtle-phase-1-tinified.webp
