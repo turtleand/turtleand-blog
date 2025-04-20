@@ -4,7 +4,7 @@ pubDatetime: 2025-04-06T20:00:00Z
 modDatetime: 2025-04-06T20:00:00Z
 title: "Built to Adapt: Surviving the Innovation Tsunami"
 slug: built-to-adapt-AI
-featured: true
+featured: false
 draft: false
 tags:
   - skills
