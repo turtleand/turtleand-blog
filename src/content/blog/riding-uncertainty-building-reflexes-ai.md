@@ -51,5 +51,5 @@ Whether you're on stage, performing music, navigating startup challenges, or sca
 
 AI is an ocean with increasingly powerful waves. Mastery requires more than just theoretical knowledge—it demands presence, flexibility, and resilience.
 
-The key is to get involved—test new tools, experiment freely, and stay curious. Like surfers or improvisers, our greatest strength in this era won't be necessarily our ability to predict precisely, but rather our capacity to respond and do it better over time.
+The key is to get involved—test new tools, experiment freely, and stay curious. Like surfers or improvisers, our greatest strength in this era won't be necessarily our ability to predict precisely, but rather our capacity to respond and adapt.
 
