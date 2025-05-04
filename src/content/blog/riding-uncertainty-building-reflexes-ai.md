@@ -13,6 +13,8 @@ description: Insights on cultivating adaptability and responsiveness to effectiv
 ogImage: turtle-phase-1-tinified.webp
 ---
 
+![Riding Uncertainty Turtleand Avatar](../../assets/images/riding-uncertainty-building-reflexes-ai-tinyfied.png)
+
 ## Introduction
 
 I've always felt a bit odd about the phrase "surfing the web." It never truly resonated with me. I preferred simpler terms like "browsing the internet" or "navigating online."

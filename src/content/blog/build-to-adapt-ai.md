@@ -13,6 +13,8 @@ description: In an age where AI accelerates everything, your ability to evolve m
 ogImage: turtle-phase-1-tinified.webp
 ---
 
+![Adaptable Turtleand Avatar on different climates](../../assets/images/build-to-adapt-ai-tinyfied.png)
+
 ## Table of contents
 
 ## When Innovation Learns to Innovate

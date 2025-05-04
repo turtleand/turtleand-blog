@@ -13,6 +13,8 @@ description: Orgnanizing your life with clear layers of abstraction can boost cl
 ogImage: turtle-phase-1-tinified.webp
 ---
 
+![Turtleand Avatar on Layered Platform](../../assets/images/single-layer-abstraction-principle-tinyfied.png)
+
 ## Table of contents
 
 ## **A Blueprint for Intentional Living**
