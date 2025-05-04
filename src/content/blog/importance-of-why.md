@@ -15,7 +15,7 @@ ogImage: turtle-phase-1-tinified.webp
 
 Read time: 10 minutes
 
-![Importance of Why Turtleand Avatar](../../assets/images/importance-of-why-tinyfied.png)
+![Importance of Why Turtleand Avatar](../../assets/images/importance-of-why-tinyfied-v3.png)
 
 ## Table of contents
 
