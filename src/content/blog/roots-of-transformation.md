@@ -12,6 +12,8 @@ description: "This article reveals why deep-level shifts in mindset are essentia
 ogImage: turtle-phase-1-tinified.webp
 ---
 
+![Turtleand Avatar with Rooted Bonsai Tree](../../assets/images/roots-of-transformation-tinyfied.png)
+
 ## **Seeing Beyond the Surface**
 
 I like to view reality through the metaphor of a tree bearing fruit. Events—the daily experiences we encounter—are the fruits: visible outcomes we immediately notice. Each fruit is supported by branches and trunks, representing immediate causes and tangible explanations behind these events. Yet beneath these visible structures lie hidden roots—the fundamental reasons and core beliefs shaping our reality. Often, we mistakenly view events as isolated occurrences, prompting superficial reactions rather than deeper solutions.

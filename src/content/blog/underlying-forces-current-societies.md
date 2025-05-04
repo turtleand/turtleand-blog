@@ -12,6 +12,8 @@ description: "The surface of our modern societies hides powerful, instinctive dr
 ogImage: turtle-phase-1-tinified.webp
 ---
 
+![Focused and Determined Turtleand Avatar With Northern Lights](../../assets/images/underlying-forces-shaping-societies-tinyfied.png)
+
 ## The Instinctive Forces Shaping Our World
 
 The world we live in today—its inequalities, environmental crises, technological wonders, and social tensions—is not random. It’s the sum of countless human choices, emotions, beliefs, and fears layered over time. Each of us, consciously or unconsciously, is part of that equation. 

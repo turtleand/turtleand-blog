@@ -13,6 +13,8 @@ description: Explore the exponential potential of mindful intentions in an AI-po
 ogImage: turtle-phase-1-tinified.webp
 ---
 
+![Meditation on Intention Turtleand Avatar](../../assets/images/intentions-matter-more-than-ever-tinyfied.png)
+
 ## Planting the Seeds of Reality
 
 > Your intentions shape your actions. 
