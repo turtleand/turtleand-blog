@@ -10,8 +10,10 @@ tags:
   - skills
   - AI
 description: Find out which core skills will make you thrive in the age of artificial intelligence.
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ../../assets/images/core-skills-avatar-minified.png
 ---
+
+![Core Skills AI Turtleand Avatar](../../assets/images/core-skills-avatar-minified.png)
 
 Specialization has played a key role in human progress. But to build anything strong and lasting, we need a solid foundation first. Just like a structure relies on a sturdy base to stand tall and stable, our personal and professional growth depends on the right core skills. As AI continues to advance at a rapid pace, it's time to take a fresh look at the basics. Instead of clinging to outdated methods, we need to develop new foundations—ones built on adaptable skills that can stand the test of time. With the right base in place, we can grow with AI, not against it, and move confidently into the future.
 

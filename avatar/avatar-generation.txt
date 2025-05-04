@@ -1,0 +1,9 @@
+This is the avatar for my blog. I teach about tech, AI & blockchain. The idea is the avatar evolving over time, as I publish more blogs. It becomes more porwerful and tech over time. Like a Blastoise or Mega Blastoise. But with scify elements. I'm planning to use semantic versioning. This is: 0.0.1
+
+How would it be version 0.0.2? Minor change, like introducing a small tech element
+
+A confident, stylized turtle with an expressive, intelligent look.Its face is firm and focused, with raised brows and large, determined eyes, conveying a sense of wisdom and quiet strength. The overall art style is clean, semi-realistic cartoon with bold outlines and soft shading—perfectly blending a friendly, tech-savvy personality with grounded, dependable energy.
+
+Create an illustrated version of the original turtle avatar. The turtle should appear to be gazing into a small, rounded rear-view mirror mounted beside it or floating in the air. Inside the mirror, show a soft, faded road receding into the distance—symbolizing the past. The turtle's expression is confident, intellectual, and smart. As it reflects on where it came from to understand its 'why.' Maintain the original cartoonish yet semi-realistic style, warm tones, and bold outlines. Keep the background minimal or softly blurred to focus attention on the turtle and the mirror. The full body of the turtle is visible, including its shell.
+
+That is the base avatar for my blog: https://turtleand.com/posts/importance-of-why/. Describe how the image could be adjusted for: . Give 8 alternatives
