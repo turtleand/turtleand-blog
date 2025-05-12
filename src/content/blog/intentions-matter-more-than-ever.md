@@ -4,7 +4,7 @@ pubDatetime: 2025-04-21T00:00:00Z
 modDatetime: 2025-04-21T00:00:00Z
 title: "Why Your Intentions Matter More Than Ever"
 slug: intentions-matter-more-than-ever
-featured: true
+featured: false
 draft: false
 tags:
   - personal-growth

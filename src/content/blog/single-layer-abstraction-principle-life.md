@@ -4,7 +4,7 @@ pubDatetime: 2025-04-13T20:00:00Z
 modDatetime: 2025-04-13T20:00:00Z
 title: "Shape Your Life Through the `Single Layer of Abstraction Principle`"
 slug: single-layer-abstraction-principle-life
-featured: true
+featured: false
 draft: false
 tags:
   - personal-growth

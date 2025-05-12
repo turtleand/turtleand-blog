@@ -4,7 +4,7 @@ pubDatetime: 2025-04-20T03:00:00Z
 modDatetime: 2025-04-20T03:00:00Z
 title: "Riding Uncertainty: Building Reflexes for an AI World"
 slug: riding-uncertainty-building-reflexes-ai
-featured: true
+featured: false
 draft: false
 tags:
   - skills

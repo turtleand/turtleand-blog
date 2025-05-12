@@ -4,7 +4,7 @@ pubDatetime: 2025-04-27T18:00:00Z
 modDatetime: 2025-04-27T18:00:00Z
 title: "The Instinctive Forces Shaping Societies"
 slug: underlying-forces-current-societies
-featured: true
+featured: false
 draft: false
 tags:
   - personal-growth
