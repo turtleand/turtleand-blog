@@ -13,6 +13,8 @@ description: "As AI gets better at sounding right, we need to get better at know
 ogImage: turtle-phase-1-tinified.webp
 ---
 
+![Turtleand with effective filters at the left](../../assets/images/validate-ai-responses-tinyfied.png)
+
 AI sounds brilliant these days—polished words, instant replies, quiet confidence. It feels like talking to an expert, minus the credentials. But here's the hidden risk: fluency isn't the same as truth. In a world where models generate answers faster than we can question them, it’s dangerously easy to mistake confidence for clarity and coherence for correctness.
 
 If we aspire to genuine understanding—solid, practical, human-level knowledge—we must build filters as robust as the AI itself. Otherwise, we're left with beautifully phrased illusions.
