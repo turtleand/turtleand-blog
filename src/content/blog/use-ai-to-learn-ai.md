@@ -14,6 +14,8 @@ description: "Discover how to use AI to assess its own strengths and limitations
 ogImage: turtle-phase-1-tinified.webp
 ---
 
+![Turtleand standed with an AI book on its hand](../../assets/images/use-ai-to-learn-ai-tinyfied.png)
+
 ## A New Kind of Literacy
 
 Artificial intelligence is already embedded in our lives. But there’s a silent gap emerging: most of us are still learning to accurately understand what AI can and cannot do—including myself.
@@ -105,7 +107,6 @@ And better yet? AI itself can become your teacher on how to improve it's usage.
 
 * Stay sharp by evolving your expectations as AI evolves.
 
-It’s not about knowing *everything* AI can do.  
- It’s about **staying close to the edge of what’s possible—without falling for the hype**.
+It’s not about knowing *everything* AI can do. It’s about **staying close to the edge of what’s possible—without falling for the hype**.
 
 This is a key skill to develop now, as it enables individuals to leverage one of the most powerful tools ever created by humanity.
