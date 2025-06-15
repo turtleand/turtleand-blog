@@ -64,3 +64,7 @@ We're not aiming for perfect knowledge, but for resilient knowledge—informatio
 ---
 
 AI will undoubtedly continue improving. The real challenge is ensuring we improve alongside it.
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PKqpGlM6fto?si=RPK8PN7AElawIFWG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

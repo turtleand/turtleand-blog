@@ -4,7 +4,7 @@ pubDatetime: 2025-05-12T01:30:00Z
 modDatetime: 2025-05-12T01:30:00Z
 title: "Advisors on Demand: Expanding Your Thinking with AI Boardrooms"
 slug: plurality-of-voices-ai
-featured: true
+featured: false
 draft: false
 tags:
   - personal-growth

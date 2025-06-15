@@ -4,7 +4,7 @@ pubDatetime: 2025-05-04T01:00:00Z
 modDatetime: 2025-05-04T01:00:00Z
 title: "Roots of Transformation"
 slug: roots-of-transformation
-featured: true
+featured: false
 draft: false
 tags:
   - personal-growth
