@@ -4,7 +4,7 @@ pubDatetime: 2025-05-17T15:00:00Z
 modDatetime: 2025-05-17T15:00:00Z
 title: "How to Use AI to Understand AI: The One Meta-Skill to Master"
 slug: use-ai-to-learn-ai
-featured: true
+featured: false
 draft: false
 tags:
   - compound-effect
