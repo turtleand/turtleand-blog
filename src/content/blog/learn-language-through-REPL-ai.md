@@ -107,3 +107,9 @@ Once you've gone through enough loops, you can use this higher-level prompt to g
 > "You are a skilled and attentive English teacher. Review the full history of our conversations. Identify all the grammar mistakes I made and summarize them in descending order by frequency."
 
 This kind of meta-prompt helps you spot recurring patterns and prioritize what to focus on next—like having a personal coach who remembers everything you've practiced.
+
+---
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tpa5ANuLCdk?si=2T1eiEQ8vTOjg0sC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
