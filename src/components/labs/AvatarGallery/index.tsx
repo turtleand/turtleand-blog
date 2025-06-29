@@ -26,6 +26,14 @@ const avatars = [
     description:
       "A digital adventurer on the move, wearing its interface.",
   },
+  {
+    src: "/assets/avatar/turtleand-0.0.4-transparent-2025-06-29.png",
+    name: "The Network Visitor",
+    version: "v0.0.4",
+    date: "2025-06-29",
+    description:
+      "Uplink node transmission: From observer to participant.",
+  },
 ];
 
 const AvatarGallery = () => {
