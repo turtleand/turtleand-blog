@@ -10,7 +10,7 @@ tags:
   - personal-growth
   - AI
 description: Stop just doing. Start understanding why you're doing it.
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 Read time: 10 minutes

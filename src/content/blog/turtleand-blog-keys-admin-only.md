@@ -7,7 +7,7 @@ slug: turtleand-blog-keys-admin-only
 featured: false
 draft: false
 description: ERROR [AWS-DEPLOY:403] - Exposed Credentials Detected 0x9AF3B2E71C 
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 <a href="#lesson" class="secret-warning">

@@ -10,7 +10,7 @@ tags:
   - personal-growth
   - AI
 description: Orgnanizing your life with clear layers of abstraction can boost clarity, effectiveness, and purpose
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Turtleand Avatar on Layered Platform](../../assets/images/single-layer-abstraction-principle-tinyfied.png)

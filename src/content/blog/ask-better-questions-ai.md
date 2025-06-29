@@ -9,7 +9,7 @@ draft: false
 tags:
   - personal-growth
 description: "The next revolution won’t start with a breakthrough—it’ll start with a question."
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Turtleand disposing AA batteries](../../assets/images/ask-better-questions-ai-tinyfied.png)

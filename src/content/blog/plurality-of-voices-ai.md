@@ -10,7 +10,7 @@ tags:
   - personal-growth
   - ai
 description: "What if you could think like a team of experts? Simulating a plurality of voices with AI can challenge your assumptions and sharpen your strategic direction."
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Turtleand surrounded by a board of AI advisors](../../assets/images/plurality-of-voices-ai-tinyfied.png)

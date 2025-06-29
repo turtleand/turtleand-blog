@@ -10,7 +10,7 @@ tags:
   - skills
   - AI
 description: Insights on cultivating adaptability and responsiveness to effectively handle continuous AI innovation.
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Riding Uncertainty Turtleand Avatar](../../assets/images/riding-uncertainty-building-reflexes-ai-tinyfied.png)

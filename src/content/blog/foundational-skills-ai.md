@@ -10,7 +10,7 @@ tags:
   - skills
   - AI
 description: Find out which core skills will make you thrive in the age of artificial intelligence.
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Core Skills AI Turtleand Avatar](../../assets/images/core-skills-avatar-minified.png)

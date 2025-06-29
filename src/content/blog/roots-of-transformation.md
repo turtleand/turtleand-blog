@@ -9,7 +9,7 @@ draft: false
 tags:
   - personal-growth
 description: "This article reveals why deep-level shifts in mindset are essential for achieving sustainable transformation."
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Turtleand Avatar with Rooted Bonsai Tree](../../assets/images/roots-of-transformation-tinyfied.png)

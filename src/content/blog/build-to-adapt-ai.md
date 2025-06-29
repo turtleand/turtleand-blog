@@ -10,7 +10,7 @@ tags:
   - skills
   - AI
 description: In an age where AI accelerates everything, your ability to evolve may be the only constant that matters. 
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Adaptable Turtleand Avatar on different climates](../../assets/images/build-to-adapt-ai-tinyfied.png)

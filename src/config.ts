@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://blog.turtleand.com/about",
   desc: "A strategic thinker's blog on AI, Blockchain, and humanity.",
   title: "Turtleand",
-  ogImage: "turtle-phase-1-tinified.webp",
+  ogImage: "ogImage-0-0-4.webp",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,

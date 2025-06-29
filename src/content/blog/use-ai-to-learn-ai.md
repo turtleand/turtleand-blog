@@ -11,7 +11,7 @@ tags:
   - tool
   - ai
 description: "Discover how to use AI to assess its own strengths and limitations—and how to build the essential skill of staying AI-savvy over time."
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Turtleand standed with an AI book on its hand](../../assets/images/use-ai-to-learn-ai-tinyfied.png)

@@ -10,7 +10,7 @@ tags:
   - tool
   - ai
 description: "As AI gets better at sounding right, we need to get better at knowing what’s real."
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Turtleand with effective filters at the left](../../assets/images/validate-ai-responses-tinyfied.png)

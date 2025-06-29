@@ -10,7 +10,7 @@ tags:
   - personal-growth
   - AI
 description: Explore the exponential potential of mindful intentions in an AI-powered future.
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Meditation on Intention Turtleand Avatar](../../assets/images/intentions-matter-more-than-ever-tinyfied.png)

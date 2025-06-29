@@ -12,7 +12,7 @@ tags:
   - skills
   - compound-effect
 description: "An example on how to use AI as a practice partner in a feedback loop inspired by REPL to improve your language skills."
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Turtleand climbing up the stairs of language learning](../../assets/images/learn-language-through-REPL-ai-tinyfied.png)

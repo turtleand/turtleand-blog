@@ -10,7 +10,7 @@ tags:
   - ai
   - tool
 description: "A smooth example of using AI to free up brainspace for more important decisions."
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Turtleand disposing AA batteries](../../assets/images/eisenhower-delegate-tasks-ai-tinyfied.png)

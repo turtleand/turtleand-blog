@@ -9,7 +9,7 @@ draft: false
 tags:
   - personal-growth
 description: "The surface of our modern societies hides powerful, instinctive drivers—it's time to uncover them and ask if they're still the right guides."
-ogImage: turtle-phase-1-tinified.webp
+ogImage: ogImage-0-0-4.webp
 ---
 
 ![Focused and Determined Turtleand Avatar With Northern Lights](../../assets/images/underlying-forces-shaping-societies-tinyfied.png)
