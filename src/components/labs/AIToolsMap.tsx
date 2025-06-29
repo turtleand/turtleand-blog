@@ -47,12 +47,12 @@ const AIToolsMap = () => {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [nodes, setNodes] = useState<Node[]>([
     // Category nodes
-    { id: 'Chatbot', label: 'Chatbots', category: 'Chatbot', value: 60, description: "General Chatbot Tools" },
-    { id: 'Video Generation', label: 'Video Generation', category: 'Video Generation', value: 50, description: "Tools for generating videos" },
-    { id: 'General', label: 'General', category: 'General', value: 30, description: "General AI Tools" },
-    { id: 'Images', label: 'Images', category: 'Images', value: 70, description: "AI Image Tools" },
-    { id: 'Code', label: 'Code', category: 'Code', value: 30, description: "AI Code Generation Tools" },
-    { id: 'Research', label: 'Research', category: 'Research', value: 20, description: "AI Research Tools" },
+    { id: 'Chatbot', label: 'Chatbots', category: 'Chatbot', value: 60, description: "General Chatbot Labs" },
+    { id: 'Video Generation', label: 'Video Generation', category: 'Video Generation', value: 50, description: "Labs for generating videos" },
+    { id: 'General', label: 'General', category: 'General', value: 30, description: "General AI Labs" },
+    { id: 'Images', label: 'Images', category: 'Images', value: 70, description: "AI Image Labs" },
+    { id: 'Code', label: 'Code', category: 'Code', value: 30, description: "AI Code Generation Labs" },
+    { id: 'Research', label: 'Research', category: 'Research', value: 20, description: "AI Research Labs" },
     { id: 'Agents', label: 'Agents', category: 'Agents', value: 45, description: "AI Agents" },
     { id: 'Education', label: 'Education', category: 'Education', value: 35, description: "AI in Education" },
 
@@ -62,7 +62,7 @@ const AIToolsMap = () => {
     { id: 'bard', label: 'Bard', category: 'Chatbot', value: 25, url: 'https://bard.google.com/', description: "Google Bard", used: true },
     { id: 'claude', label: 'Claude', category: 'Chatbot', value: 18, url: 'https://claude.ai/', description: "Anthropic Claude", used: true },
 
-    { id: 'runway-ml', label: 'RunwayML', category: 'Video Generation', value: 20, url: 'https://runwayml.com/', description: "RunwayML Video Tools" },
+    { id: 'runway-ml', label: 'RunwayML', category: 'Video Generation', value: 20, url: 'https://runwayml.com/', description: "RunwayML Video Labs" },
     { id: 'pika', label: 'Pika', category: 'Video Generation', value: 15, url: 'https://pika.art/', description: "Pika Labs" },
     { id: 'dalle3', label: 'DALL-E 3', category: 'Images', value: 25, url: 'https://openai.com/dall-e-3/', description: "OpenAI DALL-E 3", used: true },
     { id: 'midjourney', label: 'Midjourney', category: 'Images', value: 30, url: 'https://www.midjourney.com/', description: "Midjourney" },
@@ -256,7 +256,7 @@ const AIToolsMap = () => {
       .attr('r', d => d.value * 2)
       .style('fill', d => {
         const baseColor = getCategoryColor(d.category);
-        // Make tools I've used more vivid, others more opaque
+        // Make labs I've used more vivid, others more opaque
         if (d.url) {
           return d.used ? baseColor : `${baseColor}80`; // 80 = 50% opacity in hex
         }
@@ -527,15 +527,15 @@ const AIToolsMap = () => {
             <div className="sticky top-0 bg-white/95 z-10 border-b border-gray-200 p-4 pb-3 search-container">
               <h2 className="text-lg font-semibold mb-3 text-gray-800">
                 {selectedCategory
-                  ? `${selectedCategory} Tools`
-                  : "All AI Tools"}
+                  ? `${selectedCategory} Labs`
+                  : "All AI Labs"}
               </h2>
               <input
                 ref={searchInputRef}
                 type="text"
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
-                placeholder="Search tools..."
+                placeholder="Search labs..."
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
               />
             </div>
@@ -560,7 +560,7 @@ const AIToolsMap = () => {
                         <p className="text-sm text-gray-600">Category: {node.category}</p>
                         {node.description && <p className="text-xs text-gray-500">{node.description}</p>}
                         {node.used && (
-                          <p className="text-xs text-green-600 font-medium mt-1">✓ I've used this tool</p>
+                          <p className="text-xs text-green-600 font-medium mt-1">✓ I've used this lab</p>
                         )}
                       </div>
                     </div>
@@ -569,8 +569,8 @@ const AIToolsMap = () => {
               ) : (
                 <div className="text-center py-6 text-gray-500">
                   {selectedCategory
-                    ? `No tools found in ${selectedCategory} category matching your search.`
-                    : "No tools match your search."}
+                    ? `No labs found in ${selectedCategory} category matching your search.`
+                    : "No labs match your search."}
                 </div>
               )}
             </div>
@@ -595,15 +595,15 @@ const AIToolsMap = () => {
               onClick={e => e.stopPropagation()}
             >
               <h2 className="text-xl font-bold mb-4 dark:text-white">
-                How to Use the AI Tools Explorer
+                How to Use the AI Labs Explorer
               </h2>
 
               <div className="space-y-4 text-gray-700 dark:text-gray-300 text-sm">
                 <section>
                   <h3 className="font-semibold text-base mb-1 dark:text-white">Exploring the Graph</h3>
                   <p>
-                    This visualization shows AI tools organized by category. Larger circles represent
-                    categories, while smaller connected circles represent individual tools.
+                    This visualization shows AI labs organized by category. Larger circles represent
+                    categories, while smaller connected circles represent individual labs.
                   </p>
                 </section>
 
@@ -622,9 +622,9 @@ const AIToolsMap = () => {
                 <section>
                   <h3 className="font-semibold text-base mb-1 dark:text-white">Color Indicators</h3>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li><strong>Vivid colors</strong> indicate tools I've personally used</li>
-                    <li><strong>Faded colors</strong> indicate tools I haven't tried yet</li>
-                    <li><strong>Large circles</strong> represent categories of AI tools</li>
+                    <li><strong>Vivid colors</strong> indicate labs I've personally used</li>
+                    <li><strong>Faded colors</strong> indicate labs I haven't tried yet</li>
+                    <li><strong>Large circles</strong> represent categories of AI labs</li>
                   </ul>
                 </section>
               </div>

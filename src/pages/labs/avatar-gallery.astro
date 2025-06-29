@@ -3,11 +3,11 @@ import { SITE } from "@config";
 import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import AvatarGallery from "@components/tools/AvatarGallery";
+import AvatarGallery from "@components/labs/AvatarGallery";
 ---
 
 <Layout title={`Avatar Evolution Gallery | ${SITE.title}`}>
-  <Header activeNav="tools" />
+  <Header activeNav="labs" />
   <main id="main-content">
     <div class="mx-auto max-w-3xl px-4 py-8">
       <AvatarGallery client:load />

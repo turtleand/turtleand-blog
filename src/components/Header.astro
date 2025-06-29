@@ -10,28 +10,28 @@ export interface Props {
     | "tags"
     | "about"
     | "search"
-    | "ai-tools"
-    | "tools";
+    | "ai-labs"
+    | "labs";
 }
 
 const { activeNav } = Astro.props;
 
-// Modified navItems - we'll handle Tools differently
+// Modified navItems - we'll handle Labs differently
 const navItems: { title: string; path: string }[] = [
   { title: "Posts", path: "/posts" },
   { title: "Tags", path: "/tags" },
   { title: "About", path: "/about" },
 ];
 
-// Tools dropdown items
+// Labs dropdown items
 const toolItems: { title: string; path: string }[] = [
-  { title: "AI Tools Map", path: "/tools/ai-tools-map" },
-  { title: "Avatar Gallery", path: "/tools/avatar-gallery" },
+  { title: "AI Tools Map", path: "/labs/ai-tools-map" },
+  { title: "Avatar Gallery", path: "/labs/avatar-gallery" },
 ];
 
-// Check if we're on any tools page
+// Check if we're on any labs page
 const isToolActive =
-  activeNav?.startsWith("ai-tools") || Astro.url.pathname.startsWith("/tools/");
+  activeNav?.startsWith("ai-labs") || Astro.url.pathname.startsWith("/labs/");
 ---
 
 <header>
@@ -92,14 +92,14 @@ const isToolActive =
             ))
           }
 
-          <!-- Custom Tools Dropdown -->
-          <li class="tools-dropdown-container">
+          <!-- Custom Labs Dropdown -->
+          <li class="labs-dropdown-container">
             <button
-              class={`tools-dropdown-toggle ${isToolActive ? "active" : ""}`}
+              class={`labs-dropdown-toggle ${isToolActive ? "active" : ""}`}
               aria-expanded="false"
               aria-haspopup="true"
             >
-              Tools
+              Labs
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="dropdown-arrow"
@@ -113,7 +113,7 @@ const isToolActive =
                 <polyline points="6 9 12 15 18 9"></polyline>
               </svg>
             </button>
-            <ul class="tools-dropdown-menu">
+            <ul class="labs-dropdown-menu">
               {
                 toolItems.map(tool => (
                   <li>
@@ -288,11 +288,11 @@ const isToolActive =
   }
 
   /* Custom dropdown styles */
-  .tools-dropdown-container {
+  .labs-dropdown-container {
     @apply relative col-span-2 flex items-center justify-center;
   }
 
-  .tools-dropdown-toggle {
+  .labs-dropdown-toggle {
     @apply flex w-full cursor-pointer items-center justify-center px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
   }
 
@@ -300,24 +300,24 @@ const isToolActive =
     @apply ml-1 transition-transform duration-200;
   }
 
-  .tools-dropdown-toggle[aria-expanded="true"] .dropdown-arrow {
+  .labs-dropdown-toggle[aria-expanded="true"] .dropdown-arrow {
     @apply rotate-180 transform;
   }
 
-  .tools-dropdown-menu {
+  .labs-dropdown-menu {
     @apply absolute left-0 top-full z-50 mt-1 hidden w-40 flex-col overflow-hidden rounded-md border border-skin-line bg-skin-card shadow-lg;
   }
 
-  .tools-dropdown-container:hover .tools-dropdown-menu,
-  .tools-dropdown-toggle[aria-expanded="true"] + .tools-dropdown-menu {
+  .labs-dropdown-container:hover .labs-dropdown-menu,
+  .labs-dropdown-toggle[aria-expanded="true"] + .labs-dropdown-menu {
     @apply flex;
   }
 
-  .tools-dropdown-menu li {
+  .labs-dropdown-menu li {
     @apply w-full;
   }
 
-  .tools-dropdown-menu a {
+  .labs-dropdown-menu a {
     @apply block w-full px-4 py-2 text-left hover:bg-skin-card hover:text-skin-accent;
   }
 
@@ -329,43 +329,43 @@ const isToolActive =
       grid-template-rows: min-content;
     }
 
-    /* Tools dropdown specific mobile styles */
-    .tools-dropdown-container {
+    /* Labs dropdown specific mobile styles */
+    .labs-dropdown-container {
       @apply mb-2 w-full;
     }
 
-    .tools-dropdown-toggle {
+    .labs-dropdown-toggle {
       @apply justify-center;
     }
 
-    .tools-dropdown-menu {
+    .labs-dropdown-menu {
       @apply static mt-2 w-full border-none bg-transparent shadow-none;
     }
 
-    .tools-dropdown-menu li {
+    .labs-dropdown-menu li {
       @apply flex justify-center;
     }
 
-    .tools-dropdown-menu a {
+    .labs-dropdown-menu a {
       @apply w-auto py-3 text-center;
     }
 
     /* Only show dropdown when expanded on mobile */
-    .tools-dropdown-container:hover .tools-dropdown-menu {
+    .labs-dropdown-container:hover .labs-dropdown-menu {
       @apply hidden;
     }
 
-    .tools-dropdown-toggle[aria-expanded="true"] + .tools-dropdown-menu {
+    .labs-dropdown-toggle[aria-expanded="true"] + .labs-dropdown-menu {
       @apply flex;
     }
 
-    /* When expanded, the Tools dropdown is allowed to expand vertically */
-    .tools-dropdown-toggle[aria-expanded="true"] + .tools-dropdown-menu {
+    /* When expanded, the Labs dropdown is allowed to expand vertically */
+    .labs-dropdown-toggle[aria-expanded="true"] + .labs-dropdown-menu {
       ixed: using proper Tailwind row class * / @apply flex;
     }
 
     /* But standard navigation items stay compact */
-    nav ul li:not(.tools-dropdown-container) {
+    nav ul li:not(.labs-dropdown-container) {
       height: min-content;
     }
 
@@ -397,9 +397,9 @@ const isToolActive =
   }
 
   function setupDropdowns() {
-    const dropdownToggle = document.querySelector(".tools-dropdown-toggle");
+    const dropdownToggle = document.querySelector(".labs-dropdown-toggle");
     const dropdownContainer = document.querySelector(
-      ".tools-dropdown-container"
+      ".labs-dropdown-container"
     );
 
     if (dropdownToggle) {

@@ -10,3 +10,6 @@
 - [x] Add cross-fade transitions between avatars using `framer-motion`.
 - [x] Add captions with version and date for each avatar.
 - [x] Ensure the gallery is responsive.
+- [x] Update image paths and dates in the component.
+- [x] Add names and descriptions to avatars and display them.
+- [x] Replace "Tools" with "Labs" in the codebase.
