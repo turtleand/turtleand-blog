@@ -4,7 +4,7 @@ pubDatetime: 2025-05-31T23:30:00Z
 modDatetime: 2025-05-31T23:30:00Z
 title: "Don’t Mistake Confidence for Truth"
 slug: validate-ai-responses
-featured: true
+featured: false
 draft: false
 tags:
   - tool
