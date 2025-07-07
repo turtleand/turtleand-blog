@@ -25,17 +25,17 @@ If we remove ourselves from the cycle, wouldn’t we be optimizing something oth
 
 ## Remaining at the Center of the Cycle
 
-I’m not saying we shouldn’t continue optimizing models. I’m saying that we, as humans, cannot shy away from our responsibility to grow and improve—for two key reasons:
+I’m not saying we shouldn’t continue optimizing AI models. I’m saying that we, as humans, cannot shy away from our responsibility to grow and improve—for two key reasons:
 
-1. **We’re the bottleneck in the loop.**  
-    The cycle pauses, waiting for human input—once it’s provided, things happen instantaneously, and the loop begins again. It’s not that we’re waiting in line; from a human perspective, the process feels seamless.  
-    The system won’t simply outpace human speed because it’s designed for us.  
-    Theoretically, there could be loops that exclude humans—but would those still be suitable or beneficial for us? As explained in Goldratt’s book *The Goal*, systems cannot move faster than their bottlenecks. This isn’t a limitation of technology, but of our capacity to guide and interpret the system.
+1. **We’re actually the bottleneck in the loop.**  
+    The cycle pauses, waiting for human input—once it’s provided, things happen instantaneously, and the loop resumes again. It’s not that we’re waiting in line; from a human perspective, the process feels lightning speed.  
+    The system won’t simply outpace human speed because it’s designed for us, and we're the bottlenecks by design.  
+    Theoretically, there could be loops that exclude humans—but would those still be suitable or beneficial for us? As explained in Goldratt’s book *The Goal*, systems cannot move faster than their bottlenecks. 
 
 2. **The tool was created by humans, intended to help and advance humanity (at least initially).**  
     What’s the point of creating such a powerful advance that we can’t understand, influence, or evolve with? A tool that grows independently from us—would it still be a tool, or something else entirely?
 
-    Side note: Intelligence, in and of itself, is a fascinating concept. But that’s a separate conversation. It doesn’t have to revolve around any particular species—including humans. After all, we’re just motes of dust in a vast universe.
+    Side note: Intelligence, in and of itself, is a fascinating concept. But that’s a separate conversation. Ultimate Intelligence doesn’t have to revolve around any particular species—including humans. After all, humans are just motes of dust in a vast universe, and it's highly likely that we're not that interesting from an Ultimate Intelligence perspective.
 
 ## **Growth as Our Responsibility**
 
