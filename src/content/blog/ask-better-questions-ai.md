@@ -34,4 +34,8 @@ We don't need to have all the answers. But we need to nurture the ability to ask
 
 What big, bold questions have do you have? Why do they feel urgent or meaningful to you? What future could they unlock if explored?
 
+---
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YYsWpEMrvXI?si=3iAfPsPpUkHP_mYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

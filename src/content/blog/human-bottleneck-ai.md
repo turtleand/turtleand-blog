@@ -44,3 +44,9 @@ I’m not saying we shouldn’t continue optimizing AI models. I’m saying that
 In other words, systems already operate at speeds beyond what we can fully control or manage. This creates pressure for us to grow—perhaps faster than ever before. If we truly want more of everything, delivered more quickly, then we must also evolve to keep up. If we don't evolve, the acceleration we initiated might leave us behind. To crave acceleration is to accept the responsibility to evolve.  
 
 As Jim Rohn once said: *"The most important question to ask is not 'What am I getting?' The most important question to ask is 'What am I becoming?"*. We still have the chance to grow with intention—and to continue shaping the cycle in ways that make humanity better.
+
+---
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ziIKR7w8LNQ?si=9us5ZRqHD7mlAt7Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
