@@ -4,7 +4,7 @@ pubDatetime: 2025-06-15T03:00:00Z
 modDatetime: 2025-06-15T03:00:00Z
 title: "The Tiny Practice Loop That Build Fluency in Languages"
 slug: learn-language-through-REPL-ai
-featured: true
+featured: false
 draft: false
 tags:
   - ai
