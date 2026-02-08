@@ -69,6 +69,33 @@ Used well, AI accountability is human-centered:
 * The system adapts to you
 * The outcome is personal growth
 
-## Call to Action
+## Try It Yourself
 
-TODO: to be completed by Turtleand's Bot
+Here's a prompt you can adapt for your own AI assistant:
+
+---
+
+**Accountability Partner Prompt:**
+
+> I want you to help me stay accountable to a weekly goal.
+>
+> **My goal:** [describe your goal — e.g., "go to the gym once per week"]
+>
+> **How to verify:** [how you'll prove it — e.g., "I'll send you a photo" or "check my GitHub commits"]
+>
+> **Nudging rules:**
+> - If I haven't completed my goal by mid-week, send me a reminder
+> - If I still haven't done it, increase the reminders each day
+> - Spread the reminders throughout the day, not all at once
+> - Be encouraging but persistent — don't let me off the hook
+> - When I complete the goal, acknowledge it and reset for next week
+>
+> Start tracking now.
+
+---
+
+Adapt the goal, the proof, and the intensity to match what you actually need.
+
+The best accountability partner isn't one who accepts your excuses.
+
+It's one who keeps asking until you deliver.
