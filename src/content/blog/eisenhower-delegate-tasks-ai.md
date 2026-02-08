@@ -4,7 +4,7 @@ pubDatetime: 2025-06-15T03:00:00Z
 modDatetime: 2025-06-15T03:00:00Z
 title: "The Eisenhower Matrix Meets AI: One Tiny Task, Fully Delegated"
 slug: eisenhower-delegate-tasks-ai
-featured: true
+featured: false
 draft: false
 tags:
   - ai

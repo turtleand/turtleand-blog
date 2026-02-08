@@ -4,7 +4,7 @@ pubDatetime: 2025-06-22T15:00:00Z
 modDatetime: 2025-06-22T15:00:00Z
 title: "When Questions Matter More Than Answers"
 slug: ask-better-questions-ai
-featured: true
+featured: false
 draft: false
 tags:
   - personal-growth

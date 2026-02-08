@@ -4,7 +4,7 @@ pubDatetime: 2025-04-06T04:00:00Z
 modDatetime: 2025-10-06T04:00:00Z
 title: "The Future of Software Development: Less Typing, More Thinking"
 slug: future-software-development-validation
-featured: true
+featured: false
 draft: false
 tags:
   - AI

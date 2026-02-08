@@ -4,7 +4,7 @@ pubDatetime: 2025-07-07T01:00:00Z
 modDatetime: 2025-07-07T01:00:00Z
 title: "The Human Bottleneck"
 slug: human-bottleneck-ai
-featured: true
+featured: false
 draft: false
 tags:
   - AI
