@@ -13,6 +13,8 @@ tags:
 description: "Configure your AI agents to keep you on track with escalating reminders"
 ---
 
+![Cybernetic turtle and glowing agent connection](../../assets/images/ai-agents-accountability-partners-tinyfied.png)
+
 We’re good at setting goals. We’re bad at keeping them.
 
 The workout we skip. The course we abandon. The “deep work” block that turns into scrolling. The pattern is always the same: motivation at the start, friction in the middle, silence at the end.
