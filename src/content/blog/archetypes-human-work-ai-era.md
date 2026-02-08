@@ -14,6 +14,8 @@ description: "When AI can do almost anything, the real leverage comes from what 
 ogImage: ogImage-0-0-4.webp
 ---
 
+![Cybernetic turtle on alert](../../assets/images/archetypes-human-work-ai-era-tinyfied.png)
+
 ## The Old Question, Revisited
 
 "Should I be a generalist or a specialist?" used to feel like casual career advice — the kind of thing you'd hear at a conference or read in a self-help book and then forget about over coffee. It was useful, but low-stakes. You could always course-correct later.
