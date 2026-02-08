@@ -9,29 +9,16 @@ export interface Props {
     | "archives"
     | "tags"
     | "about"
-    | "search"
-    | "ai-labs"
-    | "labs";
+    | "search";
 }
 
 const { activeNav } = Astro.props;
 
-// Modified navItems - we'll handle Labs differently
 const navItems: { title: string; path: string }[] = [
   { title: "Posts", path: "/posts" },
   { title: "Tags", path: "/tags" },
   { title: "About", path: "/about" },
 ];
-
-// Labs dropdown items
-const toolItems: { title: string; path: string }[] = [
-  { title: "AI Tools Map", path: "/labs/ai-tools-map" },
-  { title: "Avatar Gallery", path: "/labs/avatar-gallery" },
-];
-
-// Check if we're on any labs page
-const isToolActive =
-  activeNav?.startsWith("ai-labs") || Astro.url.pathname.startsWith("/labs/");
 ---
 
 <header>
@@ -91,48 +78,6 @@ const isToolActive =
               </li>
             ))
           }
-
-          <!-- Custom Labs Dropdown -->
-          <li class="labs-dropdown-container">
-            <button
-              class={`labs-dropdown-toggle ${isToolActive ? "active" : ""}`}
-              aria-expanded="false"
-              aria-haspopup="true"
-            >
-              Labs
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="dropdown-arrow"
-                width="12"
-                height="12"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </button>
-            <ul class="labs-dropdown-menu">
-              {
-                toolItems.map(tool => (
-                  <li>
-                    <a
-                      href={tool.path}
-                      class={
-                        activeNav === tool.path.split("/").pop() ||
-                        Astro.url.pathname === tool.path
-                          ? "active"
-                          : ""
-                      }
-                    >
-                      {tool.title}
-                    </a>
-                  </li>
-                ))
-              }
-            </ul>
-          </li>
 
           {
             SITE.showArchives && (
@@ -287,94 +232,6 @@ const isToolActive =
     @apply opacity-100;
   }
 
-  /* Custom dropdown styles */
-  .labs-dropdown-container {
-    @apply relative col-span-2 flex items-center justify-center;
-  }
-
-  .labs-dropdown-toggle {
-    @apply flex w-full cursor-pointer items-center justify-center px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
-  }
-
-  .dropdown-arrow {
-    @apply ml-1 transition-transform duration-200;
-  }
-
-  .labs-dropdown-toggle[aria-expanded="true"] .dropdown-arrow {
-    @apply rotate-180 transform;
-  }
-
-  .labs-dropdown-menu {
-    @apply absolute left-0 top-full z-50 mt-1 hidden w-40 flex-col overflow-hidden rounded-md border border-skin-line bg-skin-card shadow-lg;
-  }
-
-  .labs-dropdown-container:hover .labs-dropdown-menu,
-  .labs-dropdown-toggle[aria-expanded="true"] + .labs-dropdown-menu {
-    @apply flex;
-  }
-
-  .labs-dropdown-menu li {
-    @apply w-full;
-  }
-
-  .labs-dropdown-menu a {
-    @apply block w-full px-4 py-2 text-left hover:bg-skin-card hover:text-skin-accent;
-  }
-
-  /* Adjust mobile styles */
-  @media (max-width: 640px) {
-    /* Adjust general navigation layout to be more compact */
-    nav ul {
-      display: grid;
-      grid-template-rows: min-content;
-    }
-
-    /* Labs dropdown specific mobile styles */
-    .labs-dropdown-container {
-      @apply mb-2 w-full;
-    }
-
-    .labs-dropdown-toggle {
-      @apply justify-center;
-    }
-
-    .labs-dropdown-menu {
-      @apply static mt-2 w-full border-none bg-transparent shadow-none;
-    }
-
-    .labs-dropdown-menu li {
-      @apply flex justify-center;
-    }
-
-    .labs-dropdown-menu a {
-      @apply w-auto py-3 text-center;
-    }
-
-    /* Only show dropdown when expanded on mobile */
-    .labs-dropdown-container:hover .labs-dropdown-menu {
-      @apply hidden;
-    }
-
-    .labs-dropdown-toggle[aria-expanded="true"] + .labs-dropdown-menu {
-      @apply flex;
-    }
-
-    /* When expanded, the Labs dropdown is allowed to expand vertically */
-    .labs-dropdown-toggle[aria-expanded="true"] + .labs-dropdown-menu {
-      ixed: using proper Tailwind row class * / @apply flex;
-    }
-
-    /* But standard navigation items stay compact */
-    nav ul li:not(.labs-dropdown-container) {
-      height: min-content;
-    }
-
-    /* Make the Search and Theme buttons maintain normal positioning */
-    nav ul li:nth-last-child(1),
-    nav ul li:nth-last-child(2) {
-      @apply col-span-1 w-auto;
-    }
-  }
 </style>
 
 <script>
@@ -396,42 +253,10 @@ const isToolActive =
     });
   }
 
-  function setupDropdowns() {
-    const dropdownToggle = document.querySelector(".labs-dropdown-toggle");
-    const dropdownContainer = document.querySelector(
-      ".labs-dropdown-container"
-    );
-
-    if (dropdownToggle) {
-      // Toggle dropdown on button click
-      dropdownToggle.addEventListener("click", e => {
-        e.stopPropagation(); // Prevent this click from triggering the document click handler
-        const expanded =
-          dropdownToggle.getAttribute("aria-expanded") === "true";
-        dropdownToggle.setAttribute(
-          "aria-expanded",
-          !expanded ? "true" : "false"
-        );
-      });
-
-      // Close dropdown when clicking outside
-      document.addEventListener("click", event => {
-        if (
-          dropdownContainer &&
-          !dropdownContainer.contains(event.target as Node)
-        ) {
-          dropdownToggle.setAttribute("aria-expanded", "false");
-        }
-      });
-    }
-  }
-
   toggleNav();
-  setupDropdowns();
 
   // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", () => {
     toggleNav();
-    setupDropdowns();
   });
 </script>
