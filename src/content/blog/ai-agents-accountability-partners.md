@@ -69,15 +69,11 @@ Used well, AI accountability is human-centered:
 * The system adapts to you
 * The outcome is personal growth
 
-## Try It Yourself
+## Call to action
 
-Here's a prompt you can adapt for your own AI assistant:
+Try out the following prompt:
 
----
-
-**Accountability Partner Prompt:**
-
-> I want you to help me stay accountable to a weekly goal.
+> Help me stay accountable to a weekly goal.
 >
 > **My goal:** [describe your goal — e.g., "go to the gym once per week"]
 >
@@ -91,11 +87,3 @@ Here's a prompt you can adapt for your own AI assistant:
 > - When I complete the goal, acknowledge it and reset for next week
 >
 > Start tracking now.
-
----
-
-Adapt the goal, the proof, and the intensity to match what you actually need.
-
-The best accountability partner isn't one who accepts your excuses.
-
-It's one who keeps asking until you deliver.
