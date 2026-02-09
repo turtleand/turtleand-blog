@@ -11,7 +11,7 @@ tags:
   - work
   - archetypes
   - reflection
-description: "As AI compresses execution, new human roles emerge around responsibility. These are the eight sub-archetypes."
+description: "As AI compresses execution, new human roles emerge around responsibility. These are the seven sub-archetypes."
 ---
 
 ## When archetypes are no longer enough
@@ -54,21 +54,6 @@ They slow systems down on purpose.
 
 ---
 
-## The Integrator
-
-**Core role:** Making pieces work together.
-
-AI produces fragments: code, text, ideas, recommendations. Integrators make them cohere.
-
-They:
-- Connect outputs across tools, teams, and domains
-- Resolve contradictions between models
-- Turn isolated answers into working systems
-
-They operate at the seams where most failures happen.
-
----
-
 ## The Frontier Builder
 
 **Core role:** Expanding human understanding.
@@ -101,16 +86,17 @@ They are rarely celebrated, until something breaks.
 
 ## The Synthesizer
 
-**Core role:** Meaning from complexity.
+**Core role:** Coherence from complexity.
 
-Synthesizers turn abundance into clarity.
+AI produces fragments: code, text, ideas, recommendations. Synthesizers make them cohere both in meaning and in practice.
 
 They:
 - Compress complexity into usable frameworks
+- Connect outputs across tools, teams, and domains
+- Resolve contradictions between models and turn isolated answers into working systems
 - Translate between technical and human language
-- Decide what matters now, not just what's possible
 
-They don't compete with AI on generation but on judgment.
+They operate at the seams where most failures happen and where meaning is made.
 
 ---
 
