@@ -14,6 +14,8 @@ tags:
 description: "As AI compresses execution, new human roles emerge around responsibility. These are the seven sub-archetypes."
 ---
 
+![Armored turtle in glowing boundary line](../../assets/images/sub-archetypes-human-work-ai-era-tinyfied.png)
+
 ## When archetypes are no longer enough
 
 As AI compresses execution, something fundamental changes: new human roles emerge around **responsibility** rather than execution.
@@ -142,16 +144,4 @@ They optimize for:
 - **Boundaries**
 - **Responsibility**
 
-AI didn't eliminate human work. It shifted the burden upward, from execution to decision-making.
-
----
-
-## A final note
-
-You don't pick just one sub-archetype. You rotate through them depending on context, stakes, and maturity of the system you're working in.
-
-But the direction is clear:
-
-**As AI handles more of the surface, human value concentrates where responsibility cannot be automated.**
-
-That is where the new roles emerge.
+AI didn't eliminate human work. It shifted the burden upward, from execution to decision-making. As AI handles more of the surface, human value concentrates where responsibility cannot be automated. That is where the new roles emerge.
