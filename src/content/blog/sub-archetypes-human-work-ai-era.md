@@ -37,8 +37,6 @@ They:
 
 Their leverage comes from judgment, not speed. When options explode, navigation becomes scarce.
 
-**Failure mode:** Endless exploration without commitment.
-
 ---
 
 ## The Auditor
@@ -53,8 +51,6 @@ They:
 - Say "no" when speed would be cheaper
 
 They slow systems down on purpose.
-
-**Failure mode:** Paralysis through over-verification.
 
 ---
 
@@ -71,8 +67,6 @@ They:
 
 They operate at the seams — where most failures happen.
 
-**Failure mode:** Becoming glue without authority.
-
 ---
 
 ## The Frontier Builder
@@ -87,8 +81,6 @@ They:
 - Extend what humans can responsibly delegate
 
 Every other role depends on this work.
-
-**Failure mode:** Obsession without relevance.
 
 ---
 
@@ -105,8 +97,6 @@ They:
 
 They are rarely celebrated — until something breaks.
 
-**Failure mode:** Blocking progress in the name of purity.
-
 ---
 
 ## The Synthesizer
@@ -121,8 +111,6 @@ They:
 - Decide what matters now, not just what's possible
 
 They don't compete with AI on generation — they compete on judgment.
-
-**Failure mode:** Over-abstraction detached from reality.
 
 ---
 
@@ -139,8 +127,6 @@ They:
 
 As AI expands into new domains faster than policy can follow, someone must decide what *should* be done — not just what *can* be done.
 
-**Failure mode:** Moral paralysis or self-righteousness that blocks all progress.
-
 ---
 
 ## The Connector
@@ -155,8 +141,6 @@ They:
 - Bridge the emotional gap between humans and AI-augmented workflows
 
 Technology optimizes for output. Connectors optimize for the humans producing it.
-
-**Failure mode:** Prioritizing harmony over necessary conflict.
 
 ---
 
