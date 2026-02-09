@@ -43,7 +43,7 @@ Their leverage comes from judgment, not speed. When options explode, navigation 
 
 **Core role:** Trust verification.
 
-Auditors exist because AI output is easy — knowing when it's wrong is not.
+Auditors exist because getting AI output is easy but knowing when it's wrong is not.
 
 They:
 - Validate assumptions and reasoning paths
@@ -65,7 +65,7 @@ They:
 - Resolve contradictions between models
 - Turn isolated answers into working systems
 
-They operate at the seams — where most failures happen.
+They operate at the seams where most failures happen.
 
 ---
 
@@ -95,7 +95,7 @@ They:
 - Maintain institutional memory
 - Resist silent drift caused by unchecked automation
 
-They are rarely celebrated — until something breaks.
+They are rarely celebrated, until something breaks.
 
 ---
 
@@ -110,7 +110,7 @@ They:
 - Translate between technical and human language
 - Decide what matters now, not just what's possible
 
-They don't compete with AI on generation — they compete on judgment.
+They don't compete with AI on generation but on judgment.
 
 ---
 
@@ -125,7 +125,7 @@ They:
 - Define boundaries before harm occurs
 - Hold the line when pressure says "just ship it"
 
-As AI expands into new domains faster than policy can follow, someone must decide what *should* be done — not just what *can* be done.
+As AI expands into new domains faster than policy can follow, someone must decide what *should* be done in addition to what *can* be done.
 
 ---
 
@@ -156,7 +156,7 @@ They optimize for:
 - **Boundaries**
 - **Responsibility**
 
-AI didn't eliminate human work. It shifted the burden upward — from execution to decision-making.
+AI didn't eliminate human work. It shifted the burden upward, from execution to decision-making.
 
 ---
 
