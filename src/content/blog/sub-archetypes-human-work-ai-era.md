@@ -28,7 +28,7 @@ What changes is not what gets done, but what humans are responsible for.
 
 **Core role:** Direction under uncertainty.
 
-Navigators don't out-execute AI. They decide where to go next.
+Navigators don’t try to outperform AI at getting things done.. They decide where to go next.
 
 They:
 - Frame the problem before AI touches it
