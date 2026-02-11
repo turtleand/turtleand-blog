@@ -20,7 +20,7 @@ ogImage: ogImage-0-0-4.webp
 
 I've been sitting with this question recently: would I accept that a thinking model could outperform me at my own craft? Not in theory. Not as a headline. If the evidence were clear, with faster results, fewer errors, better pattern recognition, stronger iteration: would I actually accept it?
 
-My first instinct was to reason about it. To argue edge cases, caveats, nuances. Then I realized that a concreate way to figure it out can be measuring it.
+My first instinct was to reason about it. To argue edge cases, caveats, nuances. Then I realized that a concrete way to figure it out can be measuring it.
 
 ## Running the Experiment
 
@@ -58,7 +58,7 @@ The root of the resistance couldn't be really about performance, but rather pers
 
 ## The Weight of What You've Already Built
 
-There's another layer that makes this harder. It sounds something like: "I've spent ten years mastering this. I sacrificed weekends learning this stack. I built my entire career on this expertise.Was all of that time wasted if a model now performs parts of it better?
+There's another layer that makes this harder. It sounds something like: "I've spent ten years mastering this. I sacrificed weekends learning this stack. I built my entire career on this expertise." Was all of that time wasted if a model now performs parts of it better?
 
 Running the 5 Whys again:
 
@@ -88,7 +88,7 @@ In Turtleand's case, this connects directly to the [70/30 specialist/generalist 
 
 ## The Real Resistance
 
-The resistance seems not that much technical but psychological. It's easier to argue that models lack nuance than to confront what it means if they don't. It's easier to defend tradition than to redefine identity.
+The resistance seems not so much technical as psychological. It's easier to argue that models lack nuance than to confront what it means if they don't. It's easier to defend tradition than to redefine identity.
 
 The real shift isn't asking "Am I still the best executor?". It's asking "What role becomes available to me now?" That reframing doesn't diminish what you've built. It opens a different door.
 
