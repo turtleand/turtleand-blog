@@ -1,0 +1,147 @@
+---
+import { SITE } from "@config";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+
+const traits = [
+  { title: "Strategic Thinker", description: "Connects long-range visions with actionable systems for every initiative." },
+  { title: "Software Engineer with +10 years of experience", description: "Builds resilient software stacks shaped by a decade of shipping production systems." },
+  { title: "Global Citizen", description: "Blends perspectives from multiple cultures to inform human-centered products." },
+  { title: "Blockchain Enthusiast", description: "Explores decentralized tools as a path to transparent, trust-minimized collaboration." },
+  { title: "AI learner", description: "Constantly studies intelligence research to bridge human creativity with machine reasoning." },
+  { title: "Optimist", description: "Leads with possibility, framing challenges as invitations to design better systems." },
+  { title: "Believer in Humanity", description: "Trusts collective potential and designs technology that elevates people first." },
+  { title: "Passionate Reader and Writer", description: "Curates and shares ideas through reflective essays, marginalia, and storytelling." },
+  { title: "A Lion that Roars in the face of adversity", description: "Channels bold, fearless energy when facing complex problems or adversity." },
+  { title: "A Turtle that always moves forward", description: "Moves forward with patient persistence, ensuring progress compounds day after day." },
+];
+---
+
+<Layout title={`About | ${SITE.title}`}>
+  <Header activeNav="about" />
+  <Breadcrumbs />
+  <main id="main-content">
+    <section id="about" class="mb-28 max-w-3xl">
+      <h1 class="text-2xl tracking-wider sm:text-3xl text-skin-base mb-4">About me</h1>
+      <p class="text-skin-base opacity-80 mb-8 text-lg">
+        The mind behind Turtleand — a reflective exploration of AI, personal evolution, and craft.
+      </p>
+
+      <ul class="flex flex-col gap-3" role="list">
+        {traits.map((trait, i) => (
+          <li>
+            <button
+              class="trait-card group w-full text-left rounded-lg border border-skin-line bg-skin-card px-5 py-4 transition-all duration-200 hover:border-skin-accent/50 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-skin-fill"
+              aria-expanded="false"
+              data-trait-index={i}
+            >
+              <span class="flex items-center justify-between">
+                <span class="text-skin-base font-medium group-hover:text-skin-accent transition-colors duration-200">
+                  {trait.title}
+                </span>
+                <svg
+                  class="trait-chevron h-5 w-5 fill-skin-base opacity-50 transition-transform duration-200 flex-shrink-0 ml-3"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
+                </svg>
+              </span>
+              <div
+                class="trait-description grid transition-all duration-200 ease-in-out"
+                style="grid-template-rows: 0fr;"
+              >
+                <div class="overflow-hidden">
+                  <p class="pt-3 text-skin-base opacity-70 text-sm leading-relaxed">
+                    {trait.description}
+                  </p>
+                </div>
+              </div>
+            </button>
+          </li>
+        ))}
+      </ul>
+
+      <div class="mt-12 border-t border-skin-line pt-8">
+        <h2 class="text-xl text-skin-base mb-4">Connect</h2>
+        <div class="flex flex-wrap gap-4 text-skin-base">
+          <a
+            href="https://github.com/turtleand"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-dashed underline-offset-4 underline hover:text-skin-accent transition-colors"
+          >
+            GitHub
+          </a>
+          <a
+            href="mailto:hello@turtleand.com"
+            class="decoration-dashed underline-offset-4 underline hover:text-skin-accent transition-colors"
+          >
+            Email
+          </a>
+          <a
+            href="https://dev.to/turtleand"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-dashed underline-offset-4 underline hover:text-skin-accent transition-colors"
+          >
+            Dev.to
+          </a>
+          <a
+            href="https://x.com/turtleand_world"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-dashed underline-offset-4 underline hover:text-skin-accent transition-colors"
+          >
+            X / Twitter
+          </a>
+          <a
+            href="https://turtleand.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-dashed underline-offset-4 underline hover:text-skin-accent transition-colors"
+          >
+            Portal
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".trait-card").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const expanded = btn.getAttribute("aria-expanded") === "true";
+      // Close all others
+      document.querySelectorAll<HTMLButtonElement>(".trait-card").forEach(other => {
+        if (other !== btn) {
+          other.setAttribute("aria-expanded", "false");
+          const desc = other.querySelector<HTMLElement>(".trait-description");
+          if (desc) desc.style.gridTemplateRows = "0fr";
+          const chev = other.querySelector<HTMLElement>(".trait-chevron");
+          if (chev) chev.style.transform = "";
+        }
+      });
+      // Toggle current
+      btn.setAttribute("aria-expanded", String(!expanded));
+      const desc = btn.querySelector<HTMLElement>(".trait-description");
+      if (desc) desc.style.gridTemplateRows = expanded ? "0fr" : "1fr";
+      const chev = btn.querySelector<HTMLElement>(".trait-chevron");
+      if (chev) chev.style.transform = expanded ? "" : "rotate(180deg)";
+    });
+
+    btn.addEventListener("keydown", (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        btn.setAttribute("aria-expanded", "false");
+        const desc = btn.querySelector<HTMLElement>(".trait-description");
+        if (desc) desc.style.gridTemplateRows = "0fr";
+        const chev = btn.querySelector<HTMLElement>(".trait-chevron");
+        if (chev) chev.style.transform = "";
+      }
+    });
+  });
+</script>
