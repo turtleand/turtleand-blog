@@ -62,6 +62,17 @@ const nextPost =
 ---
 
 <Layout {...layoutProps}>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": title,
+    "description": description,
+    "datePublished": pubDatetime?.toISOString(),
+    "dateModified": modDatetime?.toISOString() || pubDatetime?.toISOString(),
+    "author": { "@type": "Person", "name": "Turtleand", "url": "https://turtleand.com" },
+    "publisher": { "@type": "Person", "name": "Turtleand", "url": "https://turtleand.com" },
+    "mainEntityOfPage": `https://growth.turtleand.com/posts/${post.slug}/`
+  })} />
   <Header />
 
   <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
