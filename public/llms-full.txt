@@ -17,7 +17,7 @@ URL: https://growth.turtleand.com/posts/pursuing-your-intent/
 
 Every generation of tools gets easier until the tool itself disappears. Command lines gave way to GUIs, GUIs to touch, touch to voice. Right now, knowing how to configure a specific AI setup matters: it's a real edge, and I'm catching up with it myself. But I see it as a step along the way. Not the destination.
 
-Your intent, however, is something that doesn't expire. The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
+Your intent, however, is something that doesn't expire. In fact, [your intentions matter more than ever](/posts/intentions-matter-more-than-ever/). The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
 
 ## The Closing Gap
 
@@ -25,7 +25,7 @@ Every major technology shift has followed the same arc: the tool disappears into
 
 AI follows this trajectory: The gap between having an idea and executing is closing very rapidly.
 
-This is exciting and uncomfortable at the same time. If the tool disappears, then the people whose value was tied to *operating* the tool face a real problem. That's not abstract. It's people's livelihoods. I'm not going to pretend otherwise. Still the direction is clear, and understanding it is better than ignoring it.
+This is exciting and uncomfortable at the same time. If the tool disappears, then the people whose value was tied to *operating* the tool face a real problem. That's not abstract but people's livelihoods. I'm not going to pretend otherwise. Still the direction is clear, and understanding it is better than ignoring it.
 
 ## Agency Doesn't Become Obsolete
 
@@ -65,9 +65,9 @@ But I've noticed something. When people create genuine value, other people notic
 
 Something else is changing alongside the tools: the ability to find each other. People with aligned intent (who care about the same creek, the same language, the same gap in the system) can now connect more easily than ever.
 
-Small groups, organized around a shared challenge, armed with AI tools that amplify their collective agency. Not a company. Not a nonprofit. Just people who noticed the same problem and decided to do something about it.
+Small groups, organized around a shared challenge, armed with AI tools that amplify their collective agency. Just people who noticed the same problem and decided to do something about it.
 
-This isn't a replacement for jobs. It's a parallel force. While the employment landscape evolves (and yes, the uncertainty is real and alarming), this other reality of people solving problems together could unfold alongside it. Not utopia. Maybe something more modest: small groups creating tangible outcomes. Harmony over disruption. Sustainability over speed. Positive outcomes while minimizing negatives.
+This isn't a replacement for jobs but rather a parallel force. While the employment landscape evolves (and yes, the uncertainty is real and alarming), this other reality of people solving problems together could unfold alongside it. Not utopia. Maybe something more modest: small groups creating tangible outcomes. Harmony over disruption. Sustainability over speed. Positive outcomes while minimizing negatives.
 
 ## What's Sitting in Your Peripheral Vision?
 

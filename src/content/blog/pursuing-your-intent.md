@@ -20,7 +20,7 @@ ogImage: ogImage-0-0-4.webp
 
 Every generation of tools gets easier until the tool itself disappears. Command lines gave way to GUIs, GUIs to touch, touch to voice. Right now, knowing how to configure a specific AI setup matters: it's a real edge, and I'm catching up with it myself. But I see it as a step along the way. Not the destination.
 
-Your intent, however, is something that doesn't expire. The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
+Your intent, however, is something that doesn't expire. In fact, [your intentions matter more than ever](/posts/intentions-matter-more-than-ever/). The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
 
 ## The Closing Gap
 
