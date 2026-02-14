@@ -68,9 +68,9 @@ But I've noticed something. When people create genuine value, other people notic
 
 Something else is changing alongside the tools: the ability to find each other. People with aligned intent (who care about the same creek, the same language, the same gap in the system) can now connect more easily than ever.
 
-Small groups, organized around a shared challenge, armed with AI tools that amplify their collective agency. Not a company. Not a nonprofit. Just people who noticed the same problem and decided to do something about it.
+Small groups, organized around a shared challenge, armed with AI tools that amplify their collective agency. Just people who noticed the same problem and decided to do something about it.
 
-This isn't a replacement for jobs. It's a parallel force. While the employment landscape evolves (and yes, the uncertainty is real and alarming), this other reality of people solving problems together could unfold alongside it. Not utopia. Maybe something more modest: small groups creating tangible outcomes. Harmony over disruption. Sustainability over speed. Positive outcomes while minimizing negatives.
+This isn't a replacement for jobs but rather a parallel force. While the employment landscape evolves (and yes, the uncertainty is real and alarming), this other reality of people solving problems together could unfold alongside it. Not utopia. Maybe something more modest: small groups creating tangible outcomes. Harmony over disruption. Sustainability over speed. Positive outcomes while minimizing negatives.
 
 ## What's Sitting in Your Peripheral Vision?
 
