@@ -80,7 +80,7 @@ Not "what if someone could." What if *you* could. With intent, with tools that a
 
 The skill that gets you there might change. The tool might change. But the drive to get there, your intent, that's yours and it doesn't expire.
 
-## Your Starting Point
+## Call to action
 
 If you want a starting point, try pasting this into any AI assistant:
 
