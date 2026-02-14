@@ -16,7 +16,7 @@ ogImage: ogImage-0-0-4.webp
 
 ## The Expiring Skill
 
-Right now, knowing how to configure a specific AI instance on a specific cloud platform feels important. It won't be in two years. That's not a prediction — it's the pattern. Devices, interfaces, tools — they all trend toward invisible usability. The command line gave way to the GUI. The GUI gave way to touch. Touch is giving way to voice. Each generation makes the previous skill less relevant.
+Right now, knowing how to configure a specific AI instance on a specific cloud platform is important. It builds a real competitive edge. I'm actively catching up with it myself. But if I look at the pattern — command lines gave way to GUIs, GUIs to touch, touch to voice — every generation of tooling trends toward invisible usability. The specific skill that matters today won't be the ultimate differentiator. I don't know exactly how to bridge that gap. But I suspect that working through this stage, engaging deeply with the tools as they are now, is part of how we discover what ultimately matters.
 
 But something doesn't expire. Your intent. The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
 
@@ -40,25 +40,19 @@ I'm not naive about this. The transition hurts. The gap between losing a skill-b
 
 ## Jevons' Paradox of Human Purpose
 
-In the 1860s, economist William Stanley Jevons observed something counterintuitive: as coal engines became more efficient, coal consumption didn't drop — it exploded. More efficiency meant more uses. More uses meant more demand. This became known as [Jevons' paradox](https://en.wikipedia.org/wiki/Jevons_paradox).
+In the 1860s, economist William Stanley Jevons observed something counterintuitive: as coal engines became more efficient, coal consumption didn't drop but rather exploded. More efficiency meant more uses. More uses meant more demand. This became known as [Jevons' paradox](https://en.wikipedia.org/wiki/Jevons_paradox). And the term has been widely cited lately in relation with technology and AI.
 
 The same logic applies to problem-solving. As AI makes it more efficient to address challenges, we won't run out of problems. We'll find *more* problems worth solving. Problems we couldn't even see before because we didn't have the capacity to address them. Problems that were too small-scale, too niche, too local, too complex for any individual or underfunded team.
 
 The more capable the tools, the more human intent has places to go. Not fewer.
 
-## Four Problems Nobody's Solving (Yet)
+## An example of problem solving
 
-What does this look like concretely? Here are four examples — not hypothetical, but the kind of challenges that real people with intent and powerful AI tools could actually tackle:
+How can the kind of challenges that real people with intent and powerful AI tools could actually tackle look like?
 
-**Local**: A group of neighbors has watched the same creek flood the same houses for 15 years. No engineer has studied it — too small-scale, no budget. With AI analyzing drainage patterns, historical rainfall, and topography, they map a simple upstream redirect that could prevent most of the damage. They bring actual data to the city council meeting. A 15-year-old problem, addressed by people who cared enough to ask.
+A retired urban planner who always noticed that her city's bus routes haven't changed since 1987, while the city has transformed completely. She uses AI to analyze actual movement patterns, population shifts, and accessibility gaps — then publishes an open proposal that anyone can build on. Reshaping how a city moves, starting from one person's observation.
 
-**Niche**: A linguist passionate about a dying indigenous language with 200 remaining speakers. No tech company will build tools for a 200-person market. But with AI, she builds a conversational learning app, transcription tools, and a living dictionary — resources that would have taken a funded team a decade.
-
-**Personal**: A parent of a child with a rare learning difference. The one specialist is 200km away. The school system won't catch up for years. Using AI, the parent iterates on personalized educational approaches — testing, adjusting, finding what works through rapid experimentation. Not waiting for the system. Acting.
-
-**Surprising**: A retired urban planner who always noticed that her city's bus routes haven't changed since 1987, while the city has transformed completely. She uses AI to analyze actual movement patterns, population shifts, and accessibility gaps — then publishes an open proposal that anyone can build on. Reshaping how a city moves, starting from one person's observation.
-
-None of these guarantee income. None of these are "jobs." But all of them are enormously valuable. And all of them were practically impossible for these individuals before.
+This wouldn't guarantee income and wouldn't mean a job by any means. But yet it would be valuable. And it would have been difficult with the previous available tools.
 
 ## The Honest Gap
 
@@ -86,4 +80,6 @@ Not "what if someone could." What if *you* could. With intent, with tools that a
 
 The skill that gets you there might change. The tool might change. But the drive to get there — your intent — that's yours. It doesn't expire.
 
-If you want a starting point, try this: describe the problem that matters to you as specifically as you can. What's broken? Who's affected? What would better look like? Then ask an AI to help you understand the problem space — not to solve it, but to map it. The first step isn't execution. It's clarity about what you actually want to change.
+## Call to action
+
+Describe the problem that matters to you as specifically as you can. What's broken? Who's affected? What would better look like? Then ask an AI to help you understand the problem space — not to solve it, but to map it. The first step isn't execution. It's clarity about what you actually want to change.
