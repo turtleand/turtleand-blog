@@ -14,6 +14,8 @@ description: "Skills expire. Tools disappear. But your drive to change the world
 ogImage: ogImage-0-0-4.webp
 ---
 
+![Turtleand standing on rocky outcrop with obsolete tech debris below and a glowing cyan compass inside his chest, gazing at the horizon](../../assets/images/pursuing-your-intent-tinyfied.png)
+
 ## The Expiring Skill
 
 Every generation of tools gets easier until the tool itself disappears. Command lines gave way to GUIs, GUIs to touch, touch to voice. Right now, knowing how to configure a specific AI setup matters: it's a real edge, and I'm catching up with it myself. But I see it as step along the way. Not the destination.
