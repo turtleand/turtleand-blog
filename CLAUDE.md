@@ -1,3 +1,5 @@
+Never introduce em dashes
+
 # CLAUDE.md — Turtleand Growth Blog
 
 ## Agent-Friendly PR Checklist
