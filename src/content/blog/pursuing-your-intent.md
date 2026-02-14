@@ -32,7 +32,7 @@ This is exciting and uncomfortable at the same time. If the tool disappears, the
 
 Skills are what you *can* do. Agency is what you *want* to do. They're different things, and they age differently.
 
-When a factory worker's manual skill was automated, the loss was devastating — not just economically, but personally. Years of expertise rendered irrelevant overnight. But the *desire* to build, to create something useful, to provide for a family — that didn't go away. The tools just couldn't channel it anymore. The skills were gone, and nothing replaced the path from intent to action.
+When a factory worker's manual skill was automated, the loss was devastating — not just economically, but personally. Years of expertise rendered irrelevant overnight. But the *desire* to build, to create something useful, to provide for a family — that didn't go away. It just had nowhere to go.
 
 Now something is different. AI doesn't just automate execution — it opens execution to anyone with intent. A person who knows *what* needs to happen but doesn't know *how* to code, design, analyze, or build can now get much further than before. The tool meets you where you are.
 
@@ -82,4 +82,6 @@ The skill that gets you there might change. The tool might change. But the drive
 
 ## Call to action
 
-Describe the problem that matters to you as specifically as you can. What's broken? Who's affected? What would better look like? Then ask an AI to help you understand the problem space — not to solve it, but to map it. The first step isn't execution. It's clarity about what you actually want to change.
+If you want a starting point, try pasting this into any AI assistant:
+
+> I've been noticing a problem that matters to me: [describe it here]. Help me understand the problem space. Who's affected? What's been tried before? What would "better" look like? Don't try to solve it yet — just help me map it clearly.
