@@ -13,7 +13,7 @@ URL: https://growth.turtleand.com/posts/pursuing-your-intent/
 
 ## The Expiring Skill
 
-Right now, knowing how to configure a specific AI instance on a specific cloud platform is important. It builds a real competitive edge. I'm actively catching up with it myself. But if I look at the pattern — command lines gave way to GUIs, GUIs to touch, touch to voice — every generation of tooling trends toward invisible usability. The specific skill that matters today won't be the ultimate differentiator. I don't know exactly how to bridge that gap. But I suspect that working through this stage, engaging deeply with the tools as they are now, is part of how we discover what ultimately matters.
+Right now, knowing how to configure a specific AI instance on a specific cloud platform is important. It builds a real competitive edge. I'm actively catching up with it myself. But the pattern is clear — command lines gave way to GUIs, GUIs to touch, touch to voice — every generation of tools gets easier until the tool itself disappears. They matter now — as a real edge and as first steps into what comes next. Not as the destination.
 
 But something doesn't expire. Your intent. The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
 
