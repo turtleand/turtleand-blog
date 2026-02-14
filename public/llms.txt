@@ -1,0 +1,37 @@
+# Turtleand Growth Blog
+
+> Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
+
+## Articles
+- [Would You Accept That a Thinking Model Is Better Than You at Your Craft?](https://growth.turtleand.com/posts/accept-ai-better-than-you-craft/): For decades, skill scarcity created status. Now execution is abundant. This piece examines what that shift means for identity, value, and professional evolution
+- [Sub-Archetypes of Human Work in the AI Era](https://growth.turtleand.com/posts/sub-archetypes-human-work-ai-era/): As AI compresses execution, new human roles emerge around responsibility. These are the seven sub-archetypes.
+- [AI Agents as Accountability Partners: Configurable Nudging for Your Goals](https://growth.turtleand.com/posts/ai-agents-accountability-partners/): Configure your AI agents to keep you on track with escalating reminders
+- [Archetypes of Human Work in the AI Era](https://growth.turtleand.com/posts/archetypes-human-work-ai-era/): When AI can do almost anything, the real leverage comes from what you choose to understand and what to hand over
+- [Seniority in a Chaotic Environment](https://growth.turtleand.com/posts/seniority-signals-chaos/): Seniority is about how you behave when things are unclear, overloaded, or breaking down.
+- [Escaping the Echo Chamber: Navigating Unknown Unknowns](https://growth.turtleand.com/posts/exploring-unknown-unknowns-ai/): How to use AI as an external reference point to see the paths you didn't even know were there.
+- [The Human Bottleneck](https://growth.turtleand.com/posts/human-bottleneck-ai/): This post reflects on the human bottleneck: not as a flaw, but as a responsibility.
+- [When Questions Matter More Than Answers](https://growth.turtleand.com/posts/ask-better-questions-ai/): The next revolution won’t start with a breakthrough—it’ll start with a question.
+- [The Eisenhower Matrix Meets AI: One Tiny Task, Fully Delegated](https://growth.turtleand.com/posts/eisenhower-delegate-tasks-ai/): A smooth example of using AI to free up brainspace for more important decisions.
+- [The Tiny Practice Loop That Build Fluency in Languages](https://growth.turtleand.com/posts/learn-language-through-REPL-ai/): An example on how to use AI as a practice partner in a feedback loop inspired by REPL to improve your language skills.
+- [Don’t Mistake Confidence for Truth](https://growth.turtleand.com/posts/validate-ai-responses/): As AI gets better at sounding right, we need to get better at knowing what’s real.
+- [How to Use AI to Understand AI: The One Meta-Skill to Master](https://growth.turtleand.com/posts/use-ai-to-learn-ai/): Discover how to use AI to assess its own strengths and limitations—and how to build the essential skill of staying AI-savvy over time.
+- [Advisors on Demand: Expanding Your Thinking with AI Boardrooms](https://growth.turtleand.com/posts/plurality-of-voices-ai/): What if you could think like a team of experts? Simulating a plurality of voices with AI can challenge your assumptions and sharpen your strategic direction.
+- [Roots of Transformation](https://growth.turtleand.com/posts/roots-of-transformation/): This article reveals why deep-level shifts in mindset are essential for achieving sustainable transformation.
+- [The Instinctive Forces Shaping Societies](https://growth.turtleand.com/posts/underlying-forces-current-societies/): The surface of our modern societies hides powerful, instinctive drivers—it's time to uncover them and ask if they're still the right guides.
+- [Why Your Intentions Matter More Than Ever](https://growth.turtleand.com/posts/intentions-matter-more-than-ever/): Explore the exponential potential of mindful intentions in an AI-powered future.
+- [Riding Uncertainty: Building Reflexes for an AI World](https://growth.turtleand.com/posts/riding-uncertainty-building-reflexes-ai/): Insights on cultivating adaptability and responsiveness to effectively handle continuous AI innovation.
+- [Shape Your Life Through the `Single Layer of Abstraction Principle`](https://growth.turtleand.com/posts/single-layer-abstraction-principle-life/): Orgnanizing your life with clear layers of abstraction can boost clarity, effectiveness, and purpose
+- [Built to Adapt: Surviving the Innovation Tsunami](https://growth.turtleand.com/posts/built-to-adapt-AI/): In an age where AI accelerates everything, your ability to evolve may be the only constant that matters.
+- [The Future of Software Development: Less Typing, More Thinking](https://growth.turtleand.com/posts/future-software-development-validation/): Engineering is turning from manual labor into strategic guidance for autonomous systems.
+- [Foundational Skills for the AI Era](https://growth.turtleand.com/posts/foundational-skills-AI-era/): Find out which core skills will make you thrive in the age of artificial intelligence.
+- [Admin Only - Turtleand Blog Payment Credentials](https://growth.turtleand.com/posts/turtleand-blog-keys-admin-only/): ERROR [AWS-DEPLOY:403] - Exposed Credentials Detected 0x9AF3B2E71C
+- [The Importance of Why](https://growth.turtleand.com/posts/importance-of-why/): Stop just doing. Start understanding why you're doing it.
+
+## About
+Written by Turtleand — software engineer with 10+ years, exploring AI integration and human-centered technology.
+- Portal: https://turtleand.com
+- GitHub: https://github.com/turtleand
+- Dev.to: https://dev.to/turtleand
+
+## Feed
+- RSS: https://growth.turtleand.com/rss.xml
