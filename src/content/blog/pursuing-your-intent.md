@@ -18,9 +18,9 @@ ogImage: ogImage-0-0-4.webp
 
 ## The Expiring Skill
 
-Every generation of tools gets easier until the tool itself disappears. Command lines gave way to GUIs, GUIs to touch, touch to voice. Right now, knowing how to configure a specific AI setup matters: it's a real edge, and I'm catching up with it myself. But I see it as step along the way. Not the destination.
+Every generation of tools gets easier until the tool itself disappears. Command lines gave way to GUIs, GUIs to touch, touch to voice. Right now, knowing how to configure a specific AI setup matters: it's a real edge, and I'm catching up with it myself. But I see it as a step along the way. Not the destination.
 
-Your intent, however, is something doesn't expire. The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
+Your intent, however, is something that doesn't expire. The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
 
 ## The Closing Gap
 
@@ -36,13 +36,13 @@ Skills are what you *can* do. Agency is what you *want* to do. They're different
 
 When a factory worker's manual skill was automated, the loss was devastating, not just economically, but also personally. Years of expertise rendered irrelevant overnight. But the *desire* to build, to create something useful, to provide for a family, that didn't go away. 
 
-With this new technology is somehow similar. However, AI doesn't just automate execution. It also opens execution to anyone with intent. A person who knows *what* needs to happen but doesn't know *how* to code, design, analyze, or build can now get much further than before. The tool meets you where you are.
+This new technology is somehow similar. However, AI doesn't just automate execution. It also opens execution to anyone with intent. A person who knows *what* needs to happen but doesn't know *how* to code, design, analyze, or build can now get much further than before. The tool meets you where you are.
 
 I'm not naive about this and the transition hurts. The gap between losing a skill-based job and channeling your agency through new tools is a real gap, with real bills. I don't have a neat answer for that. But I do think recognizing that agency survives, even when skills don't, matters for how we think about what comes next.
 
 ## Jevons' Paradox of Human Purpose
 
-In the 1860s, economist William Stanley Jevons observed something counterintuitive: as coal engines became more efficient, coal consumption didn't drop but rather exploded. More efficiency meant more uses. More uses meant more demand. This became known as [Jevons' paradox](https://en.wikipedia.org/wiki/Jevons_paradox). And the term has been widely cited lately in relation with technology and AI.
+In the 1860s, economist William Stanley Jevons observed something counterintuitive: as coal engines became more efficient, coal consumption didn't drop but rather exploded. More efficiency meant more uses. More uses meant more demand. This became known as [Jevons' paradox](https://en.wikipedia.org/wiki/Jevons_paradox). And the term has been widely cited lately in relation to technology and AI.
 
 The same logic applies to problem-solving. As AI makes it more efficient to address challenges, we won't run out of problems. We'll find *more* problems worth solving. Problems we couldn't even see before because we didn't have the capacity to address them. Problems that were too small-scale, too niche, too local, too complex for any individual or underfunded team.
 
@@ -50,11 +50,11 @@ The more capable the tools, the more human intent has places to go. Not fewer.
 
 ## What This Looks Like in Practice
 
-How can the kind of challenges that real people with intent and powerful AI tools could actually tackle look like?
+What kind of challenges could real people with intent and powerful AI tools actually tackle?
 
-A retired urban planner who always noticed that her city's bus routes haven't changed since 1987, while the city has transformed completely. She uses AI to analyze actual movement patterns, population shifts, and accessibility gaps, then publishes an open proposal that anyone can build on. Reshaping how a city moves, starting from one person's observation.
+A retired urban planner who has always noticed that her city's bus routes haven't changed since 1987, while the city has transformed completely. She uses AI to analyze actual movement patterns, population shifts, and accessibility gaps, then publishes an open proposal that anyone can build on. Reshaping how a city moves, starting from one person's observation.
 
-This wouldn't guarantee income and wouldn't mean a job by any means. But yet it would be valuable. And achieving the same may would have been unfeasible with the previous available tools.
+This wouldn't guarantee income and wouldn't mean a job by any means. Yet it would be valuable. And achieving the same would have been unfeasible with previously available tools.
 
 ## The Honest Gap
 
@@ -62,7 +62,7 @@ Let me name the tension directly: pursuing your intent doesn't pay the bills. At
 
 I'm not going to pretend that new economic models will magically appear to reward every act of agency. The gap between "creating genuine value" and "earning a living" is real, and I don't have a clean answer for closing it.
 
-But I've noticed something. When people create genuine value other people notice and care. They may even engage. Value has a way of finding its way back, even if the path isn't clear yet. 
+But I've noticed something. When people create genuine value, other people notice and care. They may even engage. Value has a way of finding its way back, even if the path isn't clear yet. 
 
 ## Finding Each Other
 
