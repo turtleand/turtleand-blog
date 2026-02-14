@@ -3,7 +3,7 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
-- [Skills Expire. Intent Doesn't.](https://growth.turtleand.com/posts/pursuing-your-intent/): Skills expire. Tools disappear. But your drive to change the world doesn't — and AI is making it possible to act on it.
+- [Skills Expire. Intent Doesn't.](https://growth.turtleand.com/posts/pursuing-your-intent/): Skills expire. Tools disappear. But your drive to change the world doesn't, and AI is making it possible to act on it.
 - [Would You Accept That a Thinking Model Is Better Than You at Your Craft?](https://growth.turtleand.com/posts/accept-ai-better-than-you-craft/): For decades, skill scarcity created status. Now execution is abundant. This piece examines what that shift means for identity, value, and professional evolution
 - [Sub-Archetypes of Human Work in the AI Era](https://growth.turtleand.com/posts/sub-archetypes-human-work-ai-era/): As AI compresses execution, new human roles emerge around responsibility. These are the seven sub-archetypes.
 - [AI Agents as Accountability Partners: Configurable Nudging for Your Goals](https://growth.turtleand.com/posts/ai-agents-accountability-partners/): Configure your AI agents to keep you on track with escalating reminders

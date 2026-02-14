@@ -6,22 +6,22 @@
 
 # Skills Expire. Intent Doesn't.
 
-> Skills expire. Tools disappear. But your drive to change the world doesn't — and AI is making it possible to act on it.
+> Skills expire. Tools disappear. But your drive to change the world doesn't, and AI is making it possible to act on it.
 
 Published: 2026-02-14T20:00:00Z
 URL: https://growth.turtleand.com/posts/pursuing-your-intent/
 
 ## The Expiring Skill
 
-Every generation of tools gets easier until the tool itself disappears. Command lines gave way to GUIs, GUIs to touch, touch to voice. Right now, knowing how to configure a specific AI setup matters — it's a real edge, and I'm catching up with it myself. But it's a step along the way. Not the destination.
+Every generation of tools gets easier until the tool itself disappears. Command lines gave way to GUIs, GUIs to touch, touch to voice. Right now, knowing how to configure a specific AI setup matters: it's a real edge, and I'm catching up with it myself. But it's a step along the way. Not the destination.
 
 But something doesn't expire. Your intent. The drive to solve the thing that keeps you up at night. The urge to fix what's broken in your corner of the world. That has never become obsolete, and it won't start now.
 
 ## The Closing Gap
 
-Every major technology shift has followed the same arc: the tool disappears into the background. Command lines required memorizing syntax. GUIs replaced that with pointing and clicking. Touch screens removed even the pointer. Voice removed the screen. Each step made the tool more invisible — and shifted the question from "can you operate this?" to "what do you want to do?"
+Every major technology shift has followed the same arc: the tool disappears into the background. Command lines required memorizing syntax. GUIs replaced that with pointing and clicking. Touch screens removed even the pointer. Voice removed the screen. Each step made the tool more invisible, and shifted the question from "can you operate this?" to "what do you want to do?"
 
-AI follows this trajectory. The gap between having an idea and executing it is closing. Not slowly — rapidly.
+AI follows this trajectory. The gap between having an idea and executing it is closing. Not slowly. Rapidly.
 
 This is exciting and uncomfortable at the same time. If the tool disappears, then the people whose value was tied to *operating* the tool face a real problem. That's not abstract. That's people's livelihoods. I'm not going to pretend otherwise. But the direction is clear, and understanding it is better than ignoring it.
 
@@ -29,11 +29,11 @@ This is exciting and uncomfortable at the same time. If the tool disappears, the
 
 Skills are what you *can* do. Agency is what you *want* to do. They're different things, and they age differently.
 
-When a factory worker's manual skill was automated, the loss was devastating — not just economically, but personally. Years of expertise rendered irrelevant overnight. But the *desire* to build, to create something useful, to provide for a family — that didn't go away. It just had nowhere to go.
+When a factory worker's manual skill was automated, the loss was devastating, not just economically, but personally. Years of expertise rendered irrelevant overnight. But the *desire* to build, to create something useful, to provide for a family, that didn't go away. It just had nowhere to go.
 
-Now something is different. AI doesn't just automate execution — it opens execution to anyone with intent. A person who knows *what* needs to happen but doesn't know *how* to code, design, analyze, or build can now get much further than before. The tool meets you where you are.
+Now something is different. AI doesn't just automate execution. It opens execution to anyone with intent. A person who knows *what* needs to happen but doesn't know *how* to code, design, analyze, or build can now get much further than before. The tool meets you where you are.
 
-I'm not naive about this. The transition hurts. The gap between losing a skill-based job and channeling your agency through new tools is a real gap, with real bills. I don't have a neat answer for that. But I do think recognizing that agency survives — even when skills don't — matters for how we think about what comes next.
+I'm not naive about this. The transition hurts. The gap between losing a skill-based job and channeling your agency through new tools is a real gap, with real bills. I don't have a neat answer for that. But I do think recognizing that agency survives, even when skills don't, matters for how we think about what comes next.
 
 ## Jevons' Paradox of Human Purpose
 
@@ -47,7 +47,7 @@ The more capable the tools, the more human intent has places to go. Not fewer.
 
 How can the kind of challenges that real people with intent and powerful AI tools could actually tackle look like?
 
-A retired urban planner who always noticed that her city's bus routes haven't changed since 1987, while the city has transformed completely. She uses AI to analyze actual movement patterns, population shifts, and accessibility gaps — then publishes an open proposal that anyone can build on. Reshaping how a city moves, starting from one person's observation.
+A retired urban planner who always noticed that her city's bus routes haven't changed since 1987, while the city has transformed completely. She uses AI to analyze actual movement patterns, population shifts, and accessibility gaps, then publishes an open proposal that anyone can build on. Reshaping how a city moves, starting from one person's observation.
 
 This wouldn't guarantee income and wouldn't mean a job by any means. But yet it would be valuable. And it would have been difficult with the previous available tools.
 
@@ -57,17 +57,17 @@ Let me name the tension directly: pursuing your intent doesn't pay the bills. At
 
 I'm not going to pretend that new economic models will magically appear to reward every act of agency. The gap between "creating genuine value" and "earning a living" is real, and I don't have a clean answer for closing it.
 
-But I've noticed something. When people create genuine value — the kind that changes a neighborhood, preserves a language, helps a child learn — other people notice. Other people care. Value has a way of finding its way back, even if the path isn't clear yet. That's not an economic theory. It's an observation.
+But I've noticed something. When people create genuine value (the kind that changes a neighborhood, preserves a language, helps a child learn), other people notice. Other people care. Value has a way of finding its way back, even if the path isn't clear yet. That's not an economic theory. It's an observation.
 
 I don't have the answer to this. I just don't believe the answer is to stop pursuing what matters.
 
 ## Finding Each Other
 
-Something else is changing alongside the tools: the ability to find each other. People with aligned intent — who care about the same creek, the same language, the same gap in the system — can now connect more easily than ever.
+Something else is changing alongside the tools: the ability to find each other. People with aligned intent (who care about the same creek, the same language, the same gap in the system) can now connect more easily than ever.
 
 Small groups, organized around a shared challenge, armed with AI tools that amplify their collective agency. Not a company. Not a nonprofit. Just people who noticed the same problem and decided to do something about it.
 
-This isn't a replacement for jobs. It's a parallel force. While the employment landscape evolves — and yes, the uncertainty is real and alarming — this other reality of people solving problems together could unfold alongside it. Not utopia. Something more modest: small groups creating tangible outcomes. Harmony over disruption. Sustainability over speed. Positive outcomes while minimizing negatives.
+This isn't a replacement for jobs. It's a parallel force. While the employment landscape evolves (and yes, the uncertainty is real and alarming), this other reality of people solving problems together could unfold alongside it. Not utopia. Something more modest: small groups creating tangible outcomes. Harmony over disruption. Sustainability over speed. Positive outcomes while minimizing negatives.
 
 ## What's Sitting in Your Peripheral Vision?
 
@@ -75,13 +75,13 @@ Think about the problem that's been sitting in your peripheral vision. The one y
 
 Not "what if someone could." What if *you* could. With intent, with tools that are more accessible every day, with the ability to find others who see the same problem.
 
-The skill that gets you there might change. The tool might change. But the drive to get there — your intent — that's yours. It doesn't expire.
+The skill that gets you there might change. The tool might change. But the drive to get there, your intent, that's yours. It doesn't expire.
 
 ## Your Starting Point
 
 If you want a starting point, try pasting this into any AI assistant:
 
-> I've been noticing a problem that matters to me: [describe it here]. Help me understand the problem space. Who's affected? What's been tried before? What would "better" look like? Don't try to solve it yet — just help me map it clearly.
+> I've been noticing a problem that matters to me: [describe it here]. Help me understand the problem space. Who's affected? What's been tried before? What would "better" look like? Don't try to solve it yet. Just help me map it clearly.
 
 ---
 
