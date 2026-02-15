@@ -11,6 +11,7 @@ tags:
   - acceleration
   - productivity
 description: "AI tools change so fast that yesterday's best practice might already be obsolete. One simple habit can keep you ahead: search before you do."
+ogImage: check-again-cover.jpg
 ---
 
 I needed a banner image yesterday.
