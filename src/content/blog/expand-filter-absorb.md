@@ -13,13 +13,13 @@ tags:
 description: "A simple three-step pattern for using AI as a research amplifier. Expand your search beyond human limits, filter down to signal, and absorb what survives."
 ---
 
-I was trying to figure out if I should switch careers into AI. Not a casual "hmm maybe" thought. A real decision with real stakes.
+I wanted to understand how sleep actually affects productivity. Not the usual "get 8 hours" advice. The real picture.
 
-Normally I'd open a browser, read a few articles, check some job boards, and end up more confused than when I started. Instead, I told my AI agent: "Research everything about transitioning into AI roles. Required skills, realistic timelines, what hiring managers actually look for, common mistakes, salary ranges by experience level, which certifications matter and which are noise."
+Normally I'd open a browser, skim a few articles, and end up with the same recycled tips. Instead, I told my AI agent: "Research everything about sleep and cognitive performance. Include recent studies, what scientists actually disagree on, how naps compare to full cycles, the effect of screen time before bed, and what shift workers do differently."
 
-It came back with a synthesis of dozens of sources. Reddit threads from people who actually made the switch. Job postings patterns I'd never spot manually. Contradictions between what bootcamps promise and what employers say.
+It came back with a synthesis of dozens of sources. PubMed studies I'd never find on my own. Reddit threads from night shift nurses. Contradictions between sleep coaches and neuroscience researchers.
 
-I read the summary in five minutes. And I had a clearer picture than I would have after a full weekend of research.
+I read the summary in five minutes. And I had a clearer picture than I would have after an evening of googling.
 
 ## The pattern
 
