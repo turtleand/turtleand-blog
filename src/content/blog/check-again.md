@@ -57,9 +57,9 @@ You don't need to chase every new tool. You don't need to be anxious about falli
 
 Something probably changed.
 
----
+## Call to Action
 
-**Try this right now.** Pick a task you do regularly with AI. Then copy-paste this prompt:
+Send this prompt to your AI:
 
 > "What's the best way to [your task] right now, in 2025? Compare at least 3 current approaches. Include any methods that emerged in the last 3 months."
 
