@@ -1,9 +1,16 @@
 ---
+author: Turtlean
+pubDatetime: 2026-02-15T12:00:00Z
+modDatetime: 2026-02-15T12:00:00Z
 title: "Check Again. The World Changed While You Were Working."
+slug: check-again
+featured: true
+draft: false
+tags:
+  - AI
+  - acceleration
+  - productivity
 description: "AI tools change so fast that yesterday's best practice might already be obsolete. One simple habit can keep you ahead: search before you do."
-date: 2026-02-15
-author: Turtleand
-tags: [ai, acceleration, productivity]
 ---
 
 I needed a banner image yesterday.
