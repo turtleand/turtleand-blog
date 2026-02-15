@@ -14,6 +14,8 @@ description: "AI tools change so fast that yesterday's best practice might alrea
 ogImage: check-again-cover.jpg
 ---
 
+![Turtleand looking through magnifying glass at holographic screen with version numbers, old calendars fading behind](../../assets/images/check-again-cover.jpg)
+
 I needed a banner image yesterday.
 
 Nothing fancy. Just a clean header for a blog post. My instinct said: open an AI image generator, write a prompt, iterate a few times, settle for something close enough.
