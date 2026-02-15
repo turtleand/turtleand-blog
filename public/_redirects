@@ -1,7 +1,7 @@
 # Migrated content — AI tools map moved to AI Atlas
-/labs/ai-tools-map      https://ai-atlas.turtleand.com  301
-/labs/ai-tools-map/     https://ai-atlas.turtleand.com  301
-/tools/ai-tools-map/    https://ai-atlas.turtleand.com  301
+/labs/ai-tools-map      https://atlas.turtleand.com  301
+/labs/ai-tools-map/     https://atlas.turtleand.com  301
+/tools/ai-tools-map/    https://atlas.turtleand.com  301
 
 # Removed labs — redirect to homepage
 /labs/avatar-gallery    /  301
