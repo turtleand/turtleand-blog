@@ -13,13 +13,13 @@ tags:
 description: "A simple three-step pattern for using AI as a research amplifier. Expand your search beyond human limits, filter down to signal, and absorb what survives."
 ---
 
-I wanted to understand OpenClaw Skills. How they work, what people build with them, where the limits are.
+I was trying to figure out if I should switch careers into AI. Not a casual "hmm maybe" thought. A real decision with real stakes.
 
-Normally I'd open a browser, read three pages, and call it done. Instead, I told my AI agent: "Search everything about OpenClaw Skills. Architecture, examples, limitations, what users complain about, what's undocumented."
+Normally I'd open a browser, read a few articles, check some job boards, and end up more confused than when I started. Instead, I told my AI agent: "Research everything about transitioning into AI roles. Required skills, realistic timelines, what hiring managers actually look for, common mistakes, salary ranges by experience level, which certifications matter and which are noise."
 
-It came back with a synthesis of dozens of sources. Forum threads I'd never find. GitHub issues. Docs I didn't know existed.
+It came back with a synthesis of dozens of sources. Reddit threads from people who actually made the switch. Job postings patterns I'd never spot manually. Contradictions between what bootcamps promise and what employers say.
 
-I read the summary in five minutes. And I got a better picture than I would have after an hour on my own.
+I read the summary in five minutes. And I had a clearer picture than I would have after a full weekend of research.
 
 ## The pattern
 
@@ -39,9 +39,9 @@ The AI can tell me what experts think. It can't tell me which insight changes my
 
 ## It's like asking AI to write the prompt
 
-Here's a parallel that clicked for me. When you want a good AI prompt, the smartest move isn't writing it yourself. It's asking the AI: "Write me the best prompt for X." The AI knows its own format better than you do.
+Here's a parallel that clicked for me. When you want a good AI prompt, the smartest move is asking the AI to write it for you. "Write me the best prompt for X." It knows its own format better than you do.
 
-Same thing with research. The smartest move isn't searching yourself. It's telling the AI what you want to understand, and letting it figure out where to look and how to organize what it finds.
+Same thing with research. Tell the AI what you want to understand and let it figure out where to look. You focus on judging the results.
 
 In both cases you're doing the same thing: using AI for the mechanical part so you can focus on the judgment part.
 
@@ -60,3 +60,11 @@ Pick something you're curious about. Don't search for it yourself. Tell your AI 
 The tools will change. This specific AI will be outdated eventually. But the framework stays. Expand what you can see. Filter what you don't need. Absorb what matters.
 
 It's just easier now to do what was always hard to do manually.
+
+---
+
+**Try it right now.** Pick something you've been meaning to learn about. Then copy-paste this:
+
+> "Research everything about [your topic]. Cover at least 10 sources. Include expert opinions, common misconceptions, recent changes, and practical next steps. Then summarize the top 5 insights ranked by how actionable they are."
+
+One prompt. Five minutes of reading. You'll know more than most people who spent a weekend on it.
