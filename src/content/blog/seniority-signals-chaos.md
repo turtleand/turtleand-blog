@@ -4,7 +4,7 @@ pubDatetime: 2026-02-05T12:00:00Z
 modDatetime: 2026-02-05T12:00:00Z
 title: "Seniority in a Chaotic Environment"
 slug: seniority-signals-chaos
-featured: true
+featured: false
 draft: false
 tags:
   - leadership

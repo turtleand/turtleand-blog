@@ -4,7 +4,7 @@ pubDatetime: 2026-02-15T18:00:00Z
 modDatetime: 2026-02-15T18:00:00Z
 title: "Expand, Filter, Absorb: How I Actually Use AI"
 slug: expand-filter-absorb
-featured: false
+featured: true
 draft: false
 tags:
   - AI
