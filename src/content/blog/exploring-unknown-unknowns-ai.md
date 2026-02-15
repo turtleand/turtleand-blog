@@ -4,7 +4,7 @@ pubDatetime: 2026-01-31T18:45:00Z
 modDatetime: 2026-01-31T18:45:00Z
 title: "Escaping the Echo Chamber: Navigating Unknown Unknowns"
 slug: exploring-unknown-unknowns-ai
-featured: true
+featured: false
 draft: false
 tags:
   - AI
