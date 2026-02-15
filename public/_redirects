@@ -1,0 +1,12 @@
+# Migrated content — AI tools map moved to AI Atlas
+/labs/ai-tools-map      https://ai-atlas.turtleand.com  301
+/labs/ai-tools-map/     https://ai-atlas.turtleand.com  301
+/tools/ai-tools-map/    https://ai-atlas.turtleand.com  301
+
+# Removed labs — redirect to homepage
+/labs/avatar-gallery    /  301
+/labs/avatar-gallery/   /  301
+/labs/react-hooks-explorer/  /  301
+
+# WordPress bot probes — silently send to homepage
+/wp-json/  /  301
