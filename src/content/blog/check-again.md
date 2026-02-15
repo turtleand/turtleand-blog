@@ -61,6 +61,6 @@ Something probably changed.
 
 Send this prompt to your AI:
 
-> "What's the best way to [your task] right now, in 2025? Compare at least 3 current approaches. Include any methods that emerged in the last 3 months."
+> "What's the best way to [your task] right now, in 2026? Compare at least 3 current approaches. Include any methods that emerged in the last 3 months."
 
 You might find out you've been doing it the slow way. Or you'll confirm your approach still holds. Either way, five minutes well spent.
