@@ -61,9 +61,9 @@ The tools will change. This specific AI will be outdated eventually. But the fra
 
 It's just easier now to do what was always hard to do manually.
 
----
+## Call to Action
 
-**Try it right now.** Pick something you've been meaning to learn about. Then copy-paste this:
+Send this prompt to your AI:
 
 > "Research everything about [your topic]. Cover at least 10 sources. Include expert opinions, common misconceptions, recent changes, and practical next steps. Then summarize the top 5 insights ranked by how actionable they are."
 
