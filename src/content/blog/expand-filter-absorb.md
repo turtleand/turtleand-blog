@@ -13,6 +13,8 @@ tags:
 description: "A simple three-step pattern for using AI as a research amplifier. Expand your search beyond human limits, filter down to signal, and absorb what survives."
 ---
 
+![Cybernetic turtle interacts with holograms](../../assets/images/expand-reduce-v2-tinyfied.png)
+
 I wanted to understand how sleep actually affects productivity. Not the usual "get 8 hours" advice. The real picture.
 
 Normally I'd open a browser, skim a few articles, and end up with the same recycled tips. Instead, I told my AI agent: "Research everything about sleep and cognitive performance. Include recent studies, what scientists actually disagree on, how naps compare to full cycles, the effect of screen time before bed, and what shift workers do differently."
