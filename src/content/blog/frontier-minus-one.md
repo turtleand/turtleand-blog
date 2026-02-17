@@ -97,3 +97,23 @@ Maybe what we need is something like a framework of understanding. A conscious e
 This connects to economics too. If deep understanding becomes rare, it becomes valuable. The person who truly grasps how reasoning models work, not just uses them but understands them, holds something precious. But that same scarcity is also a fragility point. A bottleneck. If only twelve people on earth can debug a failing AI layer, civilization is twelve bus accidents away from losing the thread entirely.
 
 So the frontier minus one rule isn't just about effort. It's about numbers. We don't just need people willing to understand. We need enough of them. And right now, nobody's counting.
+
+## One More More Thing: A Call for Help
+
+I need to be honest with you for a second.
+
+I'm at frontier minus one right now. Or at least I think I am. And I feel it. Every week there's a new model, a new capability, a new paper that shifts the ground under what I thought I understood. I'm running faster than I was six months ago. And six months before that, I was already running faster than the year before.
+
+The only reason I'm keeping up is because I've been following the thread. Step by step, layer by layer, since the early days of transformers. Each new thing made sense because I'd absorbed the previous thing. But here's what keeps me up at night: if I fell off the path tomorrow, could I reconstruct it? Could I start from scratch and trace the steps that got us here?
+
+Maybe. You could probably start from today's state and work backwards. Read the papers in reverse. Reverse-engineer the reasoning. But I'm genuinely not sure. And that uncertainty is the whole point of this article.
+
+Here's what makes me feel a little safer, though. There are humans out there who understand this stuff. Really understand it. How the models work, why they fail, where the edges are. Some of those people are generous. Some are selfish. Some only care about getting rich. Some have motivations I'd disagree with if I knew them. But they're all human. And humans share knowledge with each other. It's what we do. Even the greedy ones publish papers, give talks, write blog posts. That impulse to explain, to teach, to show off what you know. It's built into us. And right now, that impulse might be one of the most important things we have going for us.
+
+So I'm asking. Genuinely asking.
+
+How do we preserve human understanding at this pace? What ideas do you have? What systems, communities, habits, or structures could help make sure humanity keeps learning as fast as AI keeps advancing?
+
+This isn't a rhetorical question at the end of a blog post. I don't have the answer. I'm writing this because I need help thinking about it. If you've got ideas, I want to hear them. And if you don't have ideas but you feel the same unease I do, I want to know that too.
+
+Because staying at frontier minus one is getting harder. And I'd rather figure this out together than alone.
