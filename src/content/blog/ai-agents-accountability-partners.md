@@ -4,7 +4,7 @@ pubDatetime: 2026-02-08T20:00:00Z
 modDatetime: 2026-02-08T20:00:00Z
 title: "AI Agents as Accountability Partners: Configurable Nudging for Your Goals"
 slug: ai-agents-accountability-partners
-featured: true
+featured: false
 draft: false
 tags:
   - AI

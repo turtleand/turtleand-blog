@@ -4,7 +4,7 @@ pubDatetime: 2026-02-17T04:00:00Z
 modDatetime: 2026-02-17T04:00:00Z
 title: "When AI Calls You: The Library vs Framework Shift"
 slug: library-vs-framework-humans-ai
-featured: false
+featured: true
 draft: false
 tags:
   - AI
@@ -13,6 +13,8 @@ tags:
 description: "We use AI like a library today, calling it when we need help. But what happens when AI becomes the framework, and we become the callback functions?"
 ogImage: ogImage-0-0-4.webp
 ---
+
+![Cyber turtle overrides the AI system](../../assets/images/library-vs-framework-humans-ai-tinyfied.png)
 
 ## A Small Moment That Stuck
 
