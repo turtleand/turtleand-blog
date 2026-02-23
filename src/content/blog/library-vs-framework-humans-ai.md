@@ -72,8 +72,8 @@ But that requires something from us. It requires that we stay sharp enough to un
 
 ## What We Preserve
 
-I keep coming back to a simple question: what's the point of building systems that are smarter than us if we can't understand what they're building?
+Right now, three paths for AI-human collaboration are being implemented across organizations. In AI-as-framework setups, AI leads the process and calls on humans only when needed. In human-in-the-loop systems, AI proposes actions but humans approve key steps. And in augmentation models, humans stay fully in control, using AI to enhance their work while retaining full context.
 
-The library-to-framework shift is probably inevitable. AI will increasingly own the loop. And that's fine, maybe even good. But the moment we stop understanding the loop, stop caring about the loop, stop insisting on shaping the loop, we've given up something we can't easily get back.
+What we preserve is the ability to shape how the loop runs. To avoid becoming passive callbacks, we can blend all three: human-in-the-loop for decisions that matter, augmentation for retaining end-to-end understanding, and explainable AI so humans always know the plan. The combination keeps us in the driver's seat even as the framework gets smarter.
 
-So stay in the code. Read the framework's source. Don't just be a function that gets called. Be the developer who chose the framework in the first place, and who still has the password to swap it out.
+Don't just be a function that gets called. Be the developer who chose the framework, and who still has the password to swap it out.
