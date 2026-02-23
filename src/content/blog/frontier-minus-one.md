@@ -70,27 +70,37 @@ Think about your own relationship with technology right now. Could you explain h
 
 If you can't, that's okay. For now. But it means the gap is growing. And gaps in understanding don't close by themselves. They widen, because each new layer makes the previous one feel less relevant, less urgent to learn. Until one day it's five layers down and nobody remembers how it started.
 
+## What We Can Shape
+
+Right now, three paths for AI-human collaboration are being built across organizations. In AI-as-framework setups, AI owns the process and calls on humans only when needed. In human-in-the-loop systems, AI proposes actions but humans approve key steps. And in augmentation models, humans stay fully in control, using AI to enhance their work while retaining context.
+
+Each path carries different risks for the frontier minus one rule. The framework model is the most dangerous: if AI owns the loop and humans just respond when called, understanding erodes fast. Augmentation is the safest. Humans keep their hands on the wheel and learn as they go.
+
+The real answer isn't picking one. It's blending them deliberately. Human-in-the-loop for decisions that matter. Augmentation for retaining end-to-end understanding. Explainable AI so you always know the plan. The combination keeps us at frontier minus one even as the frontier climbs.
+
+Because what doesn't change is this: humans are the ones who determine the direction. The goals, the reasons, the priorities. People coordinate with each other, learn from each other, and together decide where to go. Agents help execute. They're force multipliers. But the mission stays with the people.
+
 ## The Scarcity of the Human Thread
-If the frontier keeps climbing, we face a problem that more GPUs can’t solve: Understanding doesn't scale like compute.
+If the frontier keeps climbing, we face a problem that more GPUs can't solve: understanding doesn't scale like compute.
 
-You can’t split a breakthrough in reasoning across ten people and call it "covered." Deep comprehension is vertical. It requires a single mind to hold the entire architecture—the connections, the contradictions, and the edges where the model breaks. You can't parallelize it. You can't crowdsource it.
+You can't split a breakthrough in reasoning across ten people and call it "covered." Deep comprehension is vertical. It requires a single mind to hold the entire architecture-the connections, the contradictions, and the edges where the model breaks. You can't parallelize it. You can't crowdsource it.
 
-As AI pushes the frontier higher, deep understanding becomes our scarcest resource. We are reaching a fragility point where civilization is only a few "bus accidents" away from losing the thread entirely. If only a dozen people on Earth can debug the layer we all stand on, we aren’t just dependent—we’re one bad day away from a permanent blackout.
+As AI pushes the frontier higher, deep understanding becomes our scarcest resource. We are reaching a fragility point where civilization is only a few "bus accidents" away from losing the thread entirely. If only a dozen people on Earth can debug the layer we all stand on, we aren't just dependent-we're one bad day away from a permanent blackout.
 
 ## Running to Stand Still
-I’ll be honest: staying at Frontier Minus One is getting harder.
+I'll be honest: staying at Frontier Minus One is getting harder.
 
-Every week brings a new paper or a new model that shifts the ground. I’m running faster than I was six months ago, and six months before that, I was already at a sprint. The only reason I’m still on the ladder is because I’ve been following the thread since the early days of transformers.
+Every week brings a new paper or a new model that shifts the ground. I'm running faster than I was six months ago, and six months before that, I was already at a sprint. The only reason I'm still on the ladder is because I've been following the thread since the early days of transformers.
 
 But what happens to the person starting today? Can they reconstruct the path, or is the first rung of the ladder already too high to reach?
 
-The frontier minus one rule isn't just a personal habit; it’s intellectual infrastructure. We need to build comprehension pathways as fast as we build abstraction layers.
+The frontier minus one rule isn't just a personal habit; it's intellectual infrastructure. We need to build comprehension pathways as fast as we build abstraction layers.
 
 ## A Call for Collective Intelligence
 How do we preserve human understanding at this pace?
 
-This isn't a rhetorical question. I don't have the answer, and the uncertainty is the point. We need systems—communities, habits, or structures—that make sure humanity keeps learning as fast as AI keeps advancing.
+This isn't a rhetorical question. I don't have the answer, and the uncertainty is the point. We need systems-communities, habits, or structures-that make sure humanity keeps learning as fast as AI keeps advancing.
 
-If you have ideas on how we "index" this knowledge for the next generation, or if you’re feeling the same unease as the gap widens, I want to hear from you. Staying at Frontier Minus One is no longer a solo job.
+If you have ideas on how we "index" this knowledge for the next generation, or if you're feeling the same unease as the gap widens, I want to hear from you. Staying at Frontier Minus One is no longer a solo job.
 
-We have to keep the thread alive, and I’d rather figure out how to do that together than alone.
+We have to keep the thread alive, and I'd rather figure out how to do that together than alone.
