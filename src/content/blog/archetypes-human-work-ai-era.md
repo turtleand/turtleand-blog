@@ -4,7 +4,7 @@ pubDatetime: 2026-02-07T12:00:00Z
 modDatetime: 2026-02-07T12:00:00Z
 title: "Archetypes of Human Work in the AI Era"
 slug: archetypes-human-work-ai-era
-featured: true
+featured: false
 draft: false
 tags:
   - AI
