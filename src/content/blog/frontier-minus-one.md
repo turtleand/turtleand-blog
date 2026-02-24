@@ -10,11 +10,9 @@ tags:
   - AI
   - reflection
   - skills
-description: "Every technology layer builds on the one before it. Humanity's job is to never fall more than one layer behind."
+description: "Understanding is becoming a scarce resource. Two forces are making it optional, and they're compounding."
 ogImage: ogImage-0-0-4.webp
 ---
-
-## The Temptation
 
 I needed to pull some data last week. A join across three tables, filtering on date ranges, grouping results. Nothing I haven't done hundreds of times. A year ago I'd write that query from scratch without pausing.
 
@@ -22,74 +20,44 @@ This time I described what I wanted and let AI generate it. Worked first try. Fi
 
 I could still think it through if I sat down and worked at it. But I didn't need to. So I didn't.
 
-That's the shift. Not inability. Just... no reason to bother.
+## Nothing Looks Different Yet
 
-## Understanding Used to Be Mandatory
+Look around your team. Your company. People still understand most of the codebase, the tools, the language. Tech teams look the same as they did two years ago. Nobody's panicking. Nobody's suffering consequences.
 
-Before AI, if you wanted output, you needed understanding. Want to write code? Learn the language. Want to deploy a service? Understand networking. Want to debug a crash? Know memory management. The only path to results ran through comprehension.
+That's the tricky part. The shift already started, but it doesn't feel like anything changed. We're in the early stretch where everything still works and everyone still knows enough. It's easy to assume this is just another tool upgrade.
 
-That's no longer true. You can produce working code, deploy services, and fix bugs without understanding the layers beneath. AI handles the translation from intent to implementation. And it's good at it. Often better than us at the mechanical parts.
+It's not.
 
-So understanding becomes a choice. And choices governed by incentives tend to follow the path of least resistance.
+## Two Forces Are Building
 
-Here's what worries me. It's not that specialists will disappear overnight. It's that fewer people will feel compelled to become specialists in the first place. Why spend years learning how compilers work when the AI writes and optimizes your code? Why study distributed systems theory when the agent configures your infrastructure?
+Two things are happening at once, and they feed each other.
 
-The answer, of course, is that someone needs to understand the layer below the frontier. Every abstraction in the history of technology has stood on top of the previous one. Combustion engines before electric vehicles. Assembly before C. C before Python. Language models before reasoning models before agents. Each layer assumes the one beneath it is solved.
+**Understanding used to be mandatory.** Before AI, if you wanted output, you needed comprehension. Want to write code? Learn the language. Want to deploy a service? Understand networking. The only path to results ran through knowing how things worked.
+
+That's no longer true. You can describe what you want and get working code back. You can delegate the "how" entirely and only verify the result. Understanding didn't disappear. It became optional. And when something becomes optional, most people eventually stop doing it.
+
+**Models keep getting better.** Every few months, they handle more of what engineers used to do manually. The gap between what AI can produce and what requires human understanding keeps shrinking. Tasks that demanded deep knowledge last year now just need a good prompt.
+
+Here's why this compounds. As models improve, more work gets delegated. As more work gets delegated, fewer people maintain deep understanding. As fewer people understand the lower layers, there's more pressure to delegate. The loop tightens.
+
+## Understanding as a Scarce Resource
+
+Every layer of technology sits on top of the previous one. Assembly before C. C before Python. Language models before agents. Each layer assumes the one beneath it is solved.
 
 But "solved" doesn't mean "understood." It means "hidden."
 
-## The Rule We Can't Afford to Break
+I keep coming back to a simple principle: someone needs to understand at least one layer below the frontier. That's the safety net. It's what lets us debug, audit, question, and rebuild when things break.
 
-I keep coming back to a simple principle: humanity must understand at least one layer below the frontier.
+Right now, that knowledge is still distributed across enough people. But the incentive to maintain it is weakening every day. Why spend years learning how compilers work when the AI writes and optimizes your code? Why study distributed systems when an agent configures your infrastructure?
 
-When Python took over, C programmers didn't vanish. When cloud computing abstracted away servers, sysadmins still existed. When electric cars emerged, combustion engineers were still around. There was always a generation that understood the thing directly beneath the current thing.
-
-That's the safety net. That's what lets us debug, audit, question, and rebuild.
-
-I call it the frontier minus one rule. And right now, we're at risk of breaking it. Not through some dramatic collapse, but through a slow, incentive-driven erosion of voluntary depth.
-
-## Brittleness, Not Extinction
-
-Let me be clear about what I'm worried about. This isn't an extinction story. It's a brittleness story.
-
-Picture a team of ten engineers who all understand how a system works, top to bottom. Now imagine AI handles more and more of the lower layers. Over five years, eight of those engineers stop maintaining that deep knowledge. Why would they? The AI does it better. The remaining two become the only people who can explain what's actually happening underneath.
-
-When those two leave, the knowledge leaves with them. And the system can't be reconstructed. Not because it stopped working, but because nobody remembers how it was built.
-
-Software engineers already have a name for this. Single maintainer risk. One person holds the keys to a critical library, they burn out or move on, and suddenly a piece of infrastructure that thousands depend on becomes unmaintainable.
-
-Now scale that to civilization. Single maintainer risk applied to the knowledge layers that hold everything up.
-
-## The Distribution Problem
-
-This is systemic, not individual. The question isn't whether any single person chooses to go deep. It's whether critical understanding is distributed across enough nodes in the network.
-
-Think of it like redundancy in distributed systems. You don't need every node to hold every piece of data. But you need enough copies that losing a few nodes doesn't mean losing the data entirely. Right now, knowledge about how foundational systems work is still distributed across many minds. But the incentive to maintain that distribution is weakening.
-
-And markets will eventually correct. When scarcity of deep knowledge causes real pain, premiums will rise for people who understand the lower layers. Companies will pay more for engineers who can actually debug the substrate. But markets correct after stress events, not before them. The pain comes first. The fix comes second.
-
-## Curiosity Is the Scarce Resource
-
-Here's what I think it comes down to. The scarce resource isn't intelligence. It's not talent. It's curiosity.
-
-Before AI, curiosity and necessity were bundled together. You had to understand things to use them, so even people who weren't naturally curious ended up learning the lower layers. Necessity dragged you into depth whether you wanted it or not.
-
-Now they're unbundled. You can use powerful tools without understanding them. Depth becomes voluntary. And voluntary depth depends entirely on curiosity, on the habit of wanting to know how things work even when you don't have to.
-
-If abstraction keeps accelerating faster than our ability to assimilate the layers beneath it, the frontier minus one gap shrinks. Not the frontier. The understanding below it. The frontier climbs while comprehension plateaus.
-
-Abstraction velocity versus assimilation velocity. If one consistently outpaces the other, we lose the safety net.
+The market will eventually correct. When scarcity of deep knowledge causes real pain, premiums will rise for people who can actually explain what's happening underneath. But markets correct after the damage, not before it.
 
 ## The Confession
 
-I'll admit something. I'm a software engineer. I'm already specialized. And I feel the pull to delegate deeper thinking every day. Not because I've gotten dumber, but because the incentives have shifted. It's faster to ask the AI. It's easier to stay at the surface. The work still gets done.
+I'm a software engineer. I've spent years building depth. And I feel the pull to let it go every day. It's faster to ask the AI. It's easier to stay at the surface. The work still gets done.
 
-But that feeling, that temptation, is itself a signal. It tells me the incentive gradient is real. If someone who spent years building depth feels the pull to let it go, what happens to the person who never built it in the first place?
+If someone who already built that understanding feels the pull to abandon it, what happens to the person who never built it in the first place?
 
-## Still Alive
+Understanding is becoming a scarce resource. Not because we're getting dumber. But because for the first time, we don't need it to be productive. And the two forces making it optional are accelerating each other.
 
-But here's the thing. If you've read this far, if you're thinking about these questions, that's evidence. Evidence that the frontier minus one layer is still alive. That curiosity hasn't been fully replaced by convenience. That some people still choose to understand.
-
-The question is whether enough of us keep making that choice. Not because we have to. Because we want to.
-
-The frontier will keep climbing. That's fine. That's progress. The only thing that matters is that we don't let the layer beneath it go dark.
+The frontier will keep climbing. The only question is whether enough of us choose to understand the layer beneath it.
