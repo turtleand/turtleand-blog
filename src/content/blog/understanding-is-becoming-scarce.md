@@ -4,7 +4,7 @@ pubDatetime: 2026-02-25T05:00:00Z
 modDatetime: 2026-02-25T05:00:00Z
 title: "Understanding Is Becoming Scarce"
 slug: understanding-is-becoming-scarce
-featured: false
+featured: true
 draft: false
 tags:
   - AI
@@ -13,6 +13,8 @@ tags:
 description: "Understanding is becoming a scarce resource. Two forces are making it optional, and they're compounding."
 ogImage: ogImage-0-0-4.webp
 ---
+
+![Cybernetic turtle at the crossroads](../../assets/images/understanding-is-becoming-scarce-tinyfied.png)
 
 I needed to pull some data last week. A join across three tables, filtering on date ranges, grouping results. Nothing I haven't done hundreds of times. A year ago I'd write that query from scratch without pausing.
 
