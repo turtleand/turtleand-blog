@@ -16,13 +16,13 @@ ogImage: ogImage-0-0-4.webp
 
 ## The Temptation
 
-I caught myself doing something last week that I'm not proud of. I was debugging a networking issue between two containers. Nothing exotic. One couldn't reach the other. And instead of thinking through the TCP handshake, I asked an AI to explain what was probably wrong.
+I needed to pull some data last week. A join across three tables, filtering on date ranges, grouping results. Nothing I haven't done hundreds of times. A year ago I'd write that query from scratch without pausing.
 
-It gave me the right answer. I fixed the issue in minutes. And then I sat there with this uncomfortable feeling. Because I used to know this stuff cold. I'd spent years building that understanding. And I'd just... skipped it.
+This time I described what I wanted and let AI generate it. Worked first try. Fixed my problem in two minutes. And then I realized I couldn't remember the exact syntax for a lateral join anymore. Something I used to type from muscle memory.
 
-Not because I couldn't think it through. Because I didn't have to.
+I could still think it through if I sat down and worked at it. But I didn't need to. So I didn't.
 
-That's the shift. Not inability. Optionality.
+That's the shift. Not inability. Just... no reason to bother.
 
 ## Understanding Used to Be Mandatory
 
