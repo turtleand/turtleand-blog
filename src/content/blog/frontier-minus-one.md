@@ -2,8 +2,8 @@
 author: Turtlean
 pubDatetime: 2026-02-25T05:00:00Z
 modDatetime: 2026-02-25T05:00:00Z
-title: "Frontier Minus One"
-slug: frontier-minus-one
+title: "Understanding Is Becoming Scarce"
+slug: understanding-is-becoming-scarce
 featured: false
 draft: false
 tags:
@@ -40,13 +40,9 @@ That's no longer true. You can describe what you want and get working code back.
 
 Here's why this compounds. As models improve, more work gets delegated. As more work gets delegated, fewer people maintain deep understanding. As fewer people understand the lower layers, there's more pressure to delegate. The loop tightens.
 
-## Understanding as a Scarce Resource
+## Understanding Is Becoming Scarce
 
-Every layer of technology sits on top of the previous one. Assembly before C. C before Python. Language models before agents. Each layer assumes the one beneath it is solved.
-
-But "solved" doesn't mean "understood." It means "hidden."
-
-I keep coming back to a simple principle: someone needs to understand at least one layer below the frontier. That's the safety net. It's what lets us debug, audit, question, and rebuild when things break.
+It's not just one layer of knowledge at risk. It's understanding across the board. How databases optimize queries. How network requests travel. How memory gets allocated. How authentication flows work. Every piece of knowledge that used to be table stakes for shipping software is quietly becoming optional.
 
 Right now, that knowledge is still distributed across enough people. But the incentive to maintain it is weakening every day. Why spend years learning how compilers work when the AI writes and optimizes your code? Why study distributed systems when an agent configures your infrastructure?
 
@@ -58,6 +54,6 @@ I'm a software engineer. I've spent years building depth. And I feel the pull to
 
 If someone who already built that understanding feels the pull to abandon it, what happens to the person who never built it in the first place?
 
-Understanding is becoming a scarce resource. Not because we're getting dumber. But because for the first time, we don't need it to be productive. And the two forces making it optional are accelerating each other.
+Understanding is becoming a scarce resource. We're not getting dumber. We just don't need to understand things to be productive anymore. And the two forces making it optional are accelerating each other.
 
-The frontier will keep climbing. The only question is whether enough of us choose to understand the layer beneath it.
+The question is whether enough of us choose to keep understanding anyway.
