@@ -15,9 +15,7 @@ description: "Most people do something once and move on. Each additional iterati
 ogImage: ogImage-0-0-4.webp
 ---
 
-I wrote this article. Then I rewrote it. The second pass found a better opening. The third pass cut 40% of the words.
-
-The version you're reading is draft four. It's shorter, clearer, and says what I actually meant. The first draft didn't.
+A first draft captures the idea. A second pass finds the real point buried under filler. A third pass cuts 40% of the words. By the fourth pass, the piece finally says what it was trying to say all along.
 
 ## The Math
 
@@ -25,7 +23,7 @@ Most people do something once and move on. That's the 50th percentile. Just doin
 
 One revision: 75th percentile. Two: about 87th. Three: 93rd.
 
-Each iteration puts you ahead of roughly half the people still above you. Not because each pass is dramatic. Because at every stage, a big chunk of people stop. They had the same ability. They just didn't go back.
+Each iteration puts you ahead of roughly half the people still above you. The passes themselves aren't dramatic. It's just that at every stage, a big chunk of people stop. They had the same ability. They just didn't go back.
 
 ## Why People Stop
 
