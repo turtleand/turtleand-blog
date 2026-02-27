@@ -3,6 +3,9 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
+- [Understanding Is Becoming Scarce](https://growth.turtleand.com/posts/understanding-is-becoming-scarce/): Understanding is becoming a scarce resource. Two forces are making it optional, and they're compounding.
+- [When AI Calls You: The Library vs Framework Shift](https://growth.turtleand.com/posts/library-vs-framework-humans-ai/): We use AI like a library today, calling it when we need help. But what happens when AI becomes the framework, and we become the callback functions?
+- [Expand, Filter, Absorb: How I Actually Use AI](https://growth.turtleand.com/posts/expand-filter-absorb/): A simple three-step pattern for using AI as a research amplifier. Expand your search beyond human limits, filter down to signal, and absorb what survives.
 - [Check Again. The World Changed While You Were Working.](https://growth.turtleand.com/posts/check-again/): AI tools change so fast that yesterday's best practice might already be obsolete. One simple habit can keep you ahead: search before you do.
 - [Skills Expire. Intent Doesn't.](https://growth.turtleand.com/posts/pursuing-your-intent/): Skills expire. Tools disappear. But your drive to change the world doesn't, and AI is making it possible to act on it.
 - [Would You Accept That a Thinking Model Is Better Than You at Your Craft?](https://growth.turtleand.com/posts/accept-ai-better-than-you-craft/): For decades, skill scarcity created status. Now execution is abundant. This piece examines what that shift means for identity, value, and professional evolution

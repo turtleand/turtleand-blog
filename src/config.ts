@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://blog.turtleand.com",
+  website: "https://growth.turtleand.com",
   author: "Turtleand",
   profile: "https://blog.turtleand.com/about",
   desc: "A strategic thinker's blog on AI, Blockchain, and humanity.",
-  title: "Turtleand",
+  title: "Turtleand Blog – AI, Tech & Career Growth",
   ogImage: "ogImage-0-0-4.webp",
   lightAndDarkMode: true,
   postPerIndex: 4,
