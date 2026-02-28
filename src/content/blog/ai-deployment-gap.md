@@ -14,6 +14,8 @@ description: "Companies are spending record amounts on AI. Most can't explain wh
 ogImage: ogImage-0-0-4.webp
 ---
 
+![Cyber-turtle overlooking a futuristic city](../../assets/images/ai-gap-tinyfied.png)
+
 I've been reading quarterly earnings lately. Not something I normally do. But the AI infrastructure numbers caught my attention, and once you start pulling at the thread, a pattern shows up.
 
 The spending is enormous. Record-breaking, actually. Billions per quarter flowing into GPUs, cloud contracts, AI tooling. Every major tech earnings call has AI as the headline. The money is clearly flowing.
