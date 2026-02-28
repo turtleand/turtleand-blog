@@ -14,42 +14,42 @@ description: "Companies are spending record amounts on AI. Most can't explain wh
 ogImage: ogImage-0-0-4.webp
 ---
 
-Quarterly earnings keep breaking records on the infrastructure side. Billions flowing into GPUs, cloud contracts, AI tooling. The purchasing decisions are running at full speed.
+I've been reading quarterly earnings lately. Not something I normally do. But the AI infrastructure numbers caught my attention, and once you start pulling at the thread, a pattern shows up.
 
-The deployment decisions aren't keeping up.
+The spending is enormous. Record-breaking, actually. Billions per quarter flowing into GPUs, cloud contracts, AI tooling. Every major tech earnings call has AI as the headline. The money is clearly flowing.
 
-## The numbers don't match
+And then I looked at the other side. Surveys about deployment readiness. And the numbers don't match at all.
 
-Surveys keep telling the same story. The vast majority of companies now have dedicated AI budgets. But when you ask those same companies if they feel prepared to actually deploy AI in their organizations, the number drops to less than a third.
+## Something doesn't add up
 
-More than four out of five are spending. Fewer than one in three feel ready. That's not a technology problem. That's an organizational gap wide enough to park a data center in.
+The vast majority of companies now have dedicated AI budgets. That part makes sense. But when those same companies are asked if they feel prepared to actually deploy AI? Less than a third say yes.
 
-I've seen this pattern with cloud adoption, with mobile, with every major technology shift. The purchasing decision runs ahead of the operational reality. Someone reads an analyst report, approves a budget, and six months later there's a line item for AI spending with no clear metric for what it's producing.
+I kept rereading that. More than four out of five are spending money on AI. Fewer than one in three feel ready to use it.
 
-## What the gap looks like at ground level
+That gap feels familiar. I remember reading about cloud adoption going through the same pattern. Someone in leadership reads an analyst report, approves a budget, and months later there's a line item for AI spending with no clear metric for what it's producing. The purchasing decision runs ahead of the operational reality.
 
-A small team deploys an AI assistant. Within weeks, unexpected charges accumulate. The output? Hard to pin down. The tool is running, billing is growing, and the actual value is somewhere between "promising" and "unclear."
+## What I think it looks like on the ground
 
-Multiply that by every mid-size company experimenting with AI tools right now. The tools exist. The budgets are approved. The value extraction is lagging behind both.
+I don't have direct enterprise consulting experience here. But I've been watching enough case studies to notice a recurring story.
 
-## Where it lives
+A team deploys an AI assistant. Charges start accumulating faster than expected. The output? Hard to pin down. The tool is running, billing is growing, and the actual value is somewhere between "promising" and "we're not sure yet."
 
-The gap isn't about hardware. That's solved. It's not about model quality. The models are good enough for most business applications today.
+I suspect this is happening at scale across thousands of organizations right now. The tools exist. The budgets are approved. But extracting real value seems to be a different skill entirely from buying the tool.
 
-The gap lives in three places:
+## Where I think the gap lives
 
-**Integration.** Most companies don't have clean data pipelines, clear use cases, or the internal expertise to connect AI capabilities to actual workflows. You can't drop a language model into a team and expect magic.
+From everything I've been reading and from my own experience integrating AI into my workflow, the gap seems to live in three places:
 
-**Measurement.** How do you measure the ROI of an AI deployment? Most organizations are still figuring this out. Without measurement, there's no feedback loop, no iteration, and no way to justify continued spending.
+**Integration.** Most companies probably don't have clean data pipelines, clear use cases, or the internal expertise to connect AI capabilities to actual workflows. I know from personal experience that just dropping an AI tool into an existing process doesn't produce magic. You have to redesign the workflow around it.
 
-**Culture.** The companies that feel prepared probably have something the rest don't: leadership that understands the difference between buying a tool and changing how work gets done. Technology adoption is a people problem.
+**Measurement.** How do you even measure the ROI of an AI deployment? I struggle with this at the individual level. At the organizational level, without measurement there's no feedback loop, no iteration, and no way to justify continued spending.
 
-## The opportunity
+**Culture.** This one hits closest to home. The companies that feel prepared probably have something the rest don't: leadership that understands the difference between buying a tool and changing how work gets done. I've seen this in my own team. The technology is available to everyone. The willingness to actually change how you work is not evenly distributed.
 
-The companies that close this gap first, that move from "we have AI" to "AI is producing measurable value," will have a genuine advantage.
+## Why I'm paying attention
 
-Most organizations are stuck at phase one: procurement. Phase two, operational integration, is where the hard work starts and where the value actually lives.
+I find this gap more interesting than the spending numbers themselves. If most organizations are stuck at phase one (procurement) and phase two is operational integration, then the people who can bridge that distance are going to be valuable.
 
-For individuals, this matters too. The people who can bridge the deployment gap, who understand both the technology and the organizational change required to make it work, are going to be in demand. The world doesn't need more people who can explain what AI does. It needs people who can make AI do something useful inside a real organization.
+That's partly why I'm building this blog and the [handbook](https://handbook.turtleand.com). I don't have all the answers. I'm going through the process of figuring out how AI actually changes work, one workflow at a time. And I think that practical, ground-level perspective is exactly what's missing from the conversation.
 
-The spending numbers are impressive. But the number to watch is readiness. When that starts climbing, AI spending turns into AI value. Until then, we're in the gap.
+The spending numbers are impressive. But the number I'm watching is readiness. When that starts climbing, AI spending turns into AI value. Until then, we're in the gap. And the gap is where the interesting work is.
