@@ -4,12 +4,211 @@
 
 ---
 
+# Understanding Is Becoming Scarce
+
+> Understanding is becoming a scarce resource. Two forces are making it optional, and they're compounding.
+
+Published: 2026-02-24T03:00:00Z
+URL: https://growth.turtleand.com/posts/understanding-is-becoming-scarce/
+
+![Cybernetic turtle at the crossroads](../../assets/images/understanding-is-becoming-scarce-tinyfied.png)
+
+I needed to pull some data last week. A join across three tables, filtering on date ranges, grouping results. Nothing I haven't done hundreds of times. A year ago I'd write that query from scratch without pausing.
+
+This time I described what I wanted and let AI generate it. Worked first try. Fixed my problem in two minutes. And then I realized I couldn't remember the exact syntax for a lateral join anymore. Something I used to type from muscle memory.
+
+I could still think it through if I sat down and worked at it. But I didn't need to. So I didn't.
+
+## Nothing Looks Different Yet
+
+Look around your team. Your company. People still understand most of the codebase, the tools, the language. Tech teams look the same as they did two years ago. Nobody's panicking. Nobody's suffering consequences.
+
+That's the tricky part. The shift already started, but it doesn't feel like anything changed. We're in the early stretch where everything still works and everyone still knows enough. It's easy to assume this is just another tool upgrade.
+
+It's not.
+
+## Two Forces Are Building
+
+Two things are happening at once, and they feed each other.
+
+**Understanding used to be mandatory.** Before AI, if you wanted output, you needed comprehension. Want to write code? Learn the language. Want to deploy a service? Understand networking. The only path to results ran through knowing how things worked.
+
+That's no longer true. You can describe what you want and get working code back. You can delegate the "how" entirely and only verify the result. Understanding didn't disappear. It became optional. And when something becomes optional, most people eventually stop doing it.
+
+**Models keep getting better.** Every few months, they handle more of what engineers used to do manually. The gap between what AI can produce and what requires human understanding keeps shrinking. Tasks that demanded deep knowledge last year now just need a good prompt.
+
+Here's why this compounds. As models improve, more work gets delegated. As more work gets delegated, fewer people maintain deep understanding. As fewer people understand the lower layers, there's more pressure to delegate. The loop tightens.
+
+## Understanding Is Becoming Scarce
+
+It's not just one layer of knowledge at risk. It's understanding across the board. How databases optimize queries. How network requests travel. How memory gets allocated. How authentication flows work. Every piece of knowledge that used to be table stakes for shipping software is quietly becoming optional.
+
+Right now, that knowledge is still distributed across enough people. But the incentive to maintain it is weakening every day. Why spend years learning how compilers work when the AI writes and optimizes your code? Why study distributed systems when an agent configures your infrastructure?
+
+The market will eventually correct. When scarcity of deep knowledge causes real pain, premiums will rise for people who can actually explain what's happening underneath. But markets correct after the damage, not before it.
+
+## The Confession
+
+I'm a software engineer. I've spent years building depth. And I feel the pull to let it go every day. It's faster to ask the AI. It's easier to stay at the surface. The work still gets done.
+
+If someone who already built that understanding feels the pull to abandon it, what happens to the person who never built it in the first place?
+
+Understanding is becoming a scarce resource. We're not getting dumber. We just don't need to understand things to be productive anymore. And the two forces making it optional are accelerating each other.
+
+The question is whether enough of us choose to keep understanding anyway.
+
+---
+
+# When AI Calls You: The Library vs Framework Shift
+
+> We use AI like a library today, calling it when we need help. But what happens when AI becomes the framework, and we become the callback functions?
+
+Published: 2026-02-23T02:00:00Z
+URL: https://growth.turtleand.com/posts/library-vs-framework-humans-ai/
+
+![Cyber turtle overrides the AI system](../../assets/images/library-vs-framework-humans-ai-tinyfied.png)
+
+## A Small Moment That Stuck
+
+Last week I was working on a side project. I had an AI agent running in the background, managing tasks, writing code, filing PRs. At some point I realized I'd been sitting there for twenty minutes, just... waiting. Waiting for it to finish so I could review the output and approve the next step.
+
+I wasn't driving anymore. I was being called on.
+
+That moment stuck with me. Because there's a pattern in software engineering that describes exactly what happened, and it maps onto something much bigger than my Tuesday afternoon.
+
+## Libraries and Frameworks
+
+If you've written code, you know the difference between a library and a framework. With a library, you're in charge. You call `sort()` when you need to sort something. You call `fetch()` when you need data. The library sits there, waiting for you. You decide when, where, and how to use it.
+
+A framework flips this. You write small pieces of logic, and the framework decides when to run them. You define a route handler, and Express calls it when a request comes in. You write a React component, and React decides when to render it. The framework owns the flow. You're just filling in the blanks.
+
+This distinction has a name: Inversion of Control. And it's happening right now between humans and AI.
+
+## How We Use AI Today
+
+Right now, most of us use AI like a library. We open ChatGPT and ask it to summarize a document. We paste code into Copilot and let it autocomplete. We call on AI when we need it, for a specific task, on our terms.
+
+We're still in the driver's seat. AI is the passenger with a really good sense of direction.
+
+And this makes sense. We're more comfortable here. We understand the task, we know the goal, we decide what to do with the output. AI just makes each step faster and better. It sees patterns we miss, processes information we can't hold in our heads, and generates options at a speed we could never match.
+
+But here's the thing. This arrangement is already shifting.
+
+## The Framework Is Forming
+
+AI agents don't just answer questions anymore. They plan. They break down goals into subtasks, execute them, evaluate results, and loop. Some of them manage other agents. The human shows up at specific checkpoints to approve, redirect, or provide judgment that the system can't.
+
+Sound familiar? That's a framework calling its callback functions.
+
+And it makes a certain kind of sense. If AI is faster at research, better at synthesis, more thorough at analysis, and more consistent at execution, then why would it wait around for a human to orchestrate each step? The efficient design is for AI to run the loop and call on humans only when it hits something it can't handle. Ethical judgment. Taste. Ambiguity. The stuff that's still hard to formalize.
+
+So humans become the exception handlers. The edge case logic. The `onUncertainty()` callback.
+
+## What We Lose in the Inversion
+
+There's a cost to this that's easy to miss. When you use a library, you understand the full picture. You know why you're calling that function, what comes before it, what comes after. You hold the context.
+
+When you're a callback inside a framework, you don't. You see your little slice. The framework calls you with some parameters, you do your thing, you return a value. But you might not know the full plan. You might not even know why you were called.
+
+Scale that up. If AI is making the strategic decisions and humans are providing input at specific moments, do we still understand what we're building? Do we still have a mental model of where things are going? Or do we just execute our function and trust the orchestrator?
+
+This is the part that makes me uncomfortable. Not because AI is bad at planning. Honestly, it might be better than us at it. But because understanding the plan is part of what makes work meaningful. Losing that context doesn't just make us less effective. It makes us less engaged. Less human, in a way that matters.
+
+## The Callback Doesn't Have to Be Passive
+
+I don't think the answer is to fight the inversion. If AI systems are genuinely better at orchestrating complex work, resisting that is just ego. The answer is more like: be a very opinionated callback.
+
+Know what you care about. Know what values you're optimizing for. Don't just return a value when called. Push back on the parameters. Ask why this function is being invoked at all. Refuse to execute if the framing is wrong.
+
+In software, a good framework respects its extension points. It doesn't just call your code. It gives you hooks, context, the ability to intercept and redirect. The best human-AI systems will work the same way. Humans won't just fill in blanks. They'll shape the control flow itself.
+
+But that requires something from us. It requires that we stay sharp enough to understand what the framework is doing. That we maintain enough context to know when something is off. That we keep investing in the skills that make our callbacks worth calling.
+
+## What We Preserve
+
+Right now, three paths for AI-human collaboration are being implemented across organizations. In AI-as-framework setups, AI leads the process and calls on humans only when needed. In human-in-the-loop systems, AI proposes actions but humans approve key steps. And in augmentation models, humans stay fully in control, using AI to enhance their work while retaining full context.
+
+What we preserve is the ability to shape how the loop runs. To avoid becoming passive callbacks, we can blend all three: human-in-the-loop for decisions that matter, augmentation for retaining end-to-end understanding, and explainable AI so humans always know the plan. The combination keeps us in the driver's seat even as the framework gets smarter.
+
+Don't just be a function that gets called. Be the developer who chose the framework, and who still has the password to swap it out.
+
+---
+
+# Expand, Filter, Absorb: How I Actually Use AI
+
+> A simple three-step pattern for using AI as a research amplifier. Expand your search beyond human limits, filter down to signal, and absorb what survives.
+
+Published: 2026-02-15T18:00:00Z
+URL: https://growth.turtleand.com/posts/expand-filter-absorb/
+
+![Cybernetic turtle interacts with holograms](../../assets/images/expand-reduce-v2-tinyfied.png)
+
+I wanted to understand how sleep actually affects productivity. Not the usual "get 8 hours" advice. The real picture.
+
+Normally I'd open a browser, skim a few articles, and end up with the same recycled tips. Instead, I told my AI agent: "Research everything about sleep and cognitive performance. Include recent studies, what scientists actually disagree on, how naps compare to full cycles, the effect of screen time before bed, and what shift workers do differently."
+
+It came back with a synthesis of dozens of sources. PubMed studies I'd never find on my own. Reddit threads from night shift nurses. Contradictions between sleep coaches and neuroscience researchers.
+
+I read the summary in five minutes. And I had a clearer picture than I would have after an evening of googling.
+
+## The pattern
+
+Every time I use AI well, I follow the same three steps. I didn't plan it. The pattern just showed up.
+
+**Expand.** Ask the AI to go wide. Not "find me an answer" but "explore this whole space." I want angles I wouldn't think of. Sources I'd skip. The AI doesn't get tired after page three. It just keeps going.
+
+This is the part that's new. We've always been able to search. But expanding your search space across dozens of sources, comparing them, catching contradictions? That used to take hours of focused work. Now you describe what you want and the AI covers the ground for you.
+
+**Filter.** Now there's too much. So I ask the AI to reduce it. Summarize. Compare. Rank by relevance. Strip the noise. Give me the signal.
+
+This is where most people stop too early. They get raw results and try to process everything themselves. But you already have a machine that reads faster than you. Let it.
+
+**Absorb.** This is where I come back in. I read the filtered output. Sometimes I listen to it as voice notes while I walk. And something happens that the AI can't do: I connect it to things I already know. I feel which parts matter for my specific situation.
+
+The AI can tell me what experts think. It can't tell me which insight changes my next project. That's still my job.
+
+## It's like asking AI to write the prompt
+
+Here's a parallel that clicked for me. When you want a good AI prompt, the smartest move is asking the AI to write it for you. "Write me the best prompt for X." It knows its own format better than you do.
+
+Same thing with research. Tell the AI what you want to understand and let it figure out where to look. You focus on judging the results.
+
+In both cases you're doing the same thing: using AI for the mechanical part so you can focus on the judgment part.
+
+## Fun fact from my CS background
+
+If you've worked with distributed systems, this pattern might ring a bell. Google's MapReduce framework from 2004 did something similar: spread work across many machines (map), then combine results (reduce).
+
+Expand, Filter, Absorb is basically MapReduce for your brain. Except MapReduce was missing the "expand" step. It processes data you already have. This pattern starts by going out and finding data you didn't know existed.
+
+Small difference. Big deal in practice.
+
+## Try it once
+
+Pick something you're curious about. Don't search for it yourself. Tell your AI to go wide. Then ask it to compress. Then read what survives.
+
+The tools will change. This specific AI will be outdated eventually. But the framework stays. Expand what you can see. Filter what you don't need. Absorb what matters.
+
+It's just easier now to do what was always hard to do manually.
+
+## Call to Action
+
+Send this prompt to your AI:
+
+> "Research everything about [your topic]. Cover at least 10 sources. Include expert opinions, common misconceptions, recent changes, and practical next steps. Then summarize the top 5 insights ranked by how actionable they are."
+
+One prompt. Five minutes of reading. You'll know more than most people who spent a weekend on it.
+
+---
+
 # Check Again. The World Changed While You Were Working.
 
 > AI tools change so fast that yesterday's best practice might already be obsolete. One simple habit can keep you ahead: search before you do.
 
 Published: 2026-02-15T12:00:00Z
 URL: https://growth.turtleand.com/posts/check-again/
+
+![Turtleand looking through magnifying glass at holographic screen with version numbers, old calendars fading behind](../../assets/images/check-again-cover.jpg)
 
 I needed a banner image yesterday.
 
@@ -55,11 +254,11 @@ You don't need to chase every new tool. You don't need to be anxious about falli
 
 Something probably changed.
 
----
+## Call to Action
 
-**Try this right now.** Pick a task you do regularly with AI. Then copy-paste this prompt:
+Send this prompt to your AI:
 
-> "What's the best way to [your task] right now, in 2025? Compare at least 3 current approaches. Include any methods that emerged in the last 3 months."
+> "What's the best way to [your task] right now, in 2026? Compare at least 3 current approaches. Include any methods that emerged in the last 3 months."
 
 You might find out you've been doing it the slow way. Or you'll confirm your approach still holds. Either way, five minutes well spent.
 
