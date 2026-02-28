@@ -4,7 +4,7 @@ pubDatetime: 2026-02-25T12:00:00Z
 modDatetime: 2026-02-25T12:00:00Z
 title: "The Iteration Percentile"
 slug: the-iteration-percentile
-featured: false
+featured: true
 draft: false
 tags:
   - AI
@@ -15,7 +15,9 @@ description: "Most people do something once and move on. Each additional iterati
 ogImage: ogImage-0-0-4.webp
 ---
 
-A first draft captures the idea. A second pass finds the real point buried under filler. A third pass cuts 40% of the words. By the fourth pass, the piece finally says what it was trying to say all along.
+![Cybernetic turtle on glowing staircase](../../assets/images/the-iteration-percentile-tinyfied.png)
+
+When crafting something, there's a pattern that applies generally to every domain which consists of iterating until achieving or even surpassing the desired result. For example, the following applies to writing. A first draft captures the idea. A second pass finds the real point buried under filler. A third pass cuts 40% of the words. By the fourth pass, the piece finally says what it was trying to say all along.
 
 ## The Math
 
@@ -23,7 +25,7 @@ Most people do something once and move on. That's the 50th percentile. Just doin
 
 One revision: 75th percentile. Two: about 87th. Three: 93rd.
 
-Each iteration puts you ahead of roughly half the people still above you. The passes themselves aren't dramatic. It's just that at every stage, a big chunk of people stop. They had the same ability. They just didn't go back.
+Each iteration puts you ahead of roughly half the attempts still above you. The passes themselves aren't dramatic. It's just that at every stage, a big chunk of people stop. They had the same ability. They just didn't go back and further.
 
 ## Why People Stop
 
