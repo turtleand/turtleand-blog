@@ -4,7 +4,7 @@ pubDatetime: 2026-02-14T20:00:00Z
 modDatetime: 2026-02-14T20:00:00Z
 title: "Skills Expire. Intent Doesn't."
 slug: pursuing-your-intent
-featured: true
+featured: false
 draft: false
 tags:
   - AI
