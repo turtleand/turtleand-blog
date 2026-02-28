@@ -4,7 +4,7 @@ pubDatetime: 2026-02-10T12:00:00Z
 modDatetime: 2026-02-10T12:00:00Z
 title: "Would You Accept That a Thinking Model Is Better Than You at Your Craft?"
 slug: accept-ai-better-than-you-craft
-featured: true
+featured: false
 draft: false
 tags:
   - AI

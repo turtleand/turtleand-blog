@@ -3,6 +3,7 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
+- [The Iteration Percentile](https://growth.turtleand.com/posts/the-iteration-percentile/): Most people do something once and move on. Each additional iteration puts you ahead of half the remaining population above you. AI just made those iterations nearly free.
 - [Understanding Is Becoming Scarce](https://growth.turtleand.com/posts/understanding-is-becoming-scarce/): Understanding is becoming a scarce resource. Two forces are making it optional, and they're compounding.
 - [When AI Calls You: The Library vs Framework Shift](https://growth.turtleand.com/posts/library-vs-framework-humans-ai/): We use AI like a library today, calling it when we need help. But what happens when AI becomes the framework, and we become the callback functions?
 - [Expand, Filter, Absorb: How I Actually Use AI](https://growth.turtleand.com/posts/expand-filter-absorb/): A simple three-step pattern for using AI as a research amplifier. Expand your search beyond human limits, filter down to signal, and absorb what survives.
