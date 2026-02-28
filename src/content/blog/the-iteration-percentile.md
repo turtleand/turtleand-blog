@@ -11,7 +11,7 @@ tags:
   - iteration
   - personal-growth
   - quality
-description: "Most people do something once and move on. Each additional iteration puts you ahead of half the remaining population above you. AI just made those iterations nearly free."
+description: "Most people do something once and move on. Each additional iteration puts you ahead of half the remaining percentile above you."
 ogImage: ogImage-0-0-4.webp
 ---
 
