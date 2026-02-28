@@ -1,7 +1,7 @@
 ---
 author: Turtlean
-pubDatetime: 2026-02-28T12:00:00Z
-modDatetime: 2026-02-28T12:00:00Z
+pubDatetime: 2026-02-27T23:21:00Z
+modDatetime: 2026-02-27T23:21:00Z
 title: "The AI Deployment Gap"
 slug: ai-deployment-gap
 featured: true
