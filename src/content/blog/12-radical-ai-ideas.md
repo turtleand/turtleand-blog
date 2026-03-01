@@ -1,7 +1,7 @@
 ---
 title: "12 Radical AI Ideas Beyond the Horseless Carriage"
 author: "Turtleand"
-pubDatetime: "2026-03-01T15:57:00Z"
+pubDatetime: 2026-03-01T15:57:00Z
 description: "Moving beyond using AI to do old things faster. A look at 12 ideas that use intelligence to enable entirely new ways of operating."
 tags:
   - ai

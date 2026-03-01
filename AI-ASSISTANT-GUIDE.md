@@ -1,6 +1,9 @@
 Never introduce em dashes
 
-# CLAUDE.md — Turtleand Growth Blog
+# AI-ASSISTANT-GUIDE — Turtleand Growth Blog
+
+For date use plain date instead of string
+Use .md file instead of .mdx
 
 ## Agent-Friendly PR Checklist
 Every content PR must:
