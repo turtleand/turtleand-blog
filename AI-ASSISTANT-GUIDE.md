@@ -2,8 +2,9 @@ Never introduce em dashes
 
 # AI-ASSISTANT-GUIDE — Turtleand Growth Blog
 
-For date use plain date instead of string
-Use .md file instead of .mdx
+- For date use plain date instead of string
+- Use .md file instead of .mdx
+- When contributing to the repositories, always verify the article properly runs and it's accessible and readable
 
 ## Agent-Friendly PR Checklist
 Every content PR must:

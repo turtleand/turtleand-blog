@@ -12,6 +12,8 @@ draft: false
 featured: true
 ---
 
+![Cyber-turtle overlooking a futuristic city](../../assets/images/12-radical-ai-ideas-tinyfied.png)
+
 I've been thinking about the "horseless carriage" problem a lot lately. We get a powerful new technology, and our first instinct is to use it to do the same things we've always done, just a little bit faster. Using a car to pull a cart.
 
 I feel like we're in that phase with AI. We're using it to code faster, write faster, summarize faster. These are useful, but they're not transformative. They're optimizations.
