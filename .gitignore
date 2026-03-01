@@ -31,5 +31,4 @@ pnpm-debug.log*
 !.yarn/versions
 .pnp.*
 
-.claude/*
 discussion/*
