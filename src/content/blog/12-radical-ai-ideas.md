@@ -14,7 +14,7 @@ featured: true
 
 ![Cyber-turtle overlooking a futuristic city](../../assets/images/12-radical-ai-ideas-tinyfied.png)
 
-I've been thinking about the "horseless carriage" problem a lot lately. We get a powerful new technology, and our first instinct is to use it to do the same things we've always done, just a little bit faster. Using a car to pull a cart.
+I've been thinking about the "[horseless carriage](https://en.wikipedia.org/wiki/Horseless_carriage)" problem a lot lately. We get a powerful new technology, and our first instinct is to use it to do the same things we've always done, just a little bit faster. Using a car to pull a cart.
 
 I feel like we're in that phase with AI. We're using it to code faster, write faster, summarize faster. These are useful, but they're not transformative. They're optimizations.
 
@@ -45,6 +45,7 @@ Instead of occasional self-reflection, imagine a persistent intelligence watchin
 - **Horseless Carriage:** "Help me learn faster."
 - **Radical Idea:** Redefine what it means to learn.
 Forget the 10,000-hour rule. AI could create hyper-personalized learning paths that analyze your specific goal and knowledge gaps, teaching you *only* what you need to know. Mastery in a fraction of the time.
+- **Trade-off:** Extreme optimization can produce brittle expertise. You get fast capability in a narrow lane, but weaker transfer, intuition, and depth outside that lane.
 
 ## Redesigning Our Systems
 
@@ -68,7 +69,8 @@ An AI agent continuously represents your live, evolving skills to the market. It
 #### 8. Relationship Intelligence at Scale
 - **Horseless Carriage:** "Send an automated birthday message."
 - **Radical Idea:** Act as a social nervous system for my entire network.
-Use AI to understand the dynamics and needs across hundreds of relationships, surfacing opportunities for genuine human connection that you would otherwise miss. It's about breaking Dunbar's number.
+Use AI to understand the dynamics and needs across hundreds of relationships, surfacing opportunities for genuine human connection that you would otherwise miss. In simple terms: it helps you stay meaningfully connected with more people than humans can usually manage on their own ([Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number)).
+- **Trade-off:** At scale, convenience can become governance drift. If the system decides who matters, when to engage, and how to respond, you slowly cede judgment and agency over your relationships.
 
 ## Changing the Interface to Reality
 
@@ -93,7 +95,8 @@ Move beyond simple planning to complex life simulation. Run thousands of scenari
 - **Horseless Carriage:** "Give me a personalized news feed."
 - **Radical Idea:** Build my own information architecture for reality.
 Stop consuming information through interfaces designed by others to maximize engagement. An AI can build a custom interface that curates and formats all information based on *your* goals and interests.
+- **Trade-off:** A perfectly personalized interface can collapse shared reality. Over-optimization around your priors can amplify self-reference, reduce productive friction, and increase isolation.
 
 ---
 
-These aren't predictions. They're provocations. They help me try to look past the next optimization and ask a better question: what does this technology truly make possible for the first time?
+Not predictions, but provocations for better questions. They help me try to look past the next optimization by asking: what does this technology truly make possible for the first time?
