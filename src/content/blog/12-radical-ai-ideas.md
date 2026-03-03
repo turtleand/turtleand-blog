@@ -69,7 +69,8 @@ An AI agent continuously represents your live, evolving skills to the market. It
 #### 8. Relationship Intelligence at Scale
 - **Horseless Carriage:** "Send an automated birthday message."
 - **Radical Idea:** Act as a social nervous system for my entire network.
-Use AI to understand the dynamics and needs across hundreds of relationships, surfacing opportunities for genuine human connection that you would otherwise miss. It's about breaking Dunbar's number.
+Use AI to understand the dynamics and needs across hundreds of relationships, surfacing opportunities for genuine human connection that you would otherwise miss. In simple terms: it helps you stay meaningfully connected with more people than humans can usually manage on their own ([Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number)).
+**Trade-off:** At scale, convenience can become governance drift. If the system decides who matters, when to engage, and how to respond, you slowly cede judgment and agency over your relationships.
 
 ## Changing the Interface to Reality
 
