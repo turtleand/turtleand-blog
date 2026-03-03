@@ -98,4 +98,4 @@ Stop consuming information through interfaces designed by others to maximize eng
 
 ---
 
-These aren't predictions. They're provocations. They help me try to look past the next optimization and ask a better question: what does this technology truly make possible for the first time?
+Not predictions, but provocations for better questions. They help me try to look past the next optimization by asking: what does this technology truly make possible for the first time?
