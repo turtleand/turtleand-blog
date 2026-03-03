@@ -45,6 +45,7 @@ Instead of occasional self-reflection, imagine a persistent intelligence watchin
 - **Horseless Carriage:** "Help me learn faster."
 - **Radical Idea:** Redefine what it means to learn.
 Forget the 10,000-hour rule. AI could create hyper-personalized learning paths that analyze your specific goal and knowledge gaps, teaching you *only* what you need to know. Mastery in a fraction of the time.
+**Trade-off:** Extreme optimization can produce brittle expertise. You get fast capability in a narrow lane, but weaker transfer, intuition, and depth outside that lane.
 
 ## Redesigning Our Systems
 
@@ -93,6 +94,7 @@ Move beyond simple planning to complex life simulation. Run thousands of scenari
 - **Horseless Carriage:** "Give me a personalized news feed."
 - **Radical Idea:** Build my own information architecture for reality.
 Stop consuming information through interfaces designed by others to maximize engagement. An AI can build a custom interface that curates and formats all information based on *your* goals and interests.
+**Trade-off:** A perfectly personalized interface can collapse shared reality. Over-optimization around your priors can amplify self-reference, reduce productive friction, and increase isolation.
 
 ---
 
