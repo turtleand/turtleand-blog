@@ -3,7 +3,10 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
-- [The Iteration Percentile](https://growth.turtleand.com/posts/the-iteration-percentile/): Most people do something once and move on. Each additional iteration puts you ahead of half the remaining population above you. AI just made those iterations nearly free.
+- [Everyone Enters the Mountain at a Different Time](https://growth.turtleand.com/posts/everyone-enters-the-mountain-at-a-different-time/): Life feels less like a race when you notice that everyone arrived at the mountain at a different time, walks at a different pace, and stops for different views.
+- [12 Radical AI Ideas Beyond the Horseless Carriage](https://growth.turtleand.com/posts/12-radical-ai-ideas-beyond-the-horseless-carriage/): Moving beyond using AI to do old things faster. A look at 12 ideas that use intelligence to enable entirely new ways of operating.
+- [The AI Deployment Gap](https://growth.turtleand.com/posts/ai-deployment-gap/): Companies are spending record amounts on AI. Most can't explain what they're getting back. The gap between buying AI and deploying it is where the real story lives.
+- [The Iteration Percentile](https://growth.turtleand.com/posts/the-iteration-percentile/): Most people do something once and move on. Each additional iteration puts you ahead of half the remaining percentile above you.
 - [Understanding Is Becoming Scarce](https://growth.turtleand.com/posts/understanding-is-becoming-scarce/): Understanding is becoming a scarce resource. Two forces are making it optional, and they're compounding.
 - [When AI Calls You: The Library vs Framework Shift](https://growth.turtleand.com/posts/library-vs-framework-humans-ai/): We use AI like a library today, calling it when we need help. But what happens when AI becomes the framework, and we become the callback functions?
 - [Expand, Filter, Absorb: How I Actually Use AI](https://growth.turtleand.com/posts/expand-filter-absorb/): A simple three-step pattern for using AI as a research amplifier. Expand your search beyond human limits, filter down to signal, and absorb what survives.
