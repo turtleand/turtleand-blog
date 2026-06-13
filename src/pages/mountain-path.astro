@@ -21,8 +21,8 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
         The Mountain Path
       </h1>
       <p class="mb-5 text-lg leading-relaxed text-skin-base opacity-85">
-        A small animated trail for the essay. Different walkers start, pause,
-        pass, and return at different times.
+        A small animated trail for the essay. People start, pause, pass, and
+        return at different times.
       </p>
       <a
         class="inline-flex rounded-full border border-skin-line bg-skin-card px-4 py-2 text-sm text-skin-base transition hover:border-skin-accent hover:text-skin-accent"
@@ -43,19 +43,19 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
           id="mountain-path-sketch"
           class="relative w-full"
           role="img"
-          aria-label="Animated mountain path with small walkers moving at different paces."
+          aria-label="Animated mountain path with small people moving at different paces."
         >
           <p
             id="mountain-path-fallback"
             class="p-6 text-sm leading-relaxed text-white/80"
           >
-            Loading the interactive path. The idea is simple: different walkers,
+            Loading the interactive path. The idea is simple: different people,
             different timing, one shared trail.
           </p>
           <noscript>
             <p class="p-6 text-skin-base">
               This interactive reflection needs JavaScript. The idea is simple:
-              different walkers, different timing, one shared trail.
+              different people, different timing, one shared trail.
             </p>
           </noscript>
         </div>
@@ -76,7 +76,7 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
             id="scene-copy"
             class="min-h-12 text-sm leading-relaxed text-skin-base opacity-80"
           >
-            Some are ahead. Some are resting. Some are returning. Nobody is
+            People start, rest, pass, and return at different moments. Nobody is
             late.
           </p>
           <p
@@ -84,7 +84,7 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
             class="mt-4 rounded-xl border border-skin-line bg-skin-card px-3 py-2 text-xs leading-relaxed text-skin-base opacity-85"
             aria-live="polite"
           >
-            Tap a walker for a small note.
+            Tap a person to see what they are doing.
           </p>
         </div>
 
@@ -100,27 +100,11 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
               Pause motion
             </button>
             <button class="mountain-control" type="button" id="add-arrival">
-              New walker
-            </button>
-            <button
-              class="mountain-control"
-              type="button"
-              id="toggle-annotations"
-              aria-pressed="false"
-            >
-              Show labels
-            </button>
-            <button
-              class="mountain-control"
-              type="button"
-              id="toggle-reduced"
-              aria-pressed="false"
-            >
-              Slow mode
+              Add person
             </button>
           </div>
           <p class="mt-3 text-xs leading-relaxed text-skin-base opacity-65">
-            Space pauses. A adds. S saves.
+            Space pauses. A adds a person.
           </p>
         </div>
       </aside>
@@ -206,8 +190,6 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
     const walkerCopy = document.getElementById("walker-copy");
     const pauseButton = document.getElementById("pause-motion");
     const addButton = document.getElementById("add-arrival");
-    const annotationsButton = document.getElementById("toggle-annotations");
-    const reducedButton = document.getElementById("toggle-reduced");
     const fallback = document.getElementById("mountain-path-fallback");
 
     const prefersReducedMotion = window.matchMedia(
@@ -218,7 +200,6 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
       seed: 7062026,
       paused: prefersReducedMotion,
       reducedMotion: prefersReducedMotion,
-      showAnnotations: false,
       selectedWalkerId: null,
       arrivalCount: 0,
     };
@@ -252,14 +233,14 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
     ];
 
     const walkerReasons = [
-      "finding the trailhead",
-      "keeping a steady rhythm",
-      "catching breath near the ice",
-      "noticing a detail others missed",
-      "coming down carefully",
-      "starting later, not worse",
-      "recovering before the next section",
-      "moving quickly while the weather is clear",
+      "starting",
+      "walking steadily",
+      "resting",
+      "looking around",
+      "returning",
+      "joining later",
+      "catching breath",
+      "moving while the weather is clear",
     ];
 
     function updateSceneCopy(frame) {
@@ -271,6 +252,12 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
     function setPressed(button, pressed) {
       if (!button) return;
       button.setAttribute("aria-pressed", String(pressed));
+    }
+
+    function updatePauseButton() {
+      if (!pauseButton) return;
+      setPressed(pauseButton, state.paused);
+      pauseButton.textContent = state.paused ? "Start motion" : "Pause motion";
     }
 
     const sketch = p => {
@@ -302,9 +289,9 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
           { x: 0.43, y: 0.58 },
           { x: 0.36, y: 0.45 },
           { x: 0.58, y: 0.36 },
-          { x: 0.51, y: 0.25 },
-          { x: 0.72, y: 0.16 },
-          { x: 0.84, y: 0.09 },
+          { x: 0.51, y: 0.29 },
+          { x: 0.72, y: 0.22 },
+          { x: 0.84, y: 0.18 },
         ];
       }
 
@@ -323,7 +310,14 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
         const len = Math.sqrt(dx * dx + dy * dy) || 1;
         const nx = -dy / len;
         const ny = dx / len;
-        return { x: x + nx * offset, y: y + ny * offset, nx, ny };
+        return {
+          x: x + nx * offset,
+          y: y + ny * offset,
+          nx,
+          ny,
+          tx: dx / len,
+          ty: dy / len,
+        };
       }
 
       class Walker {
@@ -378,16 +372,17 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
         }
 
         draw() {
-          const pos = pointAt(this.progress, this.offset);
+          const ground = pointAt(this.progress, this.offset);
           const selected =
             state.selectedWalkerId === this.id || hoveredWalker === this;
           const pulse = 1 + Math.sin((visualFrame + this.pulse) * 0.045) * 0.12;
           const step = state.reducedMotion
             ? 0
-            : Math.sin((visualFrame + this.pulse) * 0.16) * 2.2;
-          const bob = state.reducedMotion
-            ? 0
-            : Math.sin((visualFrame + this.pulse) * 0.16) * 0.9;
+            : Math.sin((visualFrame + this.pulse) * 0.16) * 2.1;
+          const bob =
+            state.reducedMotion || this.state === "pausing"
+              ? 0
+              : Math.sin((visualFrame + this.pulse) * 0.16) * 0.7;
           const scale = selected ? 1.18 : 1;
           const alpha = selected ? 100 : 90;
           const hue =
@@ -403,77 +398,84 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
             p.noFill();
             p.stroke(92, 30, 96, 22);
             p.strokeWeight(2);
-            p.circle(pos.x, pos.y, 34 * pulse);
+            p.circle(ground.x, ground.y - 10, 34 * pulse);
           }
 
           p.noStroke();
           p.fill(214, 22, 8, 24);
-          p.ellipse(pos.x, pos.y + 12, selected ? 24 : 18, selected ? 9 : 6);
+          p.ellipse(
+            ground.x,
+            ground.y + 4,
+            selected ? 24 : 18,
+            selected ? 8 : 5
+          );
 
           p.push();
-          p.translate(pos.x, pos.y + bob);
+          p.translate(ground.x, ground.y + bob);
           p.scale(this.direction < 0 ? -scale : scale, scale);
           p.strokeCap(p.ROUND);
           p.strokeJoin(p.ROUND);
 
           p.stroke(0, 0, 100, 88);
           p.strokeWeight(selected ? 3.4 : 2.6);
-          p.line(0, -1, 0, 8);
-          p.line(0, 7, -4, 14 + step);
-          p.line(0, 7, 5, 14 - step);
-          p.line(0, 2, -5, 7 - step * 0.3);
-          p.line(0, 2, 6, 6 + step * 0.3);
+          p.line(0, -17, 0, -8);
+          p.line(0, -8, -4, 2 + step);
+          p.line(0, -8, 5, 2 - step);
+          p.line(0, -13, -5, -8 - step * 0.3);
+          p.line(0, -13, 6, -9 + step * 0.3);
 
           p.stroke(hue, 48, 88, alpha);
           p.strokeWeight(selected ? 2.2 : 1.6);
-          p.line(0, -1, 0, 8);
-          p.line(0, 7, -4, 14 + step);
-          p.line(0, 7, 5, 14 - step);
-          p.line(0, 2, -5, 7 - step * 0.3);
-          p.line(0, 2, 6, 6 + step * 0.3);
+          p.line(0, -17, 0, -8);
+          p.line(0, -8, -4, 2 + step);
+          p.line(0, -8, 5, 2 - step);
+          p.line(0, -13, -5, -8 - step * 0.3);
+          p.line(0, -13, 6, -9 + step * 0.3);
 
           p.noStroke();
           p.fill(0, 0, 100, 92);
-          p.circle(0, -8, selected ? 8.5 : 7.2);
+          p.circle(0, -25, selected ? 8.5 : 7.2);
           p.fill(hue, 48, 96, alpha);
-          p.circle(0, -8, selected ? 6.6 : 5.4);
+          p.circle(0, -25, selected ? 6.6 : 5.4);
           p.fill(hue, 44, 72, 70);
-          p.circle(-4, -1, 4.8);
+          p.circle(-4, -17, 4.8);
           p.pop();
+
+          if (selected || this.state !== "climbing") {
+            const label = labelFor(this.state);
+            p.noStroke();
+            p.fill(218, 30, 10, selected ? 84 : 66);
+            p.textSize(10.5);
+            const labelW = p.textWidth(label) + 22;
+            const x = p.constrain(ground.x + 13, 10, canvasW - labelW - 10);
+            const y = p.constrain(ground.y - 45, 10, canvasH - 35);
+            p.rect(x, y, labelW, 24, 12);
+            p.fill(0, 0, 100, selected ? 96 : 84);
+            p.textAlign(p.LEFT, p.CENTER);
+            p.text(label, x + 11, y + 12);
+          }
 
           if (selected) {
             p.noFill();
             p.stroke(0, 0, 100, 72);
             p.strokeWeight(1.4);
-            p.circle(pos.x, pos.y, 25);
-
-            p.noStroke();
-            p.fill(218, 30, 10, 82);
-            p.rect(pos.x + 14, pos.y - 33, 142, 30, 12);
-            p.fill(0, 0, 100, 94);
-            p.textSize(11);
-            p.textAlign(p.LEFT, p.TOP);
-            p.text(
-              `${this.name}: ${labelFor(this.state)}`,
-              pos.x + 25,
-              pos.y - 24
-            );
+            p.circle(ground.x, ground.y - 11, 28);
           }
         }
 
         contains(mx, my) {
-          const pos = pointAt(this.progress, this.offset);
-          return p.dist(mx, my, pos.x, pos.y) < 18;
+          const ground = pointAt(this.progress, this.offset);
+          return p.dist(mx, my, ground.x, ground.y - 10) < 20;
         }
       }
 
       function labelFor(value) {
         return (
           {
-            entering: "entering",
-            climbing: "climbing",
-            pausing: "pausing",
-            descending: "descending",
+            entering: "starting",
+            climbing: "walking",
+            pausing: "resting",
+            descending: "returning",
           }[value] || "walking"
         );
       }
@@ -481,16 +483,16 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
       function describeWalker(walker) {
         if (!walkerCopy) return;
         if (!walker) {
-          walkerCopy.textContent = "Tap a walker for a small note.";
+          walkerCopy.textContent = "Tap a person to see what they are doing.";
           return;
         }
         const stateLine = {
-          entering: "just starting",
-          climbing: "moving steadily",
-          pausing: "taking a pause",
-          descending: "coming back down",
+          entering: "starting the trail",
+          climbing: "walking upward",
+          pausing: "resting for a moment",
+          descending: "returning carefully",
         }[walker.state];
-        walkerCopy.textContent = `${walker.name}: ${stateLine}.`;
+        walkerCopy.textContent = `${walker.name} is ${stateLine}.`;
       }
 
       function addWalker(progress = 0.02) {
@@ -693,11 +695,7 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
       }
 
       function drawViewpoints() {
-        const points = [
-          { p: 0.31, label: "pause" },
-          { p: 0.48, label: "view" },
-          { p: 0.66, label: "breath" },
-        ];
+        const points = [{ p: 0.31 }, { p: 0.48 }, { p: 0.66 }];
         points.forEach(item => {
           const pos = pointAt(item.p, 36);
           p.noFill();
@@ -707,34 +705,7 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
           p.noStroke();
           p.fill(208, 18, 100, 78);
           p.circle(pos.x, pos.y, 6);
-          if (state.showAnnotations && canvasW > 640) {
-            p.fill(218, 28, 12, 78);
-            p.rect(pos.x + 10, pos.y - 17, 64, 25, 10);
-            p.fill(0, 0, 100, 84);
-            p.textSize(10);
-            p.textAlign(p.LEFT, p.CENTER);
-            p.text(item.label, pos.x + 20, pos.y - 4);
-          }
         });
-      }
-
-      function drawAnnotations() {
-        if (!state.showAnnotations) return;
-        const scene = scenes[Math.floor(sceneFrame / 520) % scenes.length];
-        const pos = pointAt(scene.anchor, -42);
-        p.noStroke();
-        p.fill(218, 30, 10, 76);
-        const boxW = Math.min(310, canvasW * 0.46);
-        const x = p.constrain(pos.x - boxW * 0.35, 18, canvasW - boxW - 18);
-        const y = p.constrain(pos.y - 64, 18, canvasH - 96);
-        p.rect(x, y, boxW, 70, 16);
-        p.fill(0, 0, 100, 96);
-        p.textAlign(p.LEFT, p.TOP);
-        p.textSize(13);
-        p.text(scene.title, x + 16, y + 12);
-        p.fill(0, 0, 100, 76);
-        p.textSize(10.5);
-        p.text(scene.copy, x + 16, y + 31, boxW - 30, 36);
       }
 
       function drawTexture() {
@@ -762,9 +733,7 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
         resetWalkers();
         updateSceneCopy(0);
         if (fallback) fallback.hidden = true;
-        setPressed(pauseButton, state.paused);
-        setPressed(annotationsButton, state.showAnnotations);
-        setPressed(reducedButton, state.reducedMotion);
+        updatePauseButton();
       };
 
       p.draw = () => {
@@ -791,7 +760,6 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
           .sort((a, b) => a.progress - b.progress)
           .forEach(walker => walker.draw());
 
-        drawAnnotations();
         drawTexture();
       };
 
@@ -809,17 +777,10 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
           state.paused = !state.paused;
           if (shouldResume && state.reducedMotion) {
             state.reducedMotion = false;
-            setPressed(reducedButton, false);
           }
-          setPressed(pauseButton, state.paused);
-          if (pauseButton)
-            pauseButton.textContent = state.paused
-              ? "Resume motion"
-              : "Pause motion";
+          updatePauseButton();
         }
         if (p.key === "a" || p.key === "A") addWalker(0.015);
-        if (p.key === "s" || p.key === "S")
-          p.saveCanvas("turtleand-mountain-path", "png");
       };
 
       p.windowResized = () => {
@@ -834,35 +795,12 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
         state.paused = !state.paused;
         if (shouldResume && state.reducedMotion) {
           state.reducedMotion = false;
-          setPressed(reducedButton, false);
         }
-        setPressed(pauseButton, state.paused);
-        pauseButton.textContent = state.paused
-          ? "Resume motion"
-          : "Pause motion";
+        updatePauseButton();
       });
 
       addButton?.addEventListener("click", () => {
         addWalker(0.015);
-      });
-
-      annotationsButton?.addEventListener("click", () => {
-        state.showAnnotations = !state.showAnnotations;
-        setPressed(annotationsButton, state.showAnnotations);
-        annotationsButton.textContent = state.showAnnotations
-          ? "Hide labels"
-          : "Show labels";
-      });
-
-      reducedButton?.addEventListener("click", () => {
-        state.reducedMotion = !state.reducedMotion;
-        if (state.reducedMotion) state.paused = true;
-        setPressed(reducedButton, state.reducedMotion);
-        setPressed(pauseButton, state.paused);
-        if (pauseButton)
-          pauseButton.textContent = state.paused
-            ? "Resume motion"
-            : "Pause motion";
       });
     };
 
