@@ -50,6 +50,62 @@
   .prose a {
     @apply break-words hover:!text-skin-accent;
   }
+  .prose .glacier-preview-card {
+    display: block;
+    margin: 2rem 0;
+    overflow: hidden;
+    border: 1px solid rgba(var(--color-border), 1);
+    border-radius: 1.5rem;
+    background: radial-gradient(
+        circle at 18% 12%,
+        rgba(255, 255, 255, 0.18),
+        transparent 16rem
+      ),
+      rgba(var(--color-card), 0.72);
+    color: rgb(var(--color-text-base)) !important;
+    text-decoration: none !important;
+    box-shadow: 0 1.25rem 3rem rgba(15, 23, 42, 0.12);
+    transition:
+      border-color 160ms ease,
+      box-shadow 160ms ease,
+      transform 160ms ease;
+  }
+  .prose .glacier-preview-card:hover,
+  .prose .glacier-preview-card:focus-visible {
+    border-color: rgba(var(--color-accent), 0.82);
+    box-shadow: 0 1.5rem 3.5rem rgba(15, 23, 42, 0.18);
+    color: rgb(var(--color-accent)) !important;
+    transform: translateY(-1px);
+  }
+  .prose .glacier-preview-art {
+    display: block;
+    padding: 0.7rem 0.7rem 0;
+  }
+  .prose .glacier-preview-art svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  .prose .glacier-preview-copy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.9rem 1.05rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .prose .glacier-preview-card {
+      transition: none;
+    }
+    .prose .glacier-preview-card:hover,
+    .prose .glacier-preview-card:focus-visible {
+      transform: none;
+    }
+  }
   .prose thead th:first-child,
   tbody td:first-child,
   tfoot td:first-child {

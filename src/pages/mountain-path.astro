@@ -270,11 +270,18 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
 
 <script
   is:inline
-  src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"
+  onload="window.__mountainPathInit?.()"></script>
 <script is:inline>
-  (() => {
+  window.__mountainPathInit = () => {
     const container = document.getElementById("mountain-path-sketch");
-    if (!container || !window.p5) return;
+    if (
+      !container ||
+      !window.p5 ||
+      container.dataset.mountainPathReady === "true"
+    )
+      return;
+    container.dataset.mountainPathReady = "true";
 
     window.p5.disableFriendlyErrors = true;
 
@@ -906,5 +913,6 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
     };
 
     new window.p5(sketch, container);
-  })();
+  };
+  window.__mountainPathInit();
 </script>

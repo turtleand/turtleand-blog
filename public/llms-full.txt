@@ -23,7 +23,41 @@ Lately I have been thinking about life through a different image.
 
 Not a racetrack. A mountain path.
 
-> Companion artifact: I also made an interactive mountain path that turns this metaphor into a small moving landscape. You can explore it here: [The Mountain Path](/mountain-path/).
+<a class="glacier-preview-card" href="/mountain-path/" aria-label="Walk the mountain path interactive reflection">
+  <span class="glacier-preview-art" aria-hidden="true">
+    <svg viewBox="0 0 640 260" role="presentation">
+      <defs>
+        <linearGradient id="glacierSky" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0%" stop-color="#17243a" />
+          <stop offset="100%" stop-color="#0a1422" />
+        </linearGradient>
+        <linearGradient id="glacierIce" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#dcefff" />
+          <stop offset="100%" stop-color="#7fa6bc" />
+        </linearGradient>
+      </defs>
+      <rect width="640" height="260" rx="28" fill="url(#glacierSky)" />
+      <path d="M0 204 C90 178 130 126 218 140 C278 150 314 84 384 90 C478 98 508 154 640 126 L640 260 L0 260 Z" fill="#243148" />
+      <path d="M72 218 C142 170 198 156 260 116 C330 72 388 78 452 106 C506 130 546 124 612 94" fill="none" stroke="url(#glacierIce)" stroke-width="28" stroke-linecap="round" opacity="0.92" />
+      <path d="M78 218 C148 174 202 158 262 120 C332 78 388 82 448 110 C500 134 542 130 606 100" fill="none" stroke="#f8fbff" stroke-width="3" stroke-dasharray="12 18" stroke-linecap="round" opacity="0.7" />
+      <g fill="#ffb86b">
+        <circle cx="116" cy="194" r="7" />
+        <circle cx="218" cy="150" r="7" />
+        <circle cx="340" cy="92" r="7" />
+        <circle cx="480" cy="126" r="7" />
+        <circle cx="562" cy="112" r="7" />
+      </g>
+      <g fill="#dff6ff" opacity="0.82">
+        <circle cx="270" cy="132" r="5" />
+        <circle cx="394" cy="92" r="5" />
+      </g>
+    </svg>
+  </span>
+  <span class="glacier-preview-copy">
+    <span>Walk the mountain path</span>
+    <span aria-hidden="true">→</span>
+  </span>
+</a>
 
 ## Arriving at the site
 
