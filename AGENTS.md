@@ -27,7 +27,7 @@ This file defines repository instructions for AI coding and content agents.
 - Use `.md` files for blog posts, not `.mdx`.
 - Use `author: Turtleand` in frontmatter.
 - Do not add real names or LinkedIn references.
-- If commit identity must be configured, use `TurtleandBot <openclaw-bot@turtleand.com>`.
+- If commit identity must be configured, use `TurtleandHermes <hermes@turtleand.com>`.
 
 ## Blog frontmatter requirements
 

@@ -9,7 +9,7 @@ tags:
   - future
 slug: "12-radical-ai-ideas-beyond-the-horseless-carriage"
 draft: false
-featured: true
+featured: false
 ---
 
 ![Cyber-turtle overlooking a futuristic city](../../assets/images/12-radical-ai-ideas-tinyfied.png)
