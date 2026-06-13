@@ -1,7 +1,7 @@
 ---
 author: Turtleand
 pubDatetime: 2026-06-07T23:05:11Z
-modDatetime: 2026-06-13T19:33:20Z
+modDatetime: 2026-06-13T19:58:44Z
 title: "Everyone Enters the Mountain at a Different Time"
 slug: everyone-enters-the-mountain-at-a-different-time
 featured: true
@@ -11,7 +11,7 @@ tags:
   - reflection
   - life
 description: "Life feels less like a race when you notice that everyone arrived at the mountain at a different time, walks at a different pace, and stops for different views."
-ogImage: ogImage-0-0-4.webp
+ogImage: assets/mountain-path-preview-tinified.webp
 ---
 
 ## The race is the wrong metaphor
@@ -24,13 +24,7 @@ Life feels more like a mountain path.
 
 <a class="glacier-preview-card" href="/mountain-path/" aria-label="Walk the mountain path interactive reflection">
   <span class="glacier-preview-art" aria-hidden="true">
-    <span class="glacier-preview-scene">
-      <span class="glacier-preview-trail"></span>
-      <span class="glacier-preview-dot dot-one"></span>
-      <span class="glacier-preview-dot dot-two"></span>
-      <span class="glacier-preview-dot dot-three"></span>
-      <span class="glacier-preview-dot dot-four"></span>
-    </span>
+    <img src="/assets/mountain-path-preview-tinified.webp" alt="" loading="lazy" width="960" height="432" />
   </span>
   <span class="glacier-preview-copy">
     <span>Walk the mountain path</span>

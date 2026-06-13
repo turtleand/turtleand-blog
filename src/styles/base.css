@@ -81,67 +81,13 @@
     display: block;
     padding: 0.7rem 0.7rem 0;
   }
-  .prose .glacier-preview-scene {
-    position: relative;
+  .prose .glacier-preview-art img {
     display: block;
-    min-height: 13rem;
-    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: 0;
     border-radius: 1rem;
-    background: radial-gradient(
-        circle at 20% 16%,
-        rgba(255, 255, 255, 0.24),
-        transparent 8rem
-      ),
-      linear-gradient(180deg, #17243a 0%, #0a1422 100%);
-  }
-  .prose .glacier-preview-scene::before {
-    position: absolute;
-    inset: 34% -8% 0;
-    content: "";
-    background: linear-gradient(
-      135deg,
-      #243148 0 48%,
-      #dcefff 48% 56%,
-      #7fa6bc 56% 64%,
-      #243148 64%
-    );
-    opacity: 0.94;
-    transform: skewY(-8deg);
-  }
-  .prose .glacier-preview-trail {
-    position: absolute;
-    right: 8%;
-    bottom: 24%;
-    left: 10%;
-    height: 1.4rem;
-    border-radius: 999px;
-    background: rgba(248, 251, 255, 0.78);
-    box-shadow: 0 0 0 0.55rem rgba(127, 166, 188, 0.42);
-    transform: rotate(-18deg);
-  }
-  .prose .glacier-preview-dot {
-    position: absolute;
-    width: 0.78rem;
-    height: 0.78rem;
-    border: 2px solid rgba(255, 255, 255, 0.82);
-    border-radius: 999px;
-    background: #ffb86b;
-  }
-  .prose .glacier-preview-dot.dot-one {
-    bottom: 20%;
-    left: 17%;
-  }
-  .prose .glacier-preview-dot.dot-two {
-    bottom: 35%;
-    left: 38%;
-  }
-  .prose .glacier-preview-dot.dot-three {
-    right: 34%;
-    bottom: 47%;
-  }
-  .prose .glacier-preview-dot.dot-four {
-    right: 15%;
-    bottom: 56%;
+    object-fit: cover;
   }
   .prose .glacier-preview-copy {
     display: flex;

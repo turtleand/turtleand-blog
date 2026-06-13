@@ -21,13 +21,7 @@ Life feels more like a mountain path.
 
 <a class="glacier-preview-card" href="/mountain-path/" aria-label="Walk the mountain path interactive reflection">
   <span class="glacier-preview-art" aria-hidden="true">
-    <span class="glacier-preview-scene">
-      <span class="glacier-preview-trail"></span>
-      <span class="glacier-preview-dot dot-one"></span>
-      <span class="glacier-preview-dot dot-two"></span>
-      <span class="glacier-preview-dot dot-three"></span>
-      <span class="glacier-preview-dot dot-four"></span>
-    </span>
+    <img src="/assets/mountain-path-preview-tinified.webp" alt="" loading="lazy" width="960" height="432" />
   </span>
   <span class="glacier-preview-copy">
     <span>Walk the mountain path</span>
