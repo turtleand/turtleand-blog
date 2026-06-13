@@ -21,10 +21,8 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
         The Mountain Path
       </h1>
       <p class="mb-5 text-lg leading-relaxed text-skin-base opacity-85">
-        A quiet canvas companion to the essay about the glacier, pace, and the
-        mistake of treating life like a race. People enter at different moments,
-        pause for different reasons, pass each other without becoming opponents,
-        and sometimes descend while others are still climbing.
+        A small animated trail for the essay. Different walkers start, pause,
+        pass, and return at different times.
       </p>
       <a
         class="inline-flex rounded-full border border-skin-line bg-skin-card px-4 py-2 text-sm text-skin-base transition hover:border-skin-accent hover:text-skin-accent"
@@ -45,21 +43,19 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
           id="mountain-path-sketch"
           class="relative w-full"
           role="img"
-          aria-label="Animated glacier path showing people entering, climbing, pausing, passing, descending, and looking back."
+          aria-label="Animated mountain path with small walkers moving at different paces."
         >
           <p
             id="mountain-path-fallback"
             class="p-6 text-sm leading-relaxed text-white/80"
           >
-            Loading the interactive path. If the canvas does not appear, the
-            core idea is still simple: people enter the mountain at different
-            times, move at different paces, and pauses are part of the walk.
+            Loading the interactive path. The idea is simple: different walkers,
+            different timing, one shared trail.
           </p>
           <noscript>
             <p class="p-6 text-skin-base">
-              This interactive reflection needs JavaScript. The core idea is
-              still simple: people enter the mountain at different times, move
-              at different paces, and pauses are part of the walk.
+              This interactive reflection needs JavaScript. The idea is simple:
+              different walkers, different timing, one shared trail.
             </p>
           </noscript>
         </div>
@@ -74,26 +70,26 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
             id="animation-title"
             class="mb-3 text-xl font-semibold text-skin-base"
           >
-            Not a race, a shared trail
+            Shared trail, different timing
           </h2>
           <p
             id="scene-copy"
-            class="min-h-28 text-sm leading-relaxed text-skin-base opacity-80"
+            class="min-h-12 text-sm leading-relaxed text-skin-base opacity-80"
           >
-            You enter and people are already here. They did not beat you. They
-            arrived earlier.
+            Some are ahead. Some are resting. Some are returning. Nobody is
+            late.
           </p>
           <p
             id="walker-copy"
             class="mt-4 rounded-xl border border-skin-line bg-skin-card px-3 py-2 text-xs leading-relaxed text-skin-base opacity-85"
             aria-live="polite"
           >
-            Hover or tap a walker to see what part of the journey they are in.
+            Tap a walker for a small note.
           </p>
         </div>
 
         <div class="rounded-2xl border border-skin-line bg-skin-fill/80 p-5">
-          <h2 class="mb-3 text-lg font-semibold text-skin-base">Controls</h2>
+          <h2 class="mb-3 text-lg font-semibold text-skin-base">Try it</h2>
           <div class="mountain-controls grid grid-cols-1 gap-2 sm:grid-cols-2">
             <button
               class="mountain-control"
@@ -104,15 +100,15 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
               Pause motion
             </button>
             <button class="mountain-control" type="button" id="add-arrival">
-              Add arrival
+              New walker
             </button>
             <button
               class="mountain-control"
               type="button"
               id="toggle-annotations"
-              aria-pressed="true"
+              aria-pressed="false"
             >
-              Hide annotations
+              Show labels
             </button>
             <button
               class="mountain-control"
@@ -120,59 +116,14 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
               id="toggle-reduced"
               aria-pressed="false"
             >
-              Reduced motion
+              Slow mode
             </button>
           </div>
           <p class="mt-3 text-xs leading-relaxed text-skin-base opacity-65">
-            Keyboard: press space to pause, A to add an arrival, and S to save a
-            still image.
+            Space pauses. A adds. S saves.
           </p>
         </div>
-
-        <div class="rounded-2xl border border-skin-line bg-skin-fill/80 p-5">
-          <h2 class="mb-3 text-lg font-semibold text-skin-base">Legend</h2>
-          <ul class="space-y-3 text-sm text-skin-base" role="list">
-            <li>
-              <span class="legend-dot entering"></span><strong>Entering:</strong
-              > a first step is not failure.
-            </li>
-            <li>
-              <span class="legend-dot climbing"></span><strong>Climbing:</strong
-              > pace changes with terrain and energy.
-            </li>
-            <li>
-              <span class="legend-dot pausing"></span><strong>Pausing:</strong> stopping
-              can be recovery or attention.
-            </li>
-            <li>
-              <span class="legend-dot passing"></span><strong>Passing:</strong> changing
-              order does not change worth.
-            </li>
-            <li>
-              <span class="legend-dot descending"></span><strong
-                >Descending:</strong
-              > another arrival does not cancel your climb.
-            </li>
-            <li>
-              <span class="legend-dot looking"></span><strong
-                >Looking back:</strong
-              > remembering the beginning can make us gentler.
-            </li>
-          </ul>
-        </div>
       </aside>
-    </section>
-
-    <section class="mx-auto mt-8 max-w-3xl px-0">
-      <h2 class="mb-3 text-xl font-semibold text-skin-base">
-        What this is doing
-      </h2>
-      <p class="leading-relaxed text-skin-base opacity-80">
-        The animation is intentionally not a game. There is no scoreboard and no
-        finish line celebration. The point is to make comparison feel less like
-        truth and more like a cropped image. Every marker is only in one section
-        of a longer path.
-      </p>
     </section>
   </main>
   <Footer />
@@ -227,40 +178,6 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
     box-shadow: inset 0 0 0 1px rgba(var(--color-accent), 0.35);
   }
 
-  .legend-dot {
-    display: inline-block;
-    width: 0.72rem;
-    height: 0.72rem;
-    margin-right: 0.5rem;
-    border-radius: 999px;
-    vertical-align: -0.05rem;
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
-  }
-
-  .legend-dot.entering {
-    background: #f8d57e;
-  }
-
-  .legend-dot.climbing {
-    background: #78d7ff;
-  }
-
-  .legend-dot.pausing {
-    background: #c6f6a7;
-  }
-
-  .legend-dot.passing {
-    background: #f3a1ff;
-  }
-
-  .legend-dot.descending {
-    background: #ff9f7b;
-  }
-
-  .legend-dot.looking {
-    background: #d7e7ff;
-  }
-
   #mountain-path-sketch canvas {
     display: block;
     width: 100% !important;
@@ -301,35 +218,35 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
       seed: 7062026,
       paused: prefersReducedMotion,
       reducedMotion: prefersReducedMotion,
-      showAnnotations: true,
+      showAnnotations: false,
       selectedWalkerId: null,
       arrivalCount: 0,
     };
 
     const scenes = [
       {
-        title: "Arriving at the site",
-        copy: "You enter and people are already here. They did not beat you. They arrived earlier.",
+        title: "Start",
+        copy: "Some people are already on the trail.",
         anchor: 0.08,
       },
       {
-        title: "Stopping is part of the walk",
-        copy: "A pause can look like weakness in a race. On a mountain, it can also be attention, recovery, or orientation.",
+        title: "Pause",
+        copy: "Resting is part of the route.",
         anchor: 0.34,
       },
       {
-        title: "People coming down",
-        copy: "Their descent is not an accusation. It is evidence that the path continues.",
+        title: "Return",
+        copy: "Someone coming back does not make you late.",
         anchor: 0.78,
       },
       {
-        title: "Looking back",
-        copy: "A few minutes ago, you were the person just entering. Looking back should make us gentler.",
+        title: "Look back",
+        copy: "Everyone was new a little earlier.",
         anchor: 0.12,
       },
       {
-        title: "Pace is not identity",
-        copy: "A person's pace on one section of the trail is not the full truth of their life.",
+        title: "Pace",
+        copy: "Speed changes with the terrain.",
         anchor: 0.55,
       },
     ];
@@ -348,7 +265,7 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
     function updateSceneCopy(frame) {
       if (!sceneCopy) return;
       const scene = scenes[Math.floor(frame / 520) % scenes.length];
-      sceneCopy.textContent = `${scene.title}. ${scene.copy}`;
+      sceneCopy.textContent = scene.copy;
     }
 
     function setPressed(button, pressed) {
@@ -465,6 +382,22 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
           const selected =
             state.selectedWalkerId === this.id || hoveredWalker === this;
           const pulse = 1 + Math.sin((visualFrame + this.pulse) * 0.045) * 0.12;
+          const step = state.reducedMotion
+            ? 0
+            : Math.sin((visualFrame + this.pulse) * 0.16) * 2.2;
+          const bob = state.reducedMotion
+            ? 0
+            : Math.sin((visualFrame + this.pulse) * 0.16) * 0.9;
+          const scale = selected ? 1.18 : 1;
+          const alpha = selected ? 100 : 90;
+          const hue =
+            this.state === "descending"
+              ? 18
+              : this.state === "pausing"
+                ? 95
+                : this.state === "entering"
+                  ? 43
+                  : this.hue;
 
           if (this.state === "pausing") {
             p.noFill();
@@ -474,32 +407,57 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
           }
 
           p.noStroke();
-          const alpha = selected ? 100 : 88;
-          if (this.state === "descending") p.fill(18, 62, 96, alpha);
-          else if (this.state === "pausing") p.fill(95, 38, 94, alpha);
-          else if (this.state === "entering") p.fill(43, 58, 98, alpha);
-          else p.fill(this.hue, 46, 96, alpha);
-          p.circle(pos.x, pos.y, selected ? 15 : 11);
+          p.fill(214, 22, 8, 24);
+          p.ellipse(pos.x, pos.y + 12, selected ? 24 : 18, selected ? 9 : 6);
 
-          p.stroke(0, 0, 100, 78);
-          p.strokeWeight(selected ? 2.2 : 1.3);
-          p.noFill();
-          p.circle(pos.x, pos.y, selected ? 20 : 15);
+          p.push();
+          p.translate(pos.x, pos.y + bob);
+          p.scale(this.direction < 0 ? -scale : scale, scale);
+          p.strokeCap(p.ROUND);
+          p.strokeJoin(p.ROUND);
+
+          p.stroke(0, 0, 100, 88);
+          p.strokeWeight(selected ? 3.4 : 2.6);
+          p.line(0, -1, 0, 8);
+          p.line(0, 7, -4, 14 + step);
+          p.line(0, 7, 5, 14 - step);
+          p.line(0, 2, -5, 7 - step * 0.3);
+          p.line(0, 2, 6, 6 + step * 0.3);
+
+          p.stroke(hue, 48, 88, alpha);
+          p.strokeWeight(selected ? 2.2 : 1.6);
+          p.line(0, -1, 0, 8);
+          p.line(0, 7, -4, 14 + step);
+          p.line(0, 7, 5, 14 - step);
+          p.line(0, 2, -5, 7 - step * 0.3);
+          p.line(0, 2, 6, 6 + step * 0.3);
+
+          p.noStroke();
+          p.fill(0, 0, 100, 92);
+          p.circle(0, -8, selected ? 8.5 : 7.2);
+          p.fill(hue, 48, 96, alpha);
+          p.circle(0, -8, selected ? 6.6 : 5.4);
+          p.fill(hue, 44, 72, 70);
+          p.circle(-4, -1, 4.8);
+          p.pop();
 
           if (selected) {
+            p.noFill();
+            p.stroke(0, 0, 100, 72);
+            p.strokeWeight(1.4);
+            p.circle(pos.x, pos.y, 25);
+
             p.noStroke();
             p.fill(218, 30, 10, 82);
-            p.rect(pos.x + 14, pos.y - 33, 196, 43, 12);
+            p.rect(pos.x + 14, pos.y - 33, 142, 30, 12);
             p.fill(0, 0, 100, 94);
             p.textSize(11);
             p.textAlign(p.LEFT, p.TOP);
             p.text(
               `${this.name}: ${labelFor(this.state)}`,
               pos.x + 25,
-              pos.y - 27
+              pos.y - 24
             );
-            p.fill(0, 0, 100, 70);
-            p.text(this.reason, pos.x + 25, pos.y - 12);
           }
         }
 
@@ -523,21 +481,16 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
       function describeWalker(walker) {
         if (!walkerCopy) return;
         if (!walker) {
-          walkerCopy.textContent =
-            "Hover or tap a walker to see what part of the journey they are in.";
+          walkerCopy.textContent = "Tap a walker for a small note.";
           return;
         }
         const stateLine = {
-          entering:
-            "This person is beginning. Someone else being ahead does not make the first step late.",
-          climbing:
-            "This person is moving through one section. Pace is information, not identity.",
-          pausing:
-            "This person is stopped. The pause may be recovery, attention, or orientation.",
-          descending:
-            "This person is coming down. Their arrival does not cancel anyone else's climb.",
+          entering: "just starting",
+          climbing: "moving steadily",
+          pausing: "taking a pause",
+          descending: "coming back down",
         }[walker.state];
-        walkerCopy.textContent = `${walker.name}: ${stateLine} Reason visible now: ${walker.reason}.`;
+        walkerCopy.textContent = `${walker.name}: ${stateLine}.`;
       }
 
       function addWalker(progress = 0.02) {
@@ -810,6 +763,7 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
         updateSceneCopy(0);
         if (fallback) fallback.hidden = true;
         setPressed(pauseButton, state.paused);
+        setPressed(annotationsButton, state.showAnnotations);
         setPressed(reducedButton, state.reducedMotion);
       };
 
@@ -896,8 +850,8 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
         state.showAnnotations = !state.showAnnotations;
         setPressed(annotationsButton, state.showAnnotations);
         annotationsButton.textContent = state.showAnnotations
-          ? "Hide annotations"
-          : "Show annotations";
+          ? "Hide labels"
+          : "Show labels";
       });
 
       reducedButton?.addEventListener("click", () => {
