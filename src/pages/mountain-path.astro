@@ -1,0 +1,910 @@
+---
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+import { SITE } from "@config";
+
+const title = `The Mountain Path: An Interactive Reflection | ${SITE.title}`;
+const description =
+  "An interactive glacier path companion to Everyone Enters the Mountain at a Different Time, exploring pace, pauses, arrivals, and comparison.";
+const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
+---
+
+<Layout title={title} description={description} scrollSmooth>
+  <Header />
+  <main id="main-content" class="mx-auto w-full max-w-6xl px-4 pb-16">
+    <section class="mx-auto max-w-3xl px-0 pb-8 pt-10">
+      <p class="mb-3 text-sm uppercase tracking-[0.28em] text-skin-accent">
+        Interactive companion
+      </p>
+      <h1 class="mb-5 text-3xl font-semibold text-skin-base sm:text-4xl">
+        The Mountain Path
+      </h1>
+      <p class="mb-5 text-lg leading-relaxed text-skin-base opacity-85">
+        A quiet canvas companion to the essay about the glacier, pace, and the
+        mistake of treating life like a race. People enter at different moments,
+        pause for different reasons, pass each other without becoming opponents,
+        and sometimes descend while others are still climbing.
+      </p>
+      <a
+        class="inline-flex rounded-full border border-skin-line bg-skin-card px-4 py-2 text-sm text-skin-base transition hover:border-skin-accent hover:text-skin-accent"
+        href={articleHref}
+      >
+        Read the essay that inspired this
+      </a>
+    </section>
+
+    <section
+      class="mountain-shell mx-auto grid max-w-6xl items-start gap-5 rounded-[2rem] border border-skin-line bg-skin-card/60 p-3 shadow-2xl shadow-slate-950/10 sm:p-5 lg:grid-cols-3"
+      aria-labelledby="animation-title"
+    >
+      <div
+        class="mountain-canvas overflow-hidden rounded-[1.5rem] border border-white/10 bg-[#08111d]"
+      >
+        <div
+          id="mountain-path-sketch"
+          class="relative w-full"
+          role="img"
+          aria-label="Animated glacier path showing people entering, climbing, pausing, passing, descending, and looking back."
+        >
+          <p
+            id="mountain-path-fallback"
+            class="p-6 text-sm leading-relaxed text-white/80"
+          >
+            Loading the interactive path. If the canvas does not appear, the
+            core idea is still simple: people enter the mountain at different
+            times, move at different paces, and pauses are part of the walk.
+          </p>
+          <noscript>
+            <p class="p-6 text-skin-base">
+              This interactive reflection needs JavaScript. The core idea is
+              still simple: people enter the mountain at different times, move
+              at different paces, and pauses are part of the walk.
+            </p>
+          </noscript>
+        </div>
+      </div>
+
+      <aside
+        class="flex flex-col gap-4"
+        aria-label="Animation context and controls"
+      >
+        <div class="rounded-2xl border border-skin-line bg-skin-fill/80 p-5">
+          <h2
+            id="animation-title"
+            class="mb-3 text-xl font-semibold text-skin-base"
+          >
+            Not a race, a shared trail
+          </h2>
+          <p
+            id="scene-copy"
+            class="min-h-28 text-sm leading-relaxed text-skin-base opacity-80"
+          >
+            You enter and people are already here. They did not beat you. They
+            arrived earlier.
+          </p>
+          <p
+            id="walker-copy"
+            class="mt-4 rounded-xl border border-skin-line bg-skin-card px-3 py-2 text-xs leading-relaxed text-skin-base opacity-85"
+            aria-live="polite"
+          >
+            Hover or tap a walker to see what part of the journey they are in.
+          </p>
+        </div>
+
+        <div class="rounded-2xl border border-skin-line bg-skin-fill/80 p-5">
+          <h2 class="mb-3 text-lg font-semibold text-skin-base">Controls</h2>
+          <div class="mountain-controls grid grid-cols-1 gap-2 sm:grid-cols-2">
+            <button
+              class="mountain-control"
+              type="button"
+              id="pause-motion"
+              aria-pressed="false"
+            >
+              Pause motion
+            </button>
+            <button class="mountain-control" type="button" id="add-arrival">
+              Add arrival
+            </button>
+            <button
+              class="mountain-control"
+              type="button"
+              id="toggle-annotations"
+              aria-pressed="true"
+            >
+              Hide annotations
+            </button>
+            <button
+              class="mountain-control"
+              type="button"
+              id="toggle-reduced"
+              aria-pressed="false"
+            >
+              Reduced motion
+            </button>
+          </div>
+          <p class="mt-3 text-xs leading-relaxed text-skin-base opacity-65">
+            Keyboard: press space to pause, A to add an arrival, and S to save a
+            still image.
+          </p>
+        </div>
+
+        <div class="rounded-2xl border border-skin-line bg-skin-fill/80 p-5">
+          <h2 class="mb-3 text-lg font-semibold text-skin-base">Legend</h2>
+          <ul class="space-y-3 text-sm text-skin-base" role="list">
+            <li>
+              <span class="legend-dot entering"></span><strong>Entering:</strong
+              > a first step is not failure.
+            </li>
+            <li>
+              <span class="legend-dot climbing"></span><strong>Climbing:</strong
+              > pace changes with terrain and energy.
+            </li>
+            <li>
+              <span class="legend-dot pausing"></span><strong>Pausing:</strong> stopping
+              can be recovery or attention.
+            </li>
+            <li>
+              <span class="legend-dot passing"></span><strong>Passing:</strong> changing
+              order does not change worth.
+            </li>
+            <li>
+              <span class="legend-dot descending"></span><strong
+                >Descending:</strong
+              > another arrival does not cancel your climb.
+            </li>
+            <li>
+              <span class="legend-dot looking"></span><strong
+                >Looking back:</strong
+              > remembering the beginning can make us gentler.
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <section class="mx-auto mt-8 max-w-3xl px-0">
+      <h2 class="mb-3 text-xl font-semibold text-skin-base">
+        What this is doing
+      </h2>
+      <p class="leading-relaxed text-skin-base opacity-80">
+        The animation is intentionally not a game. There is no scoreboard and no
+        finish line celebration. The point is to make comparison feel less like
+        truth and more like a cropped image. Every marker is only in one section
+        of a longer path.
+      </p>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  .mountain-shell {
+    grid-template-columns: minmax(0, 1fr);
+    background-image: radial-gradient(
+        circle at 12% 8%,
+        rgba(255, 255, 255, 0.18),
+        transparent 26rem
+      ),
+      linear-gradient(135deg, rgba(255, 255, 255, 0.09), transparent 55%);
+  }
+
+  @media (min-width: 1024px) {
+    .mountain-shell {
+      grid-template-columns: minmax(0, 1fr) 22rem;
+    }
+
+    .mountain-controls {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  .mountain-control {
+    border: 1px solid rgba(var(--color-border), 1);
+    border-radius: 999px;
+    background: rgba(var(--color-card), 0.72);
+    padding: 0.7rem 0.9rem;
+    text-align: left;
+    font-size: 0.85rem;
+    color: rgb(var(--color-text-base));
+    transition:
+      border-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .mountain-control:hover,
+  .mountain-control:focus-visible {
+    border-color: rgba(var(--color-accent), 0.75);
+    color: rgb(var(--color-accent));
+    outline: 2px dashed rgba(var(--color-accent), 0.6);
+    outline-offset: 3px;
+    transform: translateY(-1px);
+  }
+
+  .mountain-control[aria-pressed="true"] {
+    border-color: rgba(var(--color-accent), 0.75);
+    box-shadow: inset 0 0 0 1px rgba(var(--color-accent), 0.35);
+  }
+
+  .legend-dot {
+    display: inline-block;
+    width: 0.72rem;
+    height: 0.72rem;
+    margin-right: 0.5rem;
+    border-radius: 999px;
+    vertical-align: -0.05rem;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
+  }
+
+  .legend-dot.entering {
+    background: #f8d57e;
+  }
+
+  .legend-dot.climbing {
+    background: #78d7ff;
+  }
+
+  .legend-dot.pausing {
+    background: #c6f6a7;
+  }
+
+  .legend-dot.passing {
+    background: #f3a1ff;
+  }
+
+  .legend-dot.descending {
+    background: #ff9f7b;
+  }
+
+  .legend-dot.looking {
+    background: #d7e7ff;
+  }
+
+  #mountain-path-sketch canvas {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+  }
+</style>
+
+<script
+  is:inline
+  src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+<script is:inline>
+  (() => {
+    const container = document.getElementById("mountain-path-sketch");
+    if (!container || !window.p5) return;
+
+    window.p5.disableFriendlyErrors = true;
+
+    const sceneCopy = document.getElementById("scene-copy");
+    const walkerCopy = document.getElementById("walker-copy");
+    const pauseButton = document.getElementById("pause-motion");
+    const addButton = document.getElementById("add-arrival");
+    const annotationsButton = document.getElementById("toggle-annotations");
+    const reducedButton = document.getElementById("toggle-reduced");
+    const fallback = document.getElementById("mountain-path-fallback");
+
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
+    const state = {
+      seed: 7062026,
+      paused: prefersReducedMotion,
+      reducedMotion: prefersReducedMotion,
+      showAnnotations: true,
+      selectedWalkerId: null,
+      arrivalCount: 0,
+    };
+
+    const scenes = [
+      {
+        title: "Arriving at the site",
+        copy: "You enter and people are already here. They did not beat you. They arrived earlier.",
+        anchor: 0.08,
+      },
+      {
+        title: "Stopping is part of the walk",
+        copy: "A pause can look like weakness in a race. On a mountain, it can also be attention, recovery, or orientation.",
+        anchor: 0.34,
+      },
+      {
+        title: "People coming down",
+        copy: "Their descent is not an accusation. It is evidence that the path continues.",
+        anchor: 0.78,
+      },
+      {
+        title: "Looking back",
+        copy: "A few minutes ago, you were the person just entering. Looking back should make us gentler.",
+        anchor: 0.12,
+      },
+      {
+        title: "Pace is not identity",
+        copy: "A person's pace on one section of the trail is not the full truth of their life.",
+        anchor: 0.55,
+      },
+    ];
+
+    const walkerReasons = [
+      "finding the trailhead",
+      "keeping a steady rhythm",
+      "catching breath near the ice",
+      "noticing a detail others missed",
+      "coming down carefully",
+      "starting later, not worse",
+      "recovering before the next section",
+      "moving quickly while the weather is clear",
+    ];
+
+    function updateSceneCopy(frame) {
+      if (!sceneCopy) return;
+      const scene = scenes[Math.floor(frame / 520) % scenes.length];
+      sceneCopy.textContent = `${scene.title}. ${scene.copy}`;
+    }
+
+    function setPressed(button, pressed) {
+      if (!button) return;
+      button.setAttribute("aria-pressed", String(pressed));
+    }
+
+    const sketch = p => {
+      let walkers = [];
+      let stars = [];
+      let pathPoints = [];
+      let sceneFrame = 0;
+      let canvasW = 960;
+      let canvasH = 620;
+      let hoveredWalker = null;
+      let visualFrame = 0;
+
+      const palette = {
+        skyTop: [214, 45, 18],
+        skyBottom: [205, 28, 78],
+        glacier: [194, 25, 88],
+        glacierShadow: [205, 40, 52],
+        rock: [222, 25, 31],
+        trail: [32, 22, 72],
+        trailDark: [26, 30, 34],
+        ink: [218, 27, 12],
+      };
+
+      function makePath() {
+        pathPoints = [
+          { x: 0.13, y: 0.91 },
+          { x: 0.27, y: 0.8 },
+          { x: 0.2, y: 0.68 },
+          { x: 0.43, y: 0.58 },
+          { x: 0.36, y: 0.45 },
+          { x: 0.58, y: 0.36 },
+          { x: 0.51, y: 0.25 },
+          { x: 0.72, y: 0.16 },
+          { x: 0.84, y: 0.09 },
+        ];
+      }
+
+      function pointAt(progress, offset = 0) {
+        const clamped = p.constrain(progress, 0, 1);
+        const scaled = clamped * (pathPoints.length - 1);
+        const index = Math.min(pathPoints.length - 2, Math.floor(scaled));
+        const local = scaled - index;
+        const a = pathPoints[index];
+        const b = pathPoints[index + 1];
+        const eased = local * local * (3 - 2 * local);
+        const x = p.lerp(a.x, b.x, eased) * canvasW;
+        const y = p.lerp(a.y, b.y, eased) * canvasH;
+        const dx = (b.x - a.x) * canvasW;
+        const dy = (b.y - a.y) * canvasH;
+        const len = Math.sqrt(dx * dx + dy * dy) || 1;
+        const nx = -dy / len;
+        const ny = dx / len;
+        return { x: x + nx * offset, y: y + ny * offset, nx, ny };
+      }
+
+      class Walker {
+        constructor(opts) {
+          this.id = opts.id;
+          this.progress = opts.progress;
+          this.speed = opts.speed;
+          this.direction = opts.direction;
+          this.offset = opts.offset;
+          this.hue = opts.hue;
+          this.name = opts.name;
+          this.reason = opts.reason;
+          this.state = opts.state || "climbing";
+          this.pauseClock = opts.pauseClock || 0;
+          this.pulse = p.random(1000);
+        }
+
+        update() {
+          if (state.paused || state.reducedMotion) return;
+          if (this.pauseClock > 0) {
+            this.pauseClock -= 1;
+            this.state = "pausing";
+            return;
+          }
+
+          const nearViewpoint = [0.31, 0.48, 0.66].some(
+            v => Math.abs(this.progress - v) < 0.01
+          );
+          if (nearViewpoint && p.random() < 0.018 && this.direction > 0) {
+            this.pauseClock = p.random(80, 190);
+            this.state = "pausing";
+            return;
+          }
+
+          this.progress += this.speed * this.direction;
+          if (this.progress >= 0.96) {
+            this.progress = 0.96;
+            this.direction = -1;
+            this.state = "descending";
+            this.pauseClock = p.random(40, 120);
+          } else if (this.progress <= 0.015) {
+            this.progress = 0.015;
+            this.direction = 1;
+            this.state = "entering";
+          } else if (this.progress < 0.12 && this.direction > 0) {
+            this.state = "entering";
+          } else if (this.direction < 0) {
+            this.state = "descending";
+          } else {
+            this.state = "climbing";
+          }
+        }
+
+        draw() {
+          const pos = pointAt(this.progress, this.offset);
+          const selected =
+            state.selectedWalkerId === this.id || hoveredWalker === this;
+          const pulse = 1 + Math.sin((visualFrame + this.pulse) * 0.045) * 0.12;
+
+          if (this.state === "pausing") {
+            p.noFill();
+            p.stroke(92, 30, 96, 22);
+            p.strokeWeight(2);
+            p.circle(pos.x, pos.y, 34 * pulse);
+          }
+
+          p.noStroke();
+          const alpha = selected ? 100 : 88;
+          if (this.state === "descending") p.fill(18, 62, 96, alpha);
+          else if (this.state === "pausing") p.fill(95, 38, 94, alpha);
+          else if (this.state === "entering") p.fill(43, 58, 98, alpha);
+          else p.fill(this.hue, 46, 96, alpha);
+          p.circle(pos.x, pos.y, selected ? 15 : 11);
+
+          p.stroke(0, 0, 100, 78);
+          p.strokeWeight(selected ? 2.2 : 1.3);
+          p.noFill();
+          p.circle(pos.x, pos.y, selected ? 20 : 15);
+
+          if (selected) {
+            p.noStroke();
+            p.fill(218, 30, 10, 82);
+            p.rect(pos.x + 14, pos.y - 33, 196, 43, 12);
+            p.fill(0, 0, 100, 94);
+            p.textSize(11);
+            p.textAlign(p.LEFT, p.TOP);
+            p.text(
+              `${this.name}: ${labelFor(this.state)}`,
+              pos.x + 25,
+              pos.y - 27
+            );
+            p.fill(0, 0, 100, 70);
+            p.text(this.reason, pos.x + 25, pos.y - 12);
+          }
+        }
+
+        contains(mx, my) {
+          const pos = pointAt(this.progress, this.offset);
+          return p.dist(mx, my, pos.x, pos.y) < 18;
+        }
+      }
+
+      function labelFor(value) {
+        return (
+          {
+            entering: "entering",
+            climbing: "climbing",
+            pausing: "pausing",
+            descending: "descending",
+          }[value] || "walking"
+        );
+      }
+
+      function describeWalker(walker) {
+        if (!walkerCopy) return;
+        if (!walker) {
+          walkerCopy.textContent =
+            "Hover or tap a walker to see what part of the journey they are in.";
+          return;
+        }
+        const stateLine = {
+          entering:
+            "This person is beginning. Someone else being ahead does not make the first step late.",
+          climbing:
+            "This person is moving through one section. Pace is information, not identity.",
+          pausing:
+            "This person is stopped. The pause may be recovery, attention, or orientation.",
+          descending:
+            "This person is coming down. Their arrival does not cancel anyone else's climb.",
+        }[walker.state];
+        walkerCopy.textContent = `${walker.name}: ${stateLine} Reason visible now: ${walker.reason}.`;
+      }
+
+      function addWalker(progress = 0.02) {
+        state.arrivalCount += 1;
+        walkers.push(
+          new Walker({
+            id: `arrival-${state.arrivalCount}-${Date.now()}`,
+            name: `arrival ${state.arrivalCount}`,
+            progress,
+            speed: p.random(0.00045, 0.0013),
+            direction: 1,
+            offset: p.random(-18, 18),
+            hue: p.random(185, 215),
+            reason: p.random(walkerReasons),
+            state: "entering",
+          })
+        );
+      }
+
+      function resetWalkers() {
+        walkers = [];
+        const presets = [
+          ["early walker", 0.18, 0.0012, 1, -16, 202],
+          ["steady climber", 0.35, 0.0007, 1, 12, 192],
+          ["view keeper", 0.48, 0.0005, 1, -10, 96],
+          ["careful descent", 0.82, 0.0008, -1, 15, 18],
+          ["late arrival", 0.04, 0.0014, 1, 8, 44],
+          ["quiet observer", 0.62, 0.00055, 1, -22, 270],
+          ["returning traveler", 0.91, 0.00075, -1, -6, 20],
+        ];
+        presets.forEach((item, index) => {
+          walkers.push(
+            new Walker({
+              id: `preset-${index}`,
+              name: item[0],
+              progress: item[1],
+              speed: item[2],
+              direction: item[3],
+              offset: item[4],
+              hue: item[5],
+              reason: walkerReasons[index],
+              state:
+                item[1] < 0.1
+                  ? "entering"
+                  : item[3] < 0
+                    ? "descending"
+                    : "climbing",
+              pauseClock: item[0] === "view keeper" ? 260 : 0,
+            })
+          );
+        });
+      }
+
+      function makeStars() {
+        stars = Array.from({ length: 95 }, () => ({
+          x: p.random(),
+          y: p.random(0.02, 0.58),
+          size: p.random(0.45, 1.7),
+          alpha: p.random(8, 22),
+        }));
+      }
+
+      function drawGradient() {
+        p.noStroke();
+        for (let y = 0; y < canvasH; y += 2) {
+          const t = y / canvasH;
+          const h = p.lerp(palette.skyTop[0], palette.skyBottom[0], t);
+          const s = p.lerp(palette.skyTop[1], palette.skyBottom[1], t);
+          const b = p.lerp(palette.skyTop[2], palette.skyBottom[2], t);
+          p.fill(h, s, b, 100);
+          p.rect(0, y, canvasW, 3);
+        }
+        stars.forEach(star => {
+          p.fill(
+            48,
+            18,
+            100,
+            star.alpha + Math.sin(visualFrame * 0.015 + star.x * 9) * 5
+          );
+          p.circle(star.x * canvasW, star.y * canvasH, star.size);
+        });
+      }
+
+      function drawMountains() {
+        p.noStroke();
+        drawPeak(
+          [
+            [0.0, 0.68],
+            [0.14, 0.31],
+            [0.29, 0.67],
+          ],
+          215,
+          34,
+          34,
+          88
+        );
+        drawPeak(
+          [
+            [0.17, 0.69],
+            [0.38, 0.18],
+            [0.62, 0.71],
+          ],
+          220,
+          38,
+          27,
+          95
+        );
+        drawPeak(
+          [
+            [0.48, 0.69],
+            [0.72, 0.24],
+            [1.05, 0.71],
+          ],
+          210,
+          32,
+          32,
+          88
+        );
+
+        p.fill(198, 25, 88, 92);
+        p.beginShape();
+        p.vertex(canvasW * 0.19, canvasH * 0.58);
+        p.vertex(canvasW * 0.39, canvasH * 0.22);
+        p.vertex(canvasW * 0.49, canvasH * 0.57);
+        p.vertex(canvasW * 0.38, canvasH * 0.47);
+        p.endShape(p.CLOSE);
+
+        p.fill(194, 18, 91, 92);
+        p.beginShape();
+        p.vertex(canvasW * 0.61, canvasH * 0.55);
+        p.vertex(canvasW * 0.72, canvasH * 0.24);
+        p.vertex(canvasW * 0.82, canvasH * 0.55);
+        p.vertex(canvasW * 0.72, canvasH * 0.45);
+        p.endShape(p.CLOSE);
+      }
+
+      function drawPeak(points, h, s, b, a) {
+        p.fill(h, s, b, a);
+        p.beginShape();
+        points.forEach(([x, y]) => p.vertex(x * canvasW, y * canvasH));
+        p.endShape(p.CLOSE);
+      }
+
+      function drawGlacier() {
+        p.noStroke();
+        p.fill(palette.glacier[0], palette.glacier[1], palette.glacier[2], 88);
+        p.rect(0, canvasH * 0.62, canvasW, canvasH * 0.4);
+        p.beginShape();
+        p.vertex(0, canvasH * 0.63);
+        for (let i = 0; i <= 18; i++) {
+          const x = (i / 18) * canvasW;
+          const y =
+            canvasH *
+            (0.61 + Math.sin(i * 0.9) * 0.025 + p.noise(i * 0.2) * 0.035);
+          p.vertex(x, y);
+        }
+        p.vertex(canvasW, canvasH);
+        p.vertex(0, canvasH);
+        p.endShape(p.CLOSE);
+
+        p.stroke(
+          palette.glacierShadow[0],
+          palette.glacierShadow[1],
+          palette.glacierShadow[2],
+          24
+        );
+        p.strokeWeight(1);
+        for (let i = 0; i < 26; i++) {
+          const y = canvasH * (0.66 + i * 0.014);
+          p.line(canvasW * 0.05, y, canvasW * 0.95, y + Math.sin(i) * 12);
+        }
+      }
+
+      function drawTrail() {
+        p.noFill();
+        p.strokeCap(p.ROUND);
+        p.strokeJoin(p.ROUND);
+        p.stroke(
+          palette.trailDark[0],
+          palette.trailDark[1],
+          palette.trailDark[2],
+          42
+        );
+        p.strokeWeight(30);
+        p.beginShape();
+        pathPoints.forEach(pt => p.curveVertex(pt.x * canvasW, pt.y * canvasH));
+        p.endShape();
+
+        p.stroke(palette.trail[0], palette.trail[1], palette.trail[2], 82);
+        p.strokeWeight(22);
+        p.beginShape();
+        pathPoints.forEach(pt => p.curveVertex(pt.x * canvasW, pt.y * canvasH));
+        p.endShape();
+
+        p.stroke(43, 15, 94, 26);
+        p.strokeWeight(2);
+        p.beginShape();
+        pathPoints.forEach(pt => p.curveVertex(pt.x * canvasW, pt.y * canvasH));
+        p.endShape();
+      }
+
+      function drawViewpoints() {
+        const points = [
+          { p: 0.31, label: "pause" },
+          { p: 0.48, label: "view" },
+          { p: 0.66, label: "breath" },
+        ];
+        points.forEach(item => {
+          const pos = pointAt(item.p, 36);
+          p.noFill();
+          p.stroke(88, 34, 96, 22 + Math.sin(visualFrame * 0.035) * 8);
+          p.strokeWeight(2);
+          p.circle(pos.x, pos.y, 42);
+          p.noStroke();
+          p.fill(208, 18, 100, 78);
+          p.circle(pos.x, pos.y, 6);
+          if (state.showAnnotations && canvasW > 640) {
+            p.fill(218, 28, 12, 78);
+            p.rect(pos.x + 10, pos.y - 17, 64, 25, 10);
+            p.fill(0, 0, 100, 84);
+            p.textSize(10);
+            p.textAlign(p.LEFT, p.CENTER);
+            p.text(item.label, pos.x + 20, pos.y - 4);
+          }
+        });
+      }
+
+      function drawAnnotations() {
+        if (!state.showAnnotations) return;
+        const scene = scenes[Math.floor(sceneFrame / 520) % scenes.length];
+        const pos = pointAt(scene.anchor, -42);
+        p.noStroke();
+        p.fill(218, 30, 10, 76);
+        const boxW = Math.min(310, canvasW * 0.46);
+        const x = p.constrain(pos.x - boxW * 0.35, 18, canvasW - boxW - 18);
+        const y = p.constrain(pos.y - 64, 18, canvasH - 96);
+        p.rect(x, y, boxW, 70, 16);
+        p.fill(0, 0, 100, 96);
+        p.textAlign(p.LEFT, p.TOP);
+        p.textSize(13);
+        p.text(scene.title, x + 16, y + 12);
+        p.fill(0, 0, 100, 76);
+        p.textSize(10.5);
+        p.text(scene.copy, x + 16, y + 31, boxW - 30, 36);
+      }
+
+      function drawTexture() {
+        p.stroke(45, 12, 100, 4);
+        p.strokeWeight(1);
+        for (let i = 0; i < 80; i++) {
+          const x = (i * 97) % canvasW;
+          const y = (i * 53) % canvasH;
+          p.point(x, y);
+        }
+      }
+
+      p.setup = () => {
+        const rect = container.getBoundingClientRect();
+        canvasW = Math.max(320, Math.floor(rect.width));
+        canvasH = Math.max(420, Math.min(680, Math.floor(canvasW * 0.64)));
+        p.pixelDensity(1);
+        p.createCanvas(canvasW, canvasH);
+        p.colorMode(p.HSB, 360, 100, 100, 100);
+        p.randomSeed(state.seed);
+        p.noiseSeed(state.seed);
+        p.frameRate(45);
+        makePath();
+        makeStars();
+        resetWalkers();
+        updateSceneCopy(0);
+        if (fallback) fallback.hidden = true;
+        setPressed(pauseButton, state.paused);
+        setPressed(reducedButton, state.reducedMotion);
+      };
+
+      p.draw = () => {
+        visualFrame = state.reducedMotion ? 0 : p.frameCount;
+        p.background(214, 45, 18);
+        if (!state.paused && !state.reducedMotion) sceneFrame += 1;
+        updateSceneCopy(sceneFrame);
+
+        drawGradient();
+        drawMountains();
+        drawGlacier();
+        drawTrail();
+        drawViewpoints();
+
+        hoveredWalker = null;
+        walkers.forEach(walker => {
+          if (walker.contains(p.mouseX, p.mouseY)) hoveredWalker = walker;
+        });
+        if (hoveredWalker) describeWalker(hoveredWalker);
+
+        walkers.forEach(walker => walker.update());
+        walkers
+          .slice()
+          .sort((a, b) => a.progress - b.progress)
+          .forEach(walker => walker.draw());
+
+        drawAnnotations();
+        drawTexture();
+      };
+
+      p.mousePressed = () => {
+        const found = walkers.find(walker =>
+          walker.contains(p.mouseX, p.mouseY)
+        );
+        state.selectedWalkerId = found ? found.id : null;
+        describeWalker(found || null);
+      };
+
+      p.keyPressed = () => {
+        if (p.key === " ") {
+          const shouldResume = state.paused;
+          state.paused = !state.paused;
+          if (shouldResume && state.reducedMotion) {
+            state.reducedMotion = false;
+            setPressed(reducedButton, false);
+          }
+          setPressed(pauseButton, state.paused);
+          if (pauseButton)
+            pauseButton.textContent = state.paused
+              ? "Resume motion"
+              : "Pause motion";
+        }
+        if (p.key === "a" || p.key === "A") addWalker(0.015);
+        if (p.key === "s" || p.key === "S")
+          p.saveCanvas("turtleand-mountain-path", "png");
+      };
+
+      p.windowResized = () => {
+        const rect = container.getBoundingClientRect();
+        canvasW = Math.max(320, Math.floor(rect.width));
+        canvasH = Math.max(420, Math.min(680, Math.floor(canvasW * 0.64)));
+        p.resizeCanvas(canvasW, canvasH);
+      };
+
+      pauseButton?.addEventListener("click", () => {
+        const shouldResume = state.paused;
+        state.paused = !state.paused;
+        if (shouldResume && state.reducedMotion) {
+          state.reducedMotion = false;
+          setPressed(reducedButton, false);
+        }
+        setPressed(pauseButton, state.paused);
+        pauseButton.textContent = state.paused
+          ? "Resume motion"
+          : "Pause motion";
+      });
+
+      addButton?.addEventListener("click", () => {
+        addWalker(0.015);
+      });
+
+      annotationsButton?.addEventListener("click", () => {
+        state.showAnnotations = !state.showAnnotations;
+        setPressed(annotationsButton, state.showAnnotations);
+        annotationsButton.textContent = state.showAnnotations
+          ? "Hide annotations"
+          : "Show annotations";
+      });
+
+      reducedButton?.addEventListener("click", () => {
+        state.reducedMotion = !state.reducedMotion;
+        if (state.reducedMotion) state.paused = true;
+        setPressed(reducedButton, state.reducedMotion);
+        setPressed(pauseButton, state.paused);
+        if (pauseButton)
+          pauseButton.textContent = state.paused
+            ? "Resume motion"
+            : "Pause motion";
+      });
+    };
+
+    new window.p5(sketch, container);
+  })();
+</script>

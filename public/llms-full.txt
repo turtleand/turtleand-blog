@@ -23,6 +23,8 @@ Lately I have been thinking about life through a different image.
 
 Not a racetrack. A mountain path.
 
+> Companion artifact: I also made an interactive mountain path that turns this metaphor into a small moving landscape. You can explore it here: [The Mountain Path](/mountain-path/).
+
 ## Arriving at the site
 
 Imagine arriving at a place during a trip. Maybe you are in Ushuaia, visiting a glacier. You enter the site and people are already there.
