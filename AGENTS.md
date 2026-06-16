@@ -1,6 +1,6 @@
-# AGENTS.md
+# AGENTS.md - turtleand-blog
 
-This file defines repository instructions for AI coding and content agents.
+This file defines repository instructions for AI coding and content agents. It gives repository-level guidance for Codex automatic PR reviews and other AI agents.
 
 ## Scope
 
@@ -10,16 +10,17 @@ This file defines repository instructions for AI coding and content agents.
 ## Ecosystem role
 
 - `turtleand-blog/` is the active repository behind the Growth property of the Turtleand ecosystem.
-- Growth is the philosophy layer, reflective essay system, and narrative intelligence of the platform.
-- Its primary job is to generate the concepts, language, and human stakes that make the rest of Turtleand coherent.
+- Growth is the reflective essay, philosophy, strategic language, and human-meaning layer of Turtleand.
+- Its job is to generate the concepts, metaphors, and human stakes that make the rest of the ecosystem coherent.
+- Route tactical engineering to `build/`, curriculum to `ai-lab/`, operational agent notes to `openclaw-lab/` or `hermes-lab/`, compact doctrine to `handbook/`, tool maps to `ai-atlas/`, blockchain systems learning to `chain-lab/`, and identity routing to `portal/`.
 
 ## Project summary
 
 - Stack: Astro + AstroPaper + Tailwind
 - Status: Active
 - Public role: Growth (`growth.turtleand.com`)
-- Content source: `src/content/blog/*.md` (Markdown only)
-- Build output: static site (Netlify-friendly)
+- Content source: `src/content/blog/*.md` using Markdown only
+- Build output: static site, Netlify-friendly
 
 ## Non-negotiable rules
 
@@ -34,6 +35,7 @@ This file defines repository instructions for AI coding and content agents.
 All posts must include valid frontmatter fields used by the content schema in `src/content/config.ts`.
 
 Required:
+
 - `title`
 - `description`
 - `pubDatetime`
@@ -41,6 +43,7 @@ Required:
 - `tags`
 
 Common optional:
+
 - `modDatetime`
 - `featured`
 - `draft`
@@ -49,6 +52,7 @@ Common optional:
 - `editPost`
 
 Date format rules:
+
 - Use YAML date values, not quoted strings.
 - Use ISO-8601 timestamps with `Z` when time is included.
 - Example: `pubDatetime: 2026-03-01T15:57:00Z`
@@ -60,41 +64,52 @@ Date format rules:
 3. Validate content schema and frontmatter when touching posts.
 4. Use this repo for strategic framing, human-AI reflection, and concept formation rather than tactical implementation walkthroughs.
 
-## Content guidance
+## Public-safety review
+
+Reject changes that expose secrets, credentials, private infrastructure details, internal paths, specific vulnerabilities, operational weaknesses, or avoidable personal exposure. Safe public lessons are allowed when they describe general patterns, architecture trade-offs, defensive principles, or non-sensitive implementation choices.
+
+Keep private things private. Share learnings, not exposure.
+
+## Content quality review
 
 - Favor conceptual clarity, durable mental models, and identity-level questions over tool churn.
-- Keep the writing focused on AI, technology, programming, blockchain, personal growth, and how those domains interact in human development.
-- Preserve Growth as the place where Turtleand explains what AI is changing in work, agency, learning, and judgment.
-- Use essays here to generate language and frameworks that other properties can later compress, teach, or operationalize.
+- Preserve metaphor, emotional arc, frontmatter rules, image metadata, and no-em-dash style.
+- Review claims for grounding, public-safety boundaries, and whether the essay overstates certainty.
+- Keep posts Markdown-only unless repository policy changes.
+- Preserve Turtleand voice: calm, precise, direct, reflective when useful, practical when needed.
+- Keep humans responsible for direction, judgment, taste, ethics, and consequences.
 
-## Cross-project boundaries
+## Repository integrity review
 
-- Route new engineering-focused writing to `build/`.
-- Route AI learning-path content to `ai-lab/`.
-- Route agent operations and persistent workflow material to `openclaw/`.
-- Route ecosystem identity and routing work to `portal/`.
-- Route compact doctrine and portable operating principles to `handbook/`.
-- Route tool-landscape mapping and category orientation to `ai-atlas/`.
+- Keep changes focused to the branch purpose.
+- Do not silently modify generated or build output unless the repo explicitly tracks it or the change requires regeneration.
+- Keep `public/llms.txt`, `public/llms-full.txt`, RSS, routes, sitemaps, indexes, and generated discovery files in sync when content changes require it.
+- Run local validation before PR creation.
 
-## Content and publishing checks
+## PR review checklist
 
-When creating or editing a post, verify:
-- Frontmatter is complete and schema-valid.
-- Description is meaningful and specific.
-- Post renders correctly and is readable.
-- Site build succeeds.
+Codex and other agents should check:
+
+- Does the change strengthen Growth as the concept-generation and reflective essay layer?
+- Are public claims grounded, non-hype, and safe to publish?
+- Is anything private, unsafe, or operationally sensitive exposed?
+- Are frontmatter, image metadata, generated LLM artifacts, routes, and indexes still correct?
+- Is the diff small, coherent, and free from unrelated cleanup?
 
 ## LLM/SEO artifacts
 
 The repository auto-generates:
+
 - `public/llms.txt`
 - `public/llms-full.txt`
 
 Generation source:
+
 - Script: `scripts/generate-llms.mjs`
 - Runs in `npm run build` before `astro build`
 
 Also present:
+
 - RSS feed at `/rss.xml`
 - Headers rules in `public/_headers`
 - JSON-LD `BlogPosting` via `src/layouts/PostDetails.astro`
