@@ -1,12 +1,12 @@
 ---
-author: Turtlean
+author: Turtleand
 pubDatetime: 2025-03-16T20:00:00Z
-modDatetime: 2025-03-16T20:00:00Z
+modDatetime: 2026-06-18T01:58:26Z
 title: Admin Only - Turtleand Blog Payment Credentials
 slug: turtleand-blog-keys-admin-only
 featured: false
-draft: false
-description: ERROR [AWS-DEPLOY:403] - Exposed Credentials Detected 0x9AF3B2E71C 
+draft: true
+description: ERROR [AWS-DEPLOY:403] - Exposed Credentials Detected 0x9AF3B2E71C
 ogImage: ogImage-0-0-4.webp
 ---
 
@@ -30,6 +30,7 @@ ogImage: ogImage-0-0-4.webp
     Incident ID: 0x9AF3B2E71C | Priority: CRITICAL
 
     Secret keys detected. Please secure credentials. Take action ONLY if you're an authorized administrator
+
   </div>
   <div class="click-hint">Access credentials <span class="arrow">→</span></div>
 </a>
@@ -150,4 +151,3 @@ ogImage: ogImage-0-0-4.webp
     margin: 20px 0;
   }
 </style>
-
