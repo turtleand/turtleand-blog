@@ -33,7 +33,6 @@
 - [Built to Adapt: Surviving the Innovation Tsunami](https://growth.turtleand.com/posts/built-to-adapt-AI/): In an age where AI accelerates everything, your ability to evolve may be the only constant that matters.
 - [The Future of Software Development: Less Typing, More Thinking](https://growth.turtleand.com/posts/future-software-development-validation/): Engineering is turning from manual labor into strategic guidance for autonomous systems.
 - [Foundational Skills for the AI Era](https://growth.turtleand.com/posts/foundational-skills-AI-era/): Find out which core skills will make you thrive in the age of artificial intelligence.
-- [Admin Only - Turtleand Blog Payment Credentials](https://growth.turtleand.com/posts/turtleand-blog-keys-admin-only/): ERROR [AWS-DEPLOY:403] - Exposed Credentials Detected 0x9AF3B2E71C
 - [The Importance of Why](https://growth.turtleand.com/posts/importance-of-why/): Stop just doing. Start understanding why you're doing it.
 
 ## About
