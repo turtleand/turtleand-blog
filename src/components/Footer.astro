@@ -23,9 +23,15 @@ const { noMarginTop = false } = Astro.props;
   </div>
   <div class="credits">
     Built with
-    <a href="https://astro.build/" target="_blank" rel="noopener noreferrer">Astro</a>
+    <a href="https://astro.build/" target="_blank" rel="noopener noreferrer"
+      >Astro</a
+    >
     &amp;
-    <a href="https://github.com/satnaing/astro-paper" target="_blank" rel="noopener noreferrer">AstroPaper</a>
+    <a
+      href="https://github.com/satnaing/astro-paper"
+      target="_blank"
+      rel="noopener noreferrer">AstroPaper</a
+    >
   </div>
 </footer>
 
@@ -52,6 +58,6 @@ const { noMarginTop = false } = Astro.props;
     @apply my-1 text-center text-xs opacity-50;
   }
   .credits a {
-    @apply underline decoration-dashed underline-offset-2 hover:text-skin-accent;
+    @apply inline-flex min-h-8 items-center underline decoration-dashed underline-offset-2 hover:text-skin-accent;
   }
 </style>
