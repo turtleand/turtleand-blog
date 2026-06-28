@@ -51,6 +51,13 @@ Common optional:
 - `ogImage`
 - `editPost`
 
+Featured-post policy:
+
+- Promote each newly published Growth post with `featured: true`.
+- Keep exactly five featured posts at a time.
+- When promoting a new post would exceed five, demote the oldest featured post or posts by `pubDatetime` with `featured: false`.
+- Toggle only frontmatter flags for featured rotation unless a content edit is explicitly requested.
+
 Date format rules:
 
 - Use YAML date values, not quoted strings.

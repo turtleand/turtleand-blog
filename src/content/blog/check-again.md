@@ -4,7 +4,7 @@ pubDatetime: 2026-02-15T12:00:00Z
 modDatetime: 2026-02-15T12:00:00Z
 title: "Check Again. The World Changed While You Were Working."
 slug: check-again
-featured: true
+featured: false
 draft: false
 tags:
   - AI
