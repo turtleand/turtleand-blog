@@ -3,7 +3,7 @@ author: Turtleand
 pubDatetime: 2026-06-27T23:10:00Z
 title: "The House Is Becoming an Operating System"
 slug: house-as-operating-system
-featured: false
+featured: true
 draft: false
 tags:
   - ai

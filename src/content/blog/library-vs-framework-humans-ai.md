@@ -4,7 +4,7 @@ pubDatetime: 2026-02-23T02:00:00Z
 modDatetime: 2026-02-23T02:00:00Z
 title: "When AI Calls You: The Library vs Framework Shift"
 slug: library-vs-framework-humans-ai
-featured: true
+featured: false
 draft: false
 tags:
   - AI
