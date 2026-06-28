@@ -3,7 +3,7 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
-- [The House Is Becoming an Operating System](https://growth.turtleand.com/posts/house-as-operating-system/): Smart homes are moving from scattered gadgets toward coordinated living systems where devices share context, negotiate with each other, and keep humans in command.
+- [The House Is Becoming an Operating System](https://growth.turtleand.com/posts/house-as-operating-system/): Smart homes are shifting from isolated gadgets to coordinated systems that act on human intent while preserving privacy, control, and agency.
 - [Everyone Enters the Mountain at a Different Time](https://growth.turtleand.com/posts/everyone-enters-the-mountain-at-a-different-time/): Life feels less like a race when you notice that everyone arrived at the mountain at a different time, walks at a different pace, and stops for different views.
 - [12 Radical AI Ideas Beyond the Horseless Carriage](https://growth.turtleand.com/posts/12-radical-ai-ideas-beyond-the-horseless-carriage/): Moving beyond using AI to do old things faster. A look at 12 ideas that use intelligence to enable entirely new ways of operating.
 - [The AI Deployment Gap](https://growth.turtleand.com/posts/ai-deployment-gap/): Companies are spending record amounts on AI. Most can't explain what they're getting back. The gap between buying AI and deploying it is where the real story lives.
