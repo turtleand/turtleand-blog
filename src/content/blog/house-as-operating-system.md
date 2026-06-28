@@ -14,6 +14,8 @@ description: "Smart homes are shifting from isolated gadgets to coordinated syst
 ogImage: ogImage-0-0-4.webp
 ---
 
+![Turtleand in front of a connected smart home](../../assets/images/house-as-operating-system-tinyfied.png)
+
 For years, the smart home was mostly a pile of obedient objects.
 
 A bulb could dim. A thermostat could learn a schedule. A speaker could answer. A vacuum could cross the floor. Each device felt useful, but the system stayed fragmented. The house did not understand itself.
