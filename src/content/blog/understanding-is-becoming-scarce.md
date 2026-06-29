@@ -4,7 +4,7 @@ pubDatetime: 2026-02-24T03:00:00Z
 modDatetime: 2026-02-24T03:00:00Z
 title: "Understanding Is Becoming Scarce"
 slug: understanding-is-becoming-scarce
-featured: true
+featured: false
 draft: false
 tags:
   - AI

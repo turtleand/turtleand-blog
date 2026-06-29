@@ -4,7 +4,7 @@ pubDatetime: 2026-06-28T15:00:00Z
 modDatetime: 2026-06-28T15:00:00Z
 title: "The Loop That Wins in a Breakneck Era"
 slug: "productivity-compass-loops-metrics"
-featured: false
+featured: true
 draft: false
 tags:
   - productivity
