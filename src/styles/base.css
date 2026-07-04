@@ -1,20 +1,6 @@
-@import "tailwindcss";
-@config "../../tailwind.config.cjs";
-
-@theme inline {
-  --font-mono: "IBM Plex Mono", monospace;
-  --color-skin-base: rgb(var(--color-text-base));
-  --color-skin-accent: rgb(var(--color-accent));
-  --color-skin-inverted: rgb(var(--color-fill));
-  --color-skin-fill: rgb(var(--color-fill));
-  --color-skin-card: rgb(var(--color-card));
-  --color-skin-card-muted: rgb(var(--color-card-muted));
-  --color-skin-line: rgb(var(--color-border));
-}
-
-@utility focus-outline {
-  @apply outline-2 outline-offset-1 outline-skin-accent focus-visible:no-underline focus-visible:outline-dashed;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   :root,
@@ -50,7 +36,7 @@
     @apply mx-auto max-w-3xl px-4;
   }
   a {
-    @apply outline-2 outline-offset-1 outline-skin-accent focus-visible:no-underline focus-visible:outline-dashed;
+    @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
   svg {
     @apply inline-block h-6 w-6 fill-skin-base group-hover:fill-skin-accent;
@@ -192,5 +178,8 @@
 @layer components {
   .display-none {
     @apply hidden;
+  }
+  .focus-outline {
+    @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
 }
