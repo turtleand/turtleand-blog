@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "generate:llms": "node scripts/generate-llms.mjs",
+    "tinify:image": "node scripts/tinify-image.mjs",
     "build": "node scripts/generate-llms.mjs && astro build",
     "preview": "astro preview",
     "sync": "astro sync",
@@ -51,6 +52,7 @@
     "prettier-plugin-tailwindcss": "^0.7.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "sharp": "^0.34.5",
     "typescript-eslint": "^8.61.1"
   },
   "overrides": {
