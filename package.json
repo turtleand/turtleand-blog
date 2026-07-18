@@ -50,7 +50,7 @@
     "globals": "^17.7.0",
     "prettier": "^3.8.4",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.7.4",
+    "prettier-plugin-tailwindcss": "^0.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sharp": "^0.34.5",
