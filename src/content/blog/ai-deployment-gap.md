@@ -4,7 +4,7 @@ pubDatetime: 2026-02-27T23:21:00Z
 modDatetime: 2026-02-27T23:21:00Z
 title: "The AI Deployment Gap"
 slug: ai-deployment-gap
-featured: true
+featured: false
 draft: false
 tags:
   - AI

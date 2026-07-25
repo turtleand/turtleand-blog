@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "generate:llms": "node scripts/generate-llms.mjs",
+    "tinify:image": "node scripts/tinify-image.mjs",
     "build": "node scripts/generate-llms.mjs && astro build",
     "preview": "astro preview",
     "sync": "astro sync",
@@ -27,13 +28,14 @@
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "satori": "^0.26.0",
-    "tailwindcss": "^3.4.11",
+    "tailwindcss": "^4.3.1",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@astrojs/react": "^5.0.7",
     "@astrojs/sitemap": "^3.7.3",
     "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "^4.3.1",
     "@tailwindcss/typography": "^0.5.20",
     "@types/d3": "^7.4.3",
     "@types/github-slugger": "^2.0.0",
@@ -51,6 +53,7 @@
     "prettier-plugin-tailwindcss": "^0.7.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "sharp": "^0.34.5",
     "typescript-eslint": "^8.61.1"
   },
   "overrides": {
