@@ -3,6 +3,7 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
+- [AI Is a Lever. You Choose the Direction.](https://growth.turtleand.com/posts/ai-is-a-lever/): AI amplifies human effort, but judgment, creativity, intent, and ethics must decide where that force goes.
 - [The Foundational Engineer Is Moving Upward](https://growth.turtleand.com/posts/the-foundational-engineer-is-moving-upward/): AI is shifting the foundational engineer from mainly writing code toward defining, directing, verifying, securing, and stewarding whole systems.
 - [The Loop That Wins in a Breakneck Era](https://growth.turtleand.com/posts/productivity-compass-loops-metrics/): A loop for making progress in a breakneck era: learn, apply, position, adapt, then use metrics to test whether direction is improving.
 - [The House Is Becoming an Operating System](https://growth.turtleand.com/posts/house-as-operating-system/): Smart homes are shifting from isolated gadgets to coordinated systems that act on human intent while preserving privacy, control, and agency.
