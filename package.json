@@ -22,7 +22,7 @@
     "astro": "^6.4.8",
     "d3": "^7.9.0",
     "framer-motion": "^12.19.2",
-    "fuse.js": "^7.0.0",
+    "fuse.js": "^7.4.2",
     "lodash.kebabcase": "^4.1.1",
     "postcss": "^8.5.15",
     "remark-collapse": "^0.1.2",
