@@ -38,6 +38,7 @@ export default defineConfig({
     service: passthroughImageService(),
   },
   vite: {
+    build: { cssMinify: "esbuild" },
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
