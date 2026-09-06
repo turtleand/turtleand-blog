@@ -12,7 +12,8 @@ This file defines repository instructions for AI coding and content agents. It g
 - `turtleand-blog/` is the active repository behind the Growth property of the Turtleand ecosystem.
 - Growth is the reflective essay, philosophy, strategic language, and human-meaning layer of Turtleand.
 - Its job is to generate the concepts, metaphors, and human stakes that make the rest of the ecosystem coherent.
-- Route tactical engineering to `build/`, curriculum to `ai-lab/`, operational agent notes to `openclaw-lab/` or `hermes-lab/`, compact doctrine to `handbook/`, tool maps to `ai-atlas/`, blockchain systems learning to `chain-lab/`, and identity routing to `portal/`.
+- Route tactical engineering to `build/`, curriculum to `ai-lab/`, operational agent notes to `hermes-lab/`, compact doctrine to `handbook/`, tool maps to `ai-atlas/`, blockchain systems learning to `chain-lab/`, and identity routing to `portal/`.
+- `turtleand/openclaw-lab` is archived and deprecated since 2026-09-06. Preserve historical references, but exclude it from maintenance, operational audits, and new-work routing unless Turtleand explicitly reactivates it.
 
 ## Project summary
 
