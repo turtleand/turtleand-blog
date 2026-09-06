@@ -158,37 +158,47 @@ const traits = [
 </Layout>
 
 <script>
-  document.querySelectorAll<HTMLButtonElement>(".trait-card").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const expanded = btn.getAttribute("aria-expanded") === "true";
-      // Close all others
-      document
-        .querySelectorAll<HTMLButtonElement>(".trait-card")
-        .forEach(other => {
-          if (other !== btn) {
-            other.setAttribute("aria-expanded", "false");
-            const desc = other.querySelector<HTMLElement>(".trait-description");
-            if (desc) desc.style.gridTemplateRows = "0fr";
-            const chev = other.querySelector<HTMLElement>(".trait-chevron");
-            if (chev) chev.style.transform = "";
-          }
-        });
-      // Toggle current
-      btn.setAttribute("aria-expanded", String(!expanded));
-      const desc = btn.querySelector<HTMLElement>(".trait-description");
-      if (desc) desc.style.gridTemplateRows = expanded ? "0fr" : "1fr";
-      const chev = btn.querySelector<HTMLElement>(".trait-chevron");
-      if (chev) chev.style.transform = expanded ? "" : "rotate(180deg)";
-    });
+  const initializedTraits = new WeakSet<HTMLButtonElement>();
 
-    btn.addEventListener("keydown", (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        btn.setAttribute("aria-expanded", "false");
+  function initializeTraits() {
+    document.querySelectorAll<HTMLButtonElement>(".trait-card").forEach(btn => {
+      if (initializedTraits.has(btn)) return;
+      initializedTraits.add(btn);
+      btn.addEventListener("click", () => {
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        // Close all others
+        document
+          .querySelectorAll<HTMLButtonElement>(".trait-card")
+          .forEach(other => {
+            if (other !== btn) {
+              other.setAttribute("aria-expanded", "false");
+              const desc =
+                other.querySelector<HTMLElement>(".trait-description");
+              if (desc) desc.style.gridTemplateRows = "0fr";
+              const chev = other.querySelector<HTMLElement>(".trait-chevron");
+              if (chev) chev.style.transform = "";
+            }
+          });
+        // Toggle current
+        btn.setAttribute("aria-expanded", String(!expanded));
         const desc = btn.querySelector<HTMLElement>(".trait-description");
-        if (desc) desc.style.gridTemplateRows = "0fr";
+        if (desc) desc.style.gridTemplateRows = expanded ? "0fr" : "1fr";
         const chev = btn.querySelector<HTMLElement>(".trait-chevron");
-        if (chev) chev.style.transform = "";
-      }
+        if (chev) chev.style.transform = expanded ? "" : "rotate(180deg)";
+      });
+
+      btn.addEventListener("keydown", (e: KeyboardEvent) => {
+        if (e.key === "Escape") {
+          btn.setAttribute("aria-expanded", "false");
+          const desc = btn.querySelector<HTMLElement>(".trait-description");
+          if (desc) desc.style.gridTemplateRows = "0fr";
+          const chev = btn.querySelector<HTMLElement>(".trait-chevron");
+          if (chev) chev.style.transform = "";
+        }
+      });
     });
-  });
+  }
+
+  initializeTraits();
+  document.addEventListener("astro:page-load", initializeTraits);
 </script>

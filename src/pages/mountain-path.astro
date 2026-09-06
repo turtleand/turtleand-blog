@@ -174,7 +174,7 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
   is:inline
   src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"
   onload="window.__mountainPathInit?.()"></script>
-<script is:inline>
+<script is:inline data-astro-rerun>
   window.__mountainPathInit = () => {
     const container = document.getElementById("mountain-path-sketch");
     if (
@@ -805,7 +805,10 @@ const articleHref = "/posts/everyone-enters-the-mountain-at-a-different-time/";
       });
     };
 
-    new window.p5(sketch, container);
+    const instance = new window.p5(sketch, container);
+    document.addEventListener("astro:before-swap", () => instance.remove(), {
+      once: true,
+    });
   };
   window.__mountainPathInit();
 </script>
