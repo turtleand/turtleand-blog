@@ -9,7 +9,7 @@ draft: false
 tags:
   - skills
   - AI
-description: In an age where AI accelerates everything, your ability to evolve may be the only constant that matters. 
+description: In an age where AI accelerates everything, your ability to evolve may be the only constant that matters.
 ogImage: ogImage-0-0-4.webp
 ---
 
@@ -37,7 +37,7 @@ These loops are powerful on their own. Now, imagine injecting AI into them. AI c
 - **Analyze feedback:** Process vast amounts of user data or test results almost instantly.
 - **Suggest iterations:** Identify patterns and propose improvements humans might miss.
 
-AI doesn't merely participate in the loop; it *supercharges* it, making each cycle faster, tighter, and more insightful. This means quicker validation, faster evolution, products and solutions capable of adapting to changing needs at lightning speed.
+AI doesn't merely participate in the loop; it _supercharges_ it, making each cycle faster, tighter, and more insightful. This means quicker validation, faster evolution, products and solutions capable of adapting to changing needs at lightning speed.
 
 ## Three Possibilities, a Single Direction: Faster
 
@@ -47,7 +47,7 @@ So, just how fast will things get? While nobody has a perfect crystal ball, we c
 2. **The Steep Ascent (Moderate Scenario):** AI takes on more significant roles in research, design, and development. We see meaningful compound effects – AI helps create better AI, which then accelerates the next wave of innovation. Human guidance is still crucial, acting as a brake sometimes, but the overall pace is clearly exponential. Change becomes noticeably faster.
 3. **The Rocket Launch (Aggressive Scenario):** A powerful self-improvement cycle kicks in. AI rapidly gets better at creating even more powerful AI, automating large parts of the innovation process itself. Breakthroughs happen at a dizzying pace, potentially outpacing our ability to adapt. This is the scenario where change feels almost overwhelmingly fast.
 
-Here’s the crucial takeaway: Whether we're on a steady climb or a rocket launch, *all scenarios point towards acceleration*. The fundamental nature of innovation is shifting towards faster cycles and more rapid change, powered by AI.
+Here’s the crucial takeaway: Whether we're on a steady climb or a rocket launch, _all scenarios point towards acceleration_. The fundamental nature of innovation is shifting towards faster cycles and more rapid change, powered by AI.
 
 ## Adapt and Evolve
 
@@ -55,7 +55,7 @@ In a world where the ground rules are constantly being rewritten by accelerating
 
 Nature constantly reminds us: survival favors those who can change, not those who resist it. The single most critical skill is **adaptability**.
 
-As AI accelerates innovation, clinging to old ways of thinking or working becomes increasingly risky. New, more effective methods will emerge constantly. The winners won't be those who knew the *old* rules best, but those who can learn the *new* rules fastest.
+As AI accelerates innovation, clinging to old ways of thinking or working becomes increasingly risky. New, more effective methods will emerge constantly. The winners won't be those who knew the _old_ rules best, but those who can learn the _new_ rules fastest.
 
 This means cultivating:
 

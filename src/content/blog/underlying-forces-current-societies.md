@@ -16,7 +16,7 @@ ogImage: ogImage-0-0-4.webp
 
 ## The Instinctive Forces Shaping Our World
 
-The world we live in today—its inequalities, environmental crises, technological wonders, and social tensions—is not random. It’s the sum of countless human choices, emotions, beliefs, and fears layered over time. Each of us, consciously or unconsciously, is part of that equation. 
+The world we live in today—its inequalities, environmental crises, technological wonders, and social tensions—is not random. It’s the sum of countless human choices, emotions, beliefs, and fears layered over time. Each of us, consciously or unconsciously, is part of that equation.
 
 _What forces are we contributing to?_
 
@@ -117,5 +117,3 @@ No one is forcing us to perpetuate systems that no longer serve human flourishin
 - **Are these patterns still serving us—or are they asking to evolve?**
 - **Where in our lives are we holding back—not because we must, but because we forgot to try?**
 - **Can we imagine new ways of living better together? What does the world you want to help shape look like?**
-
-

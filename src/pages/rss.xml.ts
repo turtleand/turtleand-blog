@@ -41,7 +41,8 @@ export async function GET() {
       `<atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />`,
     ].join(""),
     items: sortedPosts.map(({ data }) => {
-      const ogImage = typeof data.ogImage === "string" ? data.ogImage : data.ogImage?.src;
+      const ogImage =
+        typeof data.ogImage === "string" ? data.ogImage : data.ogImage?.src;
       const imageUrl = getImageUrl(ogImage);
       const customData = [
         `<dc:creator>${escapeXml(data.author ?? SITE.author)}</dc:creator>`,

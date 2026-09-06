@@ -19,7 +19,7 @@ We’re good at setting goals. We’re bad at keeping them.
 
 The workout we skip. The course we abandon. The “deep work” block that turns into scrolling. The pattern is always the same: motivation at the start, friction in the middle, silence at the end.
 
-What if your AI agent was designed to *not let you off the hook*?
+What if your AI agent was designed to _not let you off the hook_?
 
 ## Why Self-Accountability Fails
 
@@ -27,9 +27,9 @@ Willpower is finite. By the time we reach the thing that actually matters, we’
 
 Traditional tools don’t fix this:
 
-* Notifications are easy to ignore
-* Accountability partners require effort and coordination
-* Calendars are endlessly reschedulable
+- Notifications are easy to ignore
+- Accountability partners require effort and coordination
+- Calendars are endlessly reschedulable
 
 They all rely on you having to opt in every time, which requires effort an assistant could absorb instead.
 
@@ -39,11 +39,11 @@ AI agents can change the dynamic through **escalating persistence**.
 
 Instead of one reminder, the system increases pressure the longer you avoid the commitment:
 
-* Miss one day → gentle nudge
-* Miss two → multiple check-ins
-* Miss three → frequent reminders across the day
+- Miss one day → gentle nudge
+- Miss two → multiple check-ins
+- Miss three → frequent reminders across the day
 
-You’re not being punished. You *pre-configured* the consequences, knowing your own habits.
+You’re not being punished. You _pre-configured_ the consequences, knowing your own habits.
 
 ## Verification Beats Reporting
 
@@ -55,10 +55,10 @@ When the agent can check reality directly, excuses disappear.
 
 **Example: GitHub commits**
 
-* Personal Goal: make daily progress on a side project
-* The agent checks your actual commit history
-* When there are no commits the reminders from the agent begin
-* When continue inactivity escalating nudges intensifies
+- Personal Goal: make daily progress on a side project
+- The agent checks your actual commit history
+- When there are no commits the reminders from the agent begin
+- When continue inactivity escalating nudges intensifies
 
 ## Why This Matters
 
@@ -66,10 +66,10 @@ We’re entering an era of deeply personalized AI. The choice isn’t automation
 
 Used well, AI accountability is human-centered:
 
-* You define the goal
-* You choose the pressure
-* The system adapts to you
-* The outcome is personal growth
+- You define the goal
+- You choose the pressure
+- The system adapts to you
+- The outcome is personal growth
 
 ## Call to action
 
@@ -82,6 +82,7 @@ Try out the following prompt:
 > **How to verify:** [how you'll prove it — e.g., "I'll send you a photo" or "check my GitHub commits"]
 >
 > **Nudging rules:**
+>
 > - If I haven't completed my goal by mid-week, send me a reminder
 > - If I still haven't done it, increase the reminders each day
 > - Spread the reminders throughout the day, not all at once

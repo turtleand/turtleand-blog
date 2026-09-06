@@ -2,6 +2,7 @@
 export interface Props {
   href: string;
   className?: string;
+  class?: string;
   ariaLabel?: string;
   title?: string;
   disabled?: boolean;
@@ -10,6 +11,7 @@ export interface Props {
 const {
   href,
   className = "",
+  class: scopedClass = "",
   ariaLabel,
   title,
   disabled = false,
@@ -19,7 +21,7 @@ const {
 {
   disabled ? (
     <span
-      class:list={["group inline-block", className]}
+      class:list={["group inline-block", className, scopedClass]}
       title={title}
       aria-disabled={disabled}
     >
@@ -31,6 +33,7 @@ const {
       class:list={[
         "group inline-flex min-h-12 min-w-12 items-center justify-center hover:text-skin-accent",
         className,
+        scopedClass,
       ]}
       aria-label={ariaLabel}
       title={title}

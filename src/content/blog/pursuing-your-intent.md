@@ -28,15 +28,15 @@ Every major technology shift has followed the same arc: the tool disappears into
 
 AI follows this trajectory: The gap between having an idea and executing is closing very rapidly.
 
-This is exciting and uncomfortable at the same time. If the tool disappears, then the people whose value was tied to *operating* the tool face a real problem. That's not abstract but people's livelihoods. I'm not going to pretend otherwise. Still the direction is clear, and understanding it is better than ignoring it.
+This is exciting and uncomfortable at the same time. If the tool disappears, then the people whose value was tied to _operating_ the tool face a real problem. That's not abstract but people's livelihoods. I'm not going to pretend otherwise. Still the direction is clear, and understanding it is better than ignoring it.
 
 ## Agency Doesn't Become Obsolete
 
-Skills are what you *can* do. Agency is what you *want* to do. They're different things, and they age differently.
+Skills are what you _can_ do. Agency is what you _want_ to do. They're different things, and they age differently.
 
-When a factory worker's manual skill was automated, the loss was devastating, not just economically, but also personally. Years of expertise rendered irrelevant overnight. But the *desire* to build, to create something useful, to provide for a family, that didn't go away. 
+When a factory worker's manual skill was automated, the loss was devastating, not just economically, but also personally. Years of expertise rendered irrelevant overnight. But the _desire_ to build, to create something useful, to provide for a family, that didn't go away.
 
-This new technology is somehow similar. However, AI doesn't just automate execution. It also opens execution to anyone with intent. A person who knows *what* needs to happen but doesn't know *how* to code, design, analyze, or build can now get much further than before. The tool meets you where you are.
+This new technology is somehow similar. However, AI doesn't just automate execution. It also opens execution to anyone with intent. A person who knows _what_ needs to happen but doesn't know _how_ to code, design, analyze, or build can now get much further than before. The tool meets you where you are.
 
 I'm not naive about this and the transition hurts. The gap between losing a skill-based job and channeling your agency through new tools is a real gap, with real bills. I don't have a neat answer for that. But I do think recognizing that agency survives, even when skills don't, matters for how we think about what comes next.
 
@@ -44,7 +44,7 @@ I'm not naive about this and the transition hurts. The gap between losing a skil
 
 In the 1860s, economist William Stanley Jevons observed something counterintuitive: as coal engines became more efficient, coal consumption didn't drop but rather exploded. More efficiency meant more uses. More uses meant more demand. This became known as [Jevons' paradox](https://en.wikipedia.org/wiki/Jevons_paradox). And the term has been widely cited lately in relation to technology and AI.
 
-The same logic applies to problem-solving. As AI makes it more efficient to address challenges, we won't run out of problems. We'll find *more* problems worth solving. Problems we couldn't even see before because we didn't have the capacity to address them. Problems that were too small-scale, too niche, too local, too complex for any individual or underfunded team.
+The same logic applies to problem-solving. As AI makes it more efficient to address challenges, we won't run out of problems. We'll find _more_ problems worth solving. Problems we couldn't even see before because we didn't have the capacity to address them. Problems that were too small-scale, too niche, too local, too complex for any individual or underfunded team.
 
 The more capable the tools, the more human intent has places to go. Not fewer.
 
@@ -62,7 +62,7 @@ Let me name the tension directly: pursuing your intent doesn't pay the bills. At
 
 I'm not going to pretend that new economic models will magically appear to reward every act of agency. The gap between "creating genuine value" and "earning a living" is real, and I don't have a clean answer for closing it.
 
-But I've noticed something. When people create genuine value, other people notice and care. They may even engage. Value has a way of finding its way back, even if the path isn't clear yet. 
+But I've noticed something. When people create genuine value, other people notice and care. They may even engage. Value has a way of finding its way back, even if the path isn't clear yet.
 
 ## Finding Each Other
 
@@ -76,7 +76,7 @@ This isn't a replacement for jobs but rather a parallel force. While the employm
 
 Think about the problem that's been sitting in your peripheral vision. The one you've noticed for years but couldn't do anything about. The broken process, the unmet need, the gap nobody's filling. Now ask: what if you could?
 
-Not "what if someone could." What if *you* could. With intent, with tools that are more accessible every day, with the ability to find others who see the same problem.
+Not "what if someone could." What if _you_ could. With intent, with tools that are more accessible every day, with the ability to find others who see the same problem.
 
 The skill that gets you there might change. The tool might change. But the drive to get there, your intent, that's yours and it doesn't expire.
 

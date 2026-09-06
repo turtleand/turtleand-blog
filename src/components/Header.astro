@@ -4,12 +4,7 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?:
-    | "posts"
-    | "archives"
-    | "tags"
-    | "about"
-    | "search";
+  activeNav?: "posts" | "archives" | "tags" | "about" | "search";
 }
 
 const { activeNav } = Astro.props;
@@ -72,8 +67,14 @@ const navItems: { title: string; path: string; external?: boolean }[] = [
               <li>
                 <a
                   href={item.path}
-                  class={!item.external && activeNav === item.path.slice(1) ? "active" : ""}
-                  {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  class={
+                    !item.external && activeNav === item.path.slice(1)
+                      ? "active"
+                      : ""
+                  }
+                  {...(item.external
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
                 >
                   {item.title}
                 </a>
@@ -243,7 +244,6 @@ const navItems: { title: string; path: string; external?: boolean }[] = [
   .menu-icon.is-active .close {
     @apply opacity-100;
   }
-
 </style>
 
 <script>

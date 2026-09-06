@@ -27,24 +27,28 @@ I've been collecting ideas that feel like they're beyond the horseless carriage.
 These ideas are about how AI could fundamentally change individual capabilities.
 
 #### 1. Dissolve the Skill Barrier
+
 - **Horseless Carriage:** "Help me code faster."
 - **Radical Idea:** "I want this to exist."
-The goal isn't a better programmer; it's a visionary who has never written a line of code building a complex system through pure intent. Skill becomes irrelevant. Vision becomes everything.
+  The goal isn't a better programmer; it's a visionary who has never written a line of code building a complex system through pure intent. Skill becomes irrelevant. Vision becomes everything.
 
 #### 2. Run Parallel Intellectual Lives
+
 - **Horseless Carriage:** "Help me research this topic."
 - **Radical Idea:** Explore five intellectual paths simultaneously.
-Right now, I'm one person who can follow one train of thought. With AI clones, I could explore multiple directions at once and integrate the findings. This isn't delegation; it's parallel cognition.
+  Right now, I'm one person who can follow one train of thought. With AI clones, I could explore multiple directions at once and integrate the findings. This isn't delegation; it's parallel cognition.
 
 #### 3. Continuous Self-Audit
+
 - **Horseless Carriage:** "Help me write in my journal."
 - **Radical Idea:** You never stop reflecting.
-Instead of occasional self-reflection, imagine a persistent intelligence watching your patterns and blind spots, reflecting them back in real-time. Self-awareness becomes a continuous system, not a periodic practice.
+  Instead of occasional self-reflection, imagine a persistent intelligence watching your patterns and blind spots, reflecting them back in real-time. Self-awareness becomes a continuous system, not a periodic practice.
 
 #### 4. Compressed Mastery
+
 - **Horseless Carriage:** "Help me learn faster."
 - **Radical Idea:** Redefine what it means to learn.
-Forget the 10,000-hour rule. AI could create hyper-personalized learning paths that analyze your specific goal and knowledge gaps, teaching you *only* what you need to know. Mastery in a fraction of the time.
+  Forget the 10,000-hour rule. AI could create hyper-personalized learning paths that analyze your specific goal and knowledge gaps, teaching you _only_ what you need to know. Mastery in a fraction of the time.
 - **Trade-off:** Extreme optimization can produce brittle expertise. You get fast capability in a narrow lane, but weaker transfer, intuition, and depth outside that lane.
 
 ## Redesigning Our Systems
@@ -52,24 +56,28 @@ Forget the 10,000-hour rule. AI could create hyper-personalized learning paths t
 These ideas scale up, looking at how AI could change how we work and organize together.
 
 #### 5. Living Institutional Memory
+
 - **Horseless Carriage:** "Search the company wiki."
 - **Radical Idea:** The organization becomes an organism that never forgets.
-A system where every decision, context, and lesson is captured and proactively surfaced the moment it's needed. New employees converse with the organization's memory; mistakes are never repeated.
+  A system where every decision, context, and lesson is captured and proactively surfaced the moment it's needed. New employees converse with the organization's memory; mistakes are never repeated.
 
 #### 6. Autonomous Economic Agents
+
 - **Horseless Carriage:** "Help me analyze this stock."
 - **Radical Idea:** Create an agent that generates income for me while I sleep.
-Deploy autonomous agents that participate in the economy on your behalf—finding freelance work, creating digital products—decoupling your income from your direct attention.
+  Deploy autonomous agents that participate in the economy on your behalf—finding freelance work, creating digital products—decoupling your income from your direct attention.
 
 #### 7. Invert the Job Market
+
 - **Horseless Carriage:** "Help me write my resume."
 - **Radical Idea:** Opportunities find you.
-An AI agent continuously represents your live, evolving skills to the market. It finds opportunities and negotiates terms. Your career becomes a continuous marketplace, not an episodic job search.
+  An AI agent continuously represents your live, evolving skills to the market. It finds opportunities and negotiates terms. Your career becomes a continuous marketplace, not an episodic job search.
 
 #### 8. Relationship Intelligence at Scale
+
 - **Horseless Carriage:** "Send an automated birthday message."
 - **Radical Idea:** Act as a social nervous system for my entire network.
-Use AI to understand the dynamics and needs across hundreds of relationships, surfacing opportunities for genuine human connection that you would otherwise miss. In simple terms: it helps you stay meaningfully connected with more people than humans can usually manage on their own ([Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number)).
+  Use AI to understand the dynamics and needs across hundreds of relationships, surfacing opportunities for genuine human connection that you would otherwise miss. In simple terms: it helps you stay meaningfully connected with more people than humans can usually manage on their own ([Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number)).
 - **Trade-off:** At scale, convenience can become governance drift. If the system decides who matters, when to engage, and how to respond, you slowly cede judgment and agency over your relationships.
 
 ## Changing the Interface to Reality
@@ -77,24 +85,28 @@ Use AI to understand the dynamics and needs across hundreds of relationships, su
 These are the most abstract, but maybe the most powerful. They're about how AI could change the very way we perceive and interact with the world.
 
 #### 9. Preemptive Problem Elimination
+
 - **Horseless Carriage:** "Help me fix this bug."
 - **Radical Idea:** Prevent the bug from ever being written.
-Use AI to model systems forward in time to identify future failure modes. The shift is from solving problems to preventing their existence entirely.
+  Use AI to model systems forward in time to identify future failure modes. The shift is from solving problems to preventing their existence entirely.
 
 #### 10. Real-time Knowledge Domain Translation
+
 - **Horseless Carriage:** "Summarize this neuroscience article."
 - **Radical Idea:** Apply the neuroscience article to my team's management strategy.
-AI can read across all disciplines, finding structural patterns that no human specialist would see. This makes insights from any domain precisely applicable to any other.
+  AI can read across all disciplines, finding structural patterns that no human specialist would see. This makes insights from any domain precisely applicable to any other.
 
 #### 11. Simulate Your Future
+
 - **Horseless Carriage:** "Help me make a pros and cons list."
 - **Radical Idea:** Model the next two years of my life across 500 variables.
-Move beyond simple planning to complex life simulation. Run thousands of scenarios to see probability distributions of future outcomes based on today's decisions.
+  Move beyond simple planning to complex life simulation. Run thousands of scenarios to see probability distributions of future outcomes based on today's decisions.
 
 #### 12. Design Your Own Reality Interface
+
 - **Horseless Carriage:** "Give me a personalized news feed."
 - **Radical Idea:** Build my own information architecture for reality.
-Stop consuming information through interfaces designed by others to maximize engagement. An AI can build a custom interface that curates and formats all information based on *your* goals and interests.
+  Stop consuming information through interfaces designed by others to maximize engagement. An AI can build a custom interface that curates and formats all information based on _your_ goals and interests.
 - **Trade-off:** A perfectly personalized interface can collapse shared reality. Over-optimization around your priors can amplify self-reference, reduce productive friction, and increase isolation.
 
 ---

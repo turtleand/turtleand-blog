@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss/index.css";
 @config "../../tailwind.config.cjs";
 
 @theme inline {
@@ -70,7 +70,8 @@
     overflow: hidden;
     border: 1px solid rgba(var(--color-border), 1);
     border-radius: 1.5rem;
-    background: radial-gradient(
+    background:
+      radial-gradient(
         circle at 18% 12%,
         rgba(255, 255, 255, 0.18),
         transparent 16rem
