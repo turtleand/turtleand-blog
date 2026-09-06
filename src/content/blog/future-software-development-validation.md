@@ -30,9 +30,9 @@ As more code generation is delegated to AI, **verification** becomes the new cen
 
 Unit tests serve as the first line, confirming that outputs behave as expected. But checking outputs alone isn’t enough:
 
-* What if the AI introduces vulnerabilities, such as unauthorized file access or unexpected network calls?
-* What if the overall design is flawed—unclear, inconsistent, or difficult to maintain?
-* What if the code passes all tests but violates architectural principles or causes performance issues?
+- What if the AI introduces vulnerabilities, such as unauthorized file access or unexpected network calls?
+- What if the overall design is flawed—unclear, inconsistent, or difficult to maintain?
+- What if the code passes all tests but violates architectural principles or causes performance issues?
 
 Addressing these challenges requires new tools and processes, representing an evolution of current static analysis. Interestingly, other AI systems can help perform these verifications, creating a feedback loop between builders and inspectors.
 

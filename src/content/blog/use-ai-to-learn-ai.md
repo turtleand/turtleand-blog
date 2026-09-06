@@ -20,9 +20,9 @@ ogImage: ogImage-0-0-4.webp
 
 Artificial intelligence is already embedded in our lives. But there’s a silent gap emerging: most of us are still learning to accurately understand what AI can and cannot do—including myself.
 
-And that gap is quickly becoming the difference between those who *thrive with AI*—and those who are missing the opportunity.
+And that gap is quickly becoming the difference between those who _thrive with AI_—and those who are missing the opportunity.
 
-If you could master just *one skill* right now, let it be this: **knowing how to use AI to understand AI**.
+If you could master just _one skill_ right now, let it be this: **knowing how to use AI to understand AI**.
 
 ---
 
@@ -32,11 +32,11 @@ AI isn’t just a tool—it’s a partner in self-discovery. And one of the most
 
 By prompting AI in structured ways, you can:
 
-* Discover what tasks it's great at.
+- Discover what tasks it's great at.
 
-* Reveal where it struggles.
+- Reveal where it struggles.
 
-* Uncover blind spots in your own assumptions.
+- Uncover blind spots in your own assumptions.
 
 ### **Start With Simple Exploration:**
 
@@ -91,7 +91,7 @@ A five-minute routine can keep your meta-skill alive: take a moment each week to
 
 ## **Why This Matters**
 
-Knowing what AI *really* can and cannot do is the cornerstone skill of this era. It saves you time, mental energy, and stress.
+Knowing what AI _really_ can and cannot do is the cornerstone skill of this era. It saves you time, mental energy, and stress.
 
 It turns you from a passive user of AI into a **strategic user**.
 
@@ -101,12 +101,12 @@ And better yet? AI itself can become your teacher on how to improve it's usage.
 
 ## Essential Takeaways
 
-* Use AI to test, question, and reflect on AI.
+- Use AI to test, question, and reflect on AI.
 
-* Make it part of your weekly or monthly routines.
+- Make it part of your weekly or monthly routines.
 
-* Stay sharp by evolving your expectations as AI evolves.
+- Stay sharp by evolving your expectations as AI evolves.
 
-It’s not about knowing *everything* AI can do. It’s about **staying close to the edge of what’s possible—without falling for the hype**.
+It’s not about knowing _everything_ AI can do. It’s about **staying close to the edge of what’s possible—without falling for the hype**.
 
 This is a key skill to develop now, as it enables individuals to leverage one of the most powerful tools ever created by humanity.

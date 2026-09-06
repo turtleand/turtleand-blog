@@ -4,7 +4,7 @@ pubDatetime: 2026-02-25T12:00:00Z
 modDatetime: 2026-02-25T12:00:00Z
 title: "The Iteration Percentile"
 slug: the-iteration-percentile
-featured: true
+featured: false
 draft: false
 tags:
   - AI

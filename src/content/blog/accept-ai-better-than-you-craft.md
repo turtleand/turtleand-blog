@@ -26,7 +26,7 @@ My first instinct was to reason about it. To argue edge cases, caveats, nuances.
 
 Instead of debating AI capabilities in the abstract, it might be worth trying something concrete. Pick a task that represents your craft such as a coding problem, a design iteration, a legal analysis, a strategic memo. Then define clear criteria: accuracy, speed, depth, creativity, clarity. Finally compare, side by side. To evaluate the results, you could ask a colleague or friend in the area.
 
-If the model performs worse, you gain confidence. If it performs better, you gain a tool. Either way, the outcome is useful. But what I found more interesting than the results was the resistance I felt *before* running the test. That resistance, it turns out, is where the real insight lives.
+If the model performs worse, you gain confidence. If it performs better, you gain a tool. Either way, the outcome is useful. But what I found more interesting than the results was the resistance I felt _before_ running the test. That resistance, it turns out, is where the real insight lives.
 
 ## When Craft Becomes Identity
 
@@ -52,7 +52,7 @@ It's possible to apply the [5 Whys](https://en.wikipedia.org/wiki/Five_whys) tec
 
 5️⃣ Why does execution define worth?
 
-> Because historically, skill scarcity created differentiation. When few people could do what you do, that ability *was* your identity.
+> Because historically, skill scarcity created differentiation. When few people could do what you do, that ability _was_ your identity.
 
 The root of the resistance couldn't be really about performance, but rather personal value. And the uncomfortable follow-up question is: what if identity doesn't have to be fixed to execution? What if it can evolve with how you use what you know?
 
@@ -82,9 +82,9 @@ Running the 5 Whys again:
 
 > That the past doesn't guarantee the future.
 
-But here's what I keep coming back to: sunk cost doesn't disappear. It transforms. Deep expertise becomes better evaluation, better prompting, better integration, better judgment. You stop being the person who executes the fastest and start being the person who knows *what's worth executing*. And whether the output is actually good. Execution skill becomes leverage skill.
+But here's what I keep coming back to: sunk cost doesn't disappear. It transforms. Deep expertise becomes better evaluation, better prompting, better integration, better judgment. You stop being the person who executes the fastest and start being the person who knows _what's worth executing_. And whether the output is actually good. Execution skill becomes leverage skill.
 
-In Turtleand's case, this connects directly to the [70/30 specialist/generalist split](/posts/archetypes-human-work-ai-era). The years spent going deep don't lose value. They  become the foundation for knowing what to delegate and what to hold close.
+In Turtleand's case, this connects directly to the [70/30 specialist/generalist split](/posts/archetypes-human-work-ai-era). The years spent going deep don't lose value. They become the foundation for knowing what to delegate and what to hold close.
 
 ## The Real Resistance
 
@@ -94,6 +94,6 @@ The real shift isn't asking "Am I still the best executor?". It's asking "What r
 
 ## What Opens Up From Here
 
-So I'll leave you with the original question: if the evidence were clear, would you accept that a thinking model is better than you at your craft? 
+So I'll leave you with the original question: if the evidence were clear, would you accept that a thinking model is better than you at your craft?
 
 Instead of anchoring to what you were, it might be worth asking: what becomes possible if execution is cheaper? What higher-level problems could you now solve? What could you become with these tools as extensions of your understanding rather than replacements for it?

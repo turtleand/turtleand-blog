@@ -33,6 +33,7 @@ What changes is not what gets done, but what humans are responsible for.
 Navigators don’t try to outperform AI at getting things done.. They decide where to go next.
 
 They:
+
 - Frame the problem before AI touches it
 - Choose which signals matter and which are noise
 - Decide when to stop exploring and commit
@@ -48,6 +49,7 @@ Their leverage comes from judgment, not speed. When options explode, navigation 
 Auditors exist because getting AI output is easy but knowing when it's wrong is not.
 
 They:
+
 - Validate assumptions and reasoning paths
 - Stress-test outputs in high-stakes contexts
 - Say "no" when speed would be cheaper
@@ -63,6 +65,7 @@ They slow systems down on purpose.
 Frontier Builders go where AI can assist but not replace understanding.
 
 They:
+
 - Push deep into domains that still resist automation
 - Create new mental models, not just outputs
 - Extend what humans can responsibly delegate
@@ -78,6 +81,7 @@ Every other role depends on this work.
 Custodians protect standards that speed would otherwise erode.
 
 They:
+
 - Preserve correctness and intent
 - Maintain institutional memory
 - Resist silent drift caused by unchecked automation
@@ -93,6 +97,7 @@ They are rarely celebrated, until something breaks.
 AI produces fragments: code, text, ideas, recommendations. Synthesizers make them cohere both in meaning and in practice.
 
 They:
+
 - Compress complexity into usable frameworks
 - Connect outputs across tools, teams, and domains
 - Resolve contradictions between models and turn isolated answers into working systems
@@ -109,11 +114,12 @@ They operate at the seams where most failures happen and where meaning is made.
 While Custodians preserve existing standards, Moral Arbiters decide what's right when standards don't yet exist.
 
 They:
+
 - Navigate ethical dilemmas AI cannot resolve
 - Define boundaries before harm occurs
 - Hold the line when pressure says "just ship it"
 
-As AI expands into new domains faster than policy can follow, someone must decide what *should* be done in addition to what *can* be done.
+As AI expands into new domains faster than policy can follow, someone must decide what _should_ be done in addition to what _can_ be done.
 
 ---
 
@@ -121,9 +127,10 @@ As AI expands into new domains faster than policy can follow, someone must decid
 
 **Core role:** Human trust and cohesion.
 
-AI changes how teams work. The Connector ensures teams still work *together*.
+AI changes how teams work. The Connector ensures teams still work _together_.
 
 They:
+
 - Maintain trust when AI mediates communication
 - Preserve morale as roles shift and uncertainty grows
 - Bridge the emotional gap between humans and AI-augmented workflows
@@ -135,11 +142,13 @@ Technology optimizes for output. Connectors optimize for the humans producing it
 ## What these roles have in common
 
 None of these roles optimize for:
+
 - Raw output
 - Maximum speed
 - Tool mastery alone
 
 They optimize for:
+
 - **Judgment**
 - **Boundaries**
 - **Responsibility**

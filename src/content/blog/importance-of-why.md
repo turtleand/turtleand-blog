@@ -23,15 +23,13 @@ Read time: 10 minutes
 
 So far, humans have focused on the 'How' — How do we execute tasks? How do we optimize processes? How do we achieve outcomes? This focus on execution has driven tremendous innovation and progress.
 
-But now, with the advent of artificial intelligence, much of the 'How' is increasingly automated. Machines can handle many tasks at scale, quickly and efficiently. 
+But now, with the advent of artificial intelligence, much of the 'How' is increasingly automated. Machines can handle many tasks at scale, quickly and efficiently.
 
 This shift presents an opportunity to step back and ask a different question: 'What'? What is the most important thing we’re trying to accomplish? What actions will yield the greatest value for the least effort? What’s the next logical step in achieving our goals? By asking 'What', we clarify our priorities and ensure that our efforts are aligned with meaningful objectives.
-
 
 ## The Next Question
 
 Even though asking 'What' helps set a clear direction, by outlining the path we’ll take, there’s an even deeper and more crucial question: 'Why'. While 'What' defines the goals and actions, 'Why' reveals the underlying motivations, the long-term purpose, and the values driving those goals. Without asking 'Why', we may succeed in execution but fail to understand the true significance of our actions and decisions. This lack of understanding would not only limit our ability to innovate and adapt to change, but it would also prevent us from grasping the fundamental aspects of nature and humanity. It's in the 'Why' where we have the opportunity to understand the very core and underlying reasons behind the world around us.
-
 
 ## My own example
 

@@ -32,9 +32,9 @@ For meaningful life transformation, we must engage with and address our roots. A
 
 Often, we attempt to change our lives by merely addressing visible symptoms. For instance:
 
-* A person repeatedly seeks additional jobs to pay off debts (**fruit-level**) without addressing their spending habits (**tree-level**), let alone questioning their deeper beliefs about material possessions (**root-level**).
+- A person repeatedly seeks additional jobs to pay off debts (**fruit-level**) without addressing their spending habits (**tree-level**), let alone questioning their deeper beliefs about material possessions (**root-level**).
 
-* A person experiencing ongoing stress (**fruit-level**) might repeatedly tweak their routines (**tree-level**), overlooking that the real root cause is equating their personal value with constant productivity (**root-level**).
+- A person experiencing ongoing stress (**fruit-level**) might repeatedly tweak their routines (**tree-level**), overlooking that the real root cause is equating their personal value with constant productivity (**root-level**).
 
 These superficial interventions might offer temporary relief or improvement, but they rarely last because the underlying root causes remain unresolved.
 

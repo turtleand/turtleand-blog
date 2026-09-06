@@ -16,7 +16,7 @@ ogImage: ogImage-0-0-4.webp
 
 ## The New Frontier Is the Question
 
-Humans and machines together are now capable of generating more answers and solutions than ever before. But here's the real challenge: are we focusing on the *right* questions? Are we solving problems that actually matter?
+Humans and machines together are now capable of generating more answers and solutions than ever before. But here's the real challenge: are we focusing on the _right_ questions? Are we solving problems that actually matter?
 
 ## Compass for Transformation
 
