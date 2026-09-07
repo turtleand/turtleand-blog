@@ -3,8 +3,8 @@ author: Turtleand
 pubDatetime: 2026-09-06T12:00:00Z
 title: "Four Ways to Work with Agentic AI"
 slug: four-ways-to-work-with-agentic-ai
-featured: false
-draft: true
+featured: true
+draft: false
 tags:
   - ai
   - agents
