@@ -4,6 +4,74 @@
 
 ---
 
+# Alignment Should Be Part of Winning
+
+> Alignment benchmarks deserve at least as much attention as coding and math scores, with the whole AI community helping improve the tests and check the results.
+
+Published: 2026-09-12T12:00:00Z
+URL: https://growth.turtleand.com/posts/alignment-should-be-part-of-winning/
+
+![People working together to build a transparent path with shared plans and safety rails](/assets/alignment-should-be-part-of-winning-tinyfied.webp)
+
+AI models compete on benchmark scores: [SWE-bench Pro](https://labs.scale.com/papers/swe_bench_pro) tests coding, while [AIME](https://artificialanalysis.ai/evaluations/aime-2025) and [GPQA Diamond](https://artificialanalysis.ai/evaluations/gpqa-diamond), tracked by Artificial Analysis, test math and science.
+
+What if alignment benchmarks mattered just as much, or more? They seem to exist, but deserve more attention. Alongside solving problems, models should be judged on whether they are honest, accept corrections, respect people's choices, and stay under human control.
+
+The whole AI community could build on this work and maintain a shared set of tests. Researchers, labs, and independent testers would share challenges, methods, and findings in a public collection that everyone could improve.
+
+The aim would be to set the requirements before the next, more capable models arrive. Labs would develop ways to meet them, and independent testers would check the results. Under a shared, enforced release rule, a model that fails could not be released or used for high-stakes work inside a lab, such as building future AI systems.
+
+The community would set the bar and check the evidence. Each lab would work out how to reach it.
+
+Tests would examine behavior in unfamiliar situations, supported by research into how models work internally. Passing would be useful evidence, not a promise that nothing could go wrong.
+
+If customers and reviewers valued these results at least as highly as coding, math, and other skills, labs would have a stronger reason to improve alignment. Helping people stay in control would become part of what makes a model good.
+
+---
+
+# Four Ways to Work with Agentic AI
+
+> Four observed ways people participate in work with AI agents: intermediary, reviewer, thinking partner, and selective delegator.
+
+Published: 2026-09-06T12:00:00Z
+URL: https://growth.turtleand.com/posts/four-ways-to-work-with-agentic-ai/
+
+![Turtleand beside a paper sketch while autonomous tools explore and build two bridge designs](/assets/four-ways-to-work-with-agentic-ai-tinyfied.png)
+
+I broadly see four alternative patterns when working with AI agents, which execute by themselves:
+
+## The intermediary
+
+The intermediary carries another person's request to an agent and passes the result back. The agent does the work. The person acts as the intermediary between the requester and the agent.
+
+## The reviewer
+
+The reviewer delegates implementation and examines the resulting work. They compare it with the original request, identify what needs changing, and ask the agent for corrections. The agent carries out those changes, and the person reviews the result again. This repeats as needed.
+
+## The thinking partner
+
+Here, the person brings an initial understanding of the problem and a possible solution. The agent uses that contribution as a starting point for investigation. It explores alternatives, tests possibilities, and returns findings that can reshape both the solution and the problem itself.
+
+The person and agent continue working through those findings together. Each round gives them something to question, investigate, or revise in the next.
+
+This is the pattern I prefer because I remain involved in the thinking and understand the work as it develops. I contribute what I understand and how I would approach the problem, then use the agent to expand, challenge, and reshape that view. My starting context does not limit what the agent may explore.
+
+## The selective delegator
+
+The selective delegator continues doing substantial thinking themselves. For unfamiliar problems, they reason through the situation, design possible solutions, and decide how to proceed. Agents execute familiar, repetitive tasks within that work.
+
+The person retains the cognitive work through this continued involvement: forming an understanding, working through why a solution fits, and making the decisions themselves.
+
+## Choosing where to participate
+
+These are flexible working patterns. The same person may review one task, explore another with an agent, and selectively delegate a third. They describe choices within work, not fixed identities or levels of maturity.
+
+A percentage of AI usage tells us little about those choices. What matters is where understanding and judgment remain, and whether someone can recognize when the arrangement needs to change.
+
+As with [a lever](/posts/ai-is-a-lever/), greater reach makes direction consequential. Delegating the work does not remove our responsibility for what we accept or set in motion.
+
+---
+
 # AI Is a Lever. You Choose the Direction.
 
 > AI amplifies human effort, but judgment, creativity, intent, and ethics must decide where that force goes.
