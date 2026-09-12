@@ -40,6 +40,8 @@ Public infrastructure still needs stewards. Standards should be shaped through a
 
 There is a useful analogy in test-driven development: define the requirements first, then build toward satisfying them.
 
+Software teams can make non-functional requirements such as security, privacy, and reliability part of a release gate: a feature may work, but production deployment is blocked when required checks fail. Alignment deserves a similar place in the release process, even though it also concerns what the system is trying to achieve. An unsafe system may still be technically deployable; the enforced policy prohibits releasing it.
+
 Before releasing the next more capable generation, establish the safety requirements it must meet. Specify unacceptable behaviors, evidence needed for approval, and conditions that require stopping. Update those requirements as capabilities and knowledge change, before the new risks are deployed.
 
 A system that fails should not pass through the deployment gate because it leads a coding benchmark or because a competitor is close behind. It should be improved, restricted, or withheld until the relevant requirements are met.
