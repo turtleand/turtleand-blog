@@ -18,7 +18,7 @@ ogImage: ../../assets/images/alignment-should-be-part-of-winning-tinyfied.webp
 
 AI models compete on benchmark scores: [SWE-bench Pro](https://labs.scale.com/papers/swe_bench_pro) tests coding, while [AIME](https://artificialanalysis.ai/evaluations/aime-2025) and [GPQA Diamond](https://artificialanalysis.ai/evaluations/gpqa-diamond), tracked by Artificial Analysis, test math and science.
 
-What if alignment benchmarks mattered just as much, or more? [They already exist](https://alignment.anthropic.com/2026/auditbench/), but deserve more attention. Alongside solving problems, models should be judged on whether they are honest, accept corrections, respect people's choices, and stay under human control.
+What if alignment benchmarks mattered just as much, or more? They seem to exist, but deserve more attention. Alongside solving problems, models should be judged on whether they are honest, accept corrections, respect people's choices, and stay under human control.
 
 The whole AI community could build on this work and maintain a shared set of tests. Researchers, labs, and independent testers would share challenges, methods, and findings in a public collection that everyone could improve.
 
