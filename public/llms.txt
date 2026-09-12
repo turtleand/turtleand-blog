@@ -3,6 +3,8 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
+- [Alignment Should Be Part of Winning](https://growth.turtleand.com/posts/alignment-should-be-part-of-winning/): Alignment benchmarks can make safety central to model quality through shared standards, independent evaluation, and enforced deployment requirements.
+- [Four Ways to Work with Agentic AI](https://growth.turtleand.com/posts/four-ways-to-work-with-agentic-ai/): Four observed ways people participate in work with AI agents: intermediary, reviewer, thinking partner, and selective delegator.
 - [AI Is a Lever. You Choose the Direction.](https://growth.turtleand.com/posts/ai-is-a-lever/): AI amplifies human effort, but judgment, creativity, intent, and ethics must decide where that force goes.
 - [The Foundational Engineer Is Moving Upward](https://growth.turtleand.com/posts/the-foundational-engineer-is-moving-upward/): AI is shifting the foundational engineer from mainly writing code toward defining, directing, verifying, securing, and stewarding whole systems.
 - [The Loop That Wins in a Breakneck Era](https://growth.turtleand.com/posts/productivity-compass-loops-metrics/): A loop for making progress in a breakneck era: learn, apply, position, adapt, then use metrics to test whether direction is improving.
