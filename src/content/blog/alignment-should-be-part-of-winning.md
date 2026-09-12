@@ -11,10 +11,10 @@ tags:
   - strategy
   - reflection
 description: "Alignment benchmarks deserve at least as much attention as coding and math scores, with the whole AI community helping improve the tests and check the results."
-ogImage: ../../assets/images/alignment-should-be-part-of-winning-tinyfied.webp
+ogImage: /assets/alignment-should-be-part-of-winning-tinyfied.webp
 ---
 
-![People working together to build a transparent path with shared plans and safety rails](../../assets/images/alignment-should-be-part-of-winning-tinyfied.webp)
+![People working together to build a transparent path with shared plans and safety rails](/assets/alignment-should-be-part-of-winning-tinyfied.webp)
 
 AI models compete on benchmark scores: [SWE-bench Pro](https://labs.scale.com/papers/swe_bench_pro) tests coding, while [AIME](https://artificialanalysis.ai/evaluations/aime-2025) and [GPQA Diamond](https://artificialanalysis.ai/evaluations/gpqa-diamond), tracked by Artificial Analysis, test math and science.
 
