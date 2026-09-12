@@ -6,20 +6,24 @@
 
 # Alignment Should Be Part of Winning
 
-> Alignment benchmarks can make safety central to model quality through shared standards, independent evaluation, and enforced deployment requirements.
+> What if AI models competed on alignment alongside coding and math, using tests built and maintained by the whole AI community?
 
 Published: 2026-09-12T12:00:00Z
 URL: https://growth.turtleand.com/posts/alignment-should-be-part-of-winning/
 
-Alignment benchmarks can become a core measure of model quality, with the same prominence as capability benchmarks. A good model would need to demonstrate both what it can accomplish and whether people can trust, correct, and control it.
+AI models compete on benchmark scores: [SWE-bench Pro](https://labs.scale.com/papers/swe_bench_pro) tests coding, while [AIME](https://artificialanalysis.ai/evaluations/aime-2025) and [GPQA Diamond](https://artificialanalysis.ai/evaluations/gpqa-diamond), tracked by Artificial Analysis, test math and science.
 
-A global community of researchers, labs, independent evaluators, and public institutions would maintain public standards, evaluation methods, and a shared repository of challenges and knowledge. Alignment becomes a collaborative worldwide effort.
+What if an alignment benchmark mattered just as much? Alongside solving problems, models would be tested on whether they are honest, accept corrections, respect people's choices, and stay under human control.
 
-The objective is to define and raise the safety bar before each more capable generation is deployed. Labs develop toward that bar. Under an enforced release policy, failing the requirements blocks deployment, including consequential internal uses such as automating AI research. The community does not need to solve every training problem itself: it sets demanding requirements and independently evaluates evidence, while labs develop methods to meet them.
+The whole AI community could help build and maintain it. Researchers, labs, and independent testers would share challenges, methods, and findings in a public collection that everyone could improve.
 
-Tests would examine honesty, accepting correction, and human control. Observability and research into internal mechanisms would help investigate whether safe behavior persists beyond superficial compliance. Passing provides evidence that must hold up in new conditions, not a universal guarantee.
+The aim would be to set the requirements before the next, more capable models arrive. Labs would develop ways to meet them, and independent testers would check the results. Under a shared, enforced release rule, a model that fails could not be released or used for high-stakes work inside a lab, such as building future AI systems.
 
-Customers, reviewers, and procurement teams would reward meeting these standards alongside capability. [MLCommons AILuminate Agentic](https://mlcommons.org/ailuminate/agentic/) connects evaluation with adoption decisions to encourage reliability improvements. Making alignment evidence central to those decisions gives labs a reason to improve it, making shared safety progress part of competitive success.
+The community would set the bar and check the evidence. Each lab would work out how to reach it.
+
+Tests would examine behavior in unfamiliar situations, supported by research into how models work internally. Passing would be useful evidence, not a promise that nothing could go wrong.
+
+If customers and reviewers valued these results alongside coding, math, and other skills, labs would have a stronger reason to improve alignment. Helping people stay in control would become part of what makes a model good.
 
 ---
 
