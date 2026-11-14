@@ -6,20 +6,21 @@
 
 # AI Is an Electric Bicycle. Keep Pedaling.
 
-> Use assistance to go farther while keeping direction, checking understanding, and practicing the capabilities you value.
+> Enjoy AI assistance while keeping brief moments of practice and responsibility for direction and consequences.
 
 Published: 2026-11-14T09:02:00Z
 URL: https://growth.turtleand.com/posts/ai-electric-bicycle/
 
 ![Turtleand pedaling an electric bicycle along a gently rising path](/assets/images/ai-electric-bicycle-tinyfied.png)
 
-An electric bicycle helps us travel farther with the effort we have. AI can do something similar: turn scattered notes into a plan, or make an unfamiliar task easier to begin. That help is worth having. Three anchors keep us involved in the ride.
+An electric bicycle makes the ride smoother. A small push carries us farther, and a difficult hill becomes manageable. AI can feel much the same: it handles a calculation, shapes a draft, or helps us find a useful next step.
 
-- **Choose the direction.** A faster route is useful only if it takes us somewhere worth going. We still choose the destination, question suggestions, and judge the consequences for others. AI can propose a plan; it cannot take responsibility for our decision to follow it.
-- **Notice what you understand.** External aids can [reduce mental demands](https://samgilbert.net/pubs/Risko2016TiCS.pdf), but a finished answer is not proof of understanding. Try a small part yourself, explain why it works, and check an assumption. Hesitation gives you a useful place to ask for help.
-- **Practice what you want to keep.** Completing work and developing a capability are different purposes. Research distinguishes [immediate performance from lasting learning](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf). If estimating, writing, or navigating matters to you, make room to use it. Tools can offer feedback and handle routine steps; manual effort alone does not guarantee learning.
+There is no need to make every journey harder. Two things still deserve our attention.
 
-**A small experiment:** After using any helpful tool, explain one step without looking. Then check whether your explanation holds up.
+- **Keep some pedaling in the ride.** Occasionally reduce the assistance on a small, familiar part of the work. Recall an idea before reading the explanation, or make an estimate before checking the total. [Recalling information can help us retain it](https://pubmed.ncbi.nlm.nih.gov/16507066/). Begin with one step, use a hint when needed, and take on more as understanding grows. This gives the capabilities we value a place to stay in use, without making every task an exercise.
+- **Keep the steering.** Assistance can suggest a route. We still decide where to go, whether the route makes sense, and who might be affected. A smooth result does not settle those questions. We can delegate parts of the work while keeping responsibility for direction and consequences.
+
+**A small experiment:** On one familiar task today, try the first step without help. Then bring the help back and compare.
 
 ---
 
