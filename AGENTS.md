@@ -80,6 +80,7 @@ Keep private things private. Share learnings, not exposure.
 
 ## Content quality review
 
+- Default to concise, bite-size Growth posts with one clear core idea and short, purposeful points. Prioritize understanding, durable direction, and human judgment. Use general examples when the lesson extends beyond AI, and keep reader experiments small and broadly applicable.
 - Favor conceptual clarity, durable mental models, and identity-level questions over tool churn.
 - Preserve metaphor, emotional arc, frontmatter rules, image metadata, and no-em-dash style.
 - Review claims for grounding, public-safety boundaries, and whether the essay overstates certainty.
