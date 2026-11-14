@@ -3,6 +3,7 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
+- [What If the Workflow Adapted to You?](https://growth.turtleand.com/posts/routine-built-around-you/): Design routines and interfaces around human understanding, judgment, and changing capacity, then test whether they actually help.
 - [AI Is an Electric Bicycle. Keep Pedaling.](https://growth.turtleand.com/posts/ai-electric-bicycle/): AI can amplify a small effort. A few unassisted miles help us see what we understand and preserve the skills we value.
 - [Five Anchors for AI FOMO](https://growth.turtleand.com/posts/ai-fomo-five-anchors/): Five ways to protect direction, judgment, attention, and energy while learning through the AI shift.
 - [Alignment Should Be Part of Winning](https://growth.turtleand.com/posts/alignment-should-be-part-of-winning/): Alignment benchmarks deserve at least as much attention as coding and math scores, with the whole AI community helping improve the tests and check the results.
