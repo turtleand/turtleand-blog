@@ -9,34 +9,32 @@ tags:
   - AI
   - reflection
   - growth
-description: "Assistance makes the journey easier. Keep choosing the route, noticing what you understand, and practicing what you want to carry forward."
+description: "AI can make the ride smoother. Gradually practice with less help while keeping responsibility for steering and consequences."
 ogImage: /assets/images/ai-electric-bicycle-tinyfied.png
 ---
 
 ![Turtleand pedaling an electric bicycle along a gently rising path](/assets/images/ai-electric-bicycle-tinyfied.png)
 
-The hill feels different on an electric bicycle. A little pressure on the pedals becomes enough to keep moving. A journey we might have avoided now feels possible.
+An electric bicycle can make a steep road feel surprisingly gentle. The motor works well. The ride is smoother, and we can travel farther with the energy we have.
 
-AI can offer that kind of help. A few uncertain notes become a clear explanation. We have something to work with, and more energy left to consider it.
+AI often brings the same relief. A difficult paragraph takes shape. A calculation gets done. Something that felt beyond reach becomes possible.
 
-## Keep your hands on the handlebars
+We can welcome that help while keeping two things in our own hands.
 
-The motor does not decide where the journey should lead. We choose the destination and remain responsible for the route and its consequences.
+## Ease back into pedaling
 
-When AI suggests a plan, ask what it assumes and who it affects. The same applies to a recommended route or a ready-made budget. Convenience does not settle whether the suggestion fits our purpose.
+Once in a while, turn the assistance down for a short stretch. Choose a capability you want to keep using: explaining an idea, estimating a cost, or working through a problem.
 
-## Look beyond the smooth ride
+The transition can be gradual. Start with an example, try one step with a hint, then attempt a little more yourself. Research on [learning support](https://doi.org/10.1007/s10648-010-9127-6) describes this approach: adjust the help to the learner, then reduce it as understanding develops.
 
-A polished explanation can be useful before we understand it. A [review of learning and performance](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf) shows why success in the moment can be a poor guide to lasting learning.
+A missing connection tells you where help is still useful. Bring it back, check your reasoning, and try again. Finishing the work and practicing a capability can share the same task, even when they need different amounts of assistance.
 
-Try explaining the idea yourself. If a connection disappears, you have found somewhere to look more closely. Attempting one step and checking its assumptions can turn a vague feeling of familiarity into a clearer question.
+## Keep the steering
 
-Help can then become a conversation about the missing piece.
+A motor can help us move. It does not decide where our lives should lead.
 
-## Decide what you want to carry forward
+AI can suggest a plan, but we still need to ask whether it serves our purpose, which assumptions it makes, and what its consequences might be. A convincing answer deserves judgment even when it is correct.
 
-Some rides are simply about arriving. Others help us develop a capability we value.
+The same is true of navigation, templates, and advice. We can delegate effort while keeping responsibility for the choices that effort serves.
 
-If you want to explain clearly, practice building an explanation. If you want to understand costs, make an estimate and compare it with the calculation. Assistance can provide feedback or take care of routine work. The effort matters when it serves the capability, not because doing everything manually is better.
-
-**A small experiment:** Choose one tool-assisted result today. Explain why one part works, then check it against the source.
+**A small experiment:** Take one familiar tool-assisted task. Do a small part yourself, use help for the rest, and check the part you tried.
