@@ -3,7 +3,7 @@ author: Turtleand
 pubDatetime: 2026-07-13T03:40:03Z
 title: "The Foundational Engineer Is Moving Upward"
 slug: the-foundational-engineer-is-moving-upward
-featured: true
+featured: false
 draft: false
 tags:
   - ai
