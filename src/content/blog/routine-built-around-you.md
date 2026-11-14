@@ -9,56 +9,36 @@ tags:
   - AI
   - reflection
   - growth
-description: "Design routines and interfaces around human understanding, judgment, and changing capacity, then test whether they actually help."
+description: "Start with one difficulty, make understanding easier, and keep the person in control of the workflow."
 ogImage: /assets/images/routine-built-around-you-tinyfied.png
 ---
 
-![Turtleand arranging simple interfaces around a notebook at a comfortable desk](/assets/images/routine-built-around-you-tinyfied.png)
+![Turtleand considering simple interfaces around an open notebook at a sunlit desk](/assets/images/routine-built-around-you-tinyfied.png)
 
 You open a tool to understand one decision. It gives you a dashboard, a long summary, and twelve suggested next steps.
 
 The system has produced plenty. You still have to work out what deserves your attention.
 
-In a human-AI workflow, generation can become easier while understanding remains demanding. What if we designed the whole flow around that moment: the point where a person needs to absorb something, make a judgment, and move forward?
+That gap can appear while studying, choosing a household purchase, or reviewing a proposal. A useful workflow should leave us better able to understand what matters.
 
-## Start With the Point of Friction
+## Start with the actual difficulty
 
-A routine tailored to you should begin with observation.
+Notice where understanding breaks down. Are you missing context? Is the explanation too abstract? Are too many decisions competing at once?
 
-Where do you repeatedly stop? Perhaps an explanation arrives without an example. Perhaps every task requires reconstructing context. Perhaps the day fills with small approvals before there is room for sustained thought.
+Choose one concrete problem. If you cannot compare two options, first ask which difference matters for your decision. Let that difficulty guide the change.
 
-These are different problems. More automation will not necessarily solve any of them unless it changes the part that is getting in the way.
+## Make understanding easier
 
-Start with one recurring difficulty, rather than an imagined perfect version of your day.
+A worked example can make an unfamiliar idea easier to follow. [Cognitive load guidance](https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/practical-guides-for-educators/cognitive-load-theory-in-practice.html) recommends these examples when teaching new material, reducing unnecessary demands on working memory.
 
-## Shape the Interface Around Understanding
+For a purchase or proposal, begin with a clear question and a short explanation, with evidence available to check. AI can help prepare this, but its claims still need checking.
 
-An interface can do more than display output. It can make judgment easier.
+Judge usefulness by what you can explain, question, or apply afterward. A preferred format alone does not show that understanding improved.
 
-A decision brief might begin with the question, the recommendation, and the uncertainty, with evidence available underneath. A learning session might start with a concrete example, then ask you to explain the idea before adding complexity. A daily workspace might show the next meaningful action alongside the context needed to begin.
+## Keep the person in control
 
-These are hypotheses to test. Preferring a diagram does not mean every subject becomes easier through diagrams. The useful measure is whether you can understand, recall, question, or use the material afterward.
+[CAST's learner-control guidance](https://udlguidelines.cast.org/engagement/interests-identities/choice-autonomy/) supports meaningful choices about tools, timing, and support.
 
-Personalization should help you meet the difficulty, including the effort that learning requires.
+Our capacity changes. A routine should allow a smaller step or a different pace, while remaining understandable and editable. We should be able to question priorities, correct assumptions, and decline suggestions. We remain responsible for the decision.
 
-## Let the Routine Change With You
-
-A routine built around a person needs room for different days.
-
-Some days support deep work. Others need a smaller task, fewer decisions, or an earlier stopping point. The system should make those adjustments possible without turning them into a failure score.
-
-It should also remain editable. You should be able to see why something is prioritized, correct an assumption, decline a suggestion, and work without the automation when needed.
-
-A system that quietly decides what matters for you may be convenient while moving you away from your own intentions.
-
-## A Small Experiment
-
-Choose one recurring flow: learning a concept, reviewing a proposal, or beginning a work session.
-
-For a week, change only how it reaches you. Ask for an example before abstraction, a short decision brief before the full document, or one next action instead of a queue.
-
-Notice whether starting becomes easier and whether your understanding holds up afterward. Keep what helps. Adjust what merely feels pleasant.
-
-In [The Human Bottleneck](/posts/human-bottleneck-ai/), the responsibility is to remain meaningfully involved. Designing around that responsibility could mean less material to process, better questions, and more room to think.
-
-If your workflow were built around helping you understand, what would it stop asking you to do?
+**A small experiment:** In your next task, name one thing you do not understand. Change one thing about how it is presented. Before moving on, explain what became clearer and what you still need to ask.
