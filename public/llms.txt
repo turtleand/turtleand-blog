@@ -5,7 +5,7 @@
 ## Articles
 - [What If the Workflow Adapted to You?](https://growth.turtleand.com/posts/routine-built-around-you/): Design routines and interfaces around human understanding, judgment, and changing capacity, then test whether they actually help.
 - [AI Is an Electric Bicycle. Keep Pedaling.](https://growth.turtleand.com/posts/ai-electric-bicycle/): AI can amplify a small effort. A few unassisted miles help us see what we understand and preserve the skills we value.
-- [Five Anchors for AI FOMO](https://growth.turtleand.com/posts/ai-fomo-five-anchors/): Five ways to protect direction, judgment, attention, and energy while learning through the AI shift.
+- [Keep Your Footing Under Pressure](https://growth.turtleand.com/posts/keeping-your-footing-under-pressure/): Three reminders for keeping direction, understanding what is happening, and protecting judgment when work feels uncertain.
 - [Alignment Should Be Part of Winning](https://growth.turtleand.com/posts/alignment-should-be-part-of-winning/): Alignment benchmarks deserve at least as much attention as coding and math scores, with the whole AI community helping improve the tests and check the results.
 - [Four Ways to Work with Agentic AI](https://growth.turtleand.com/posts/four-ways-to-work-with-agentic-ai/): Four observed ways people participate in work with AI agents: intermediary, reviewer, thinking partner, and selective delegator.
 - [AI Is a Lever. You Choose the Direction.](https://growth.turtleand.com/posts/ai-is-a-lever/): AI amplifies human effort, but judgment, creativity, intent, and ethics must decide where that force goes.
