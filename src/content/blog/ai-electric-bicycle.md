@@ -9,32 +9,34 @@ tags:
   - AI
   - reflection
   - growth
-description: "Use assistance while keeping responsibility for direction, checking what you understand, and practicing the capabilities you want to carry forward."
+description: "Assistance makes the journey easier. Keep choosing the route, noticing what you understand, and practicing what you want to carry forward."
 ogImage: /assets/images/ai-electric-bicycle-tinyfied.png
 ---
 
 ![Turtleand pedaling an electric bicycle along a gently rising path](/assets/images/ai-electric-bicycle-tinyfied.png)
 
-An electric bicycle makes each push carry us farther. AI can feel similar: a rough thought becomes an outline, and a difficult task becomes possible.
+The hill feels different on an electric bicycle. A little pressure on the pedals becomes enough to keep moving. A journey we might have avoided now feels possible.
 
-That help is valuable. Three things still belong to the rider.
+AI can offer that kind of help. A few uncertain notes become a clear explanation. We have something to work with, and more energy left to consider it.
 
-## Keep responsibility for direction
+## Keep your hands on the handlebars
 
-The motor helps us move. We choose the destination, question the route, and judge the consequences.
+The motor does not decide where the journey should lead. We choose the destination and remain responsible for the route and its consequences.
 
-An AI suggestion may sound convincing and still be wrong. Before acting, ask whether it serves the purpose and who could be affected. A tool can suggest a path; responsibility for taking it stays with us.
+When AI suggests a plan, ask what it assumes and who it affects. The same applies to a recommended route or a ready-made budget. Convenience does not settle whether the suggestion fits our purpose.
 
-## Protect understanding
+## Look beyond the smooth ride
 
-A useful result does not automatically mean we understand it. Research on [cognitive offloading](https://samgilbert.net/pubs/Risko2016TiCS.pdf) describes how external aids reduce mental demands, with both benefits and costs.
+A polished explanation can be useful before we understand it. A [review of learning and performance](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf) shows why success in the moment can be a poor guide to lasting learning.
 
-Try part of the problem before looking at an answer. Then explain the reasoning in your own words. A missing step or an assumption you cannot justify shows where to look more closely. Use help to explore that gap, then check the explanation against evidence.
+Try explaining the idea yourself. If a connection disappears, you have found somewhere to look more closely. Attempting one step and checking its assumptions can turn a vague feeling of familiarity into a clearer question.
 
-## Practice what matters
+Help can then become a conversation about the missing piece.
 
-Finishing a task and learning from it are different aims. A [review of learning and performance](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf) finds that immediate success can be a poor guide to lasting learning, and recalling information can help us retain it.
+## Decide what you want to carry forward
 
-Choose a capability you want to carry forward: explaining an idea, estimating a cost, or finding your way. Give that capability some practice. Assistance can provide examples, feedback, or relief from routine work. Doing everything manually is no guarantee of learning.
+Some rides are simply about arriving. Others help us develop a capability we value.
 
-**A small experiment:** After using any helpful tool today, look away and explain one key step yourself. Then check it. What did you miss?
+If you want to explain clearly, practice building an explanation. If you want to understand costs, make an estimate and compare it with the calculation. Assistance can provide feedback or take care of routine work. The effort matters when it serves the capability, not because doing everything manually is better.
+
+**A small experiment:** Choose one tool-assisted result today. Explain why one part works, then check it against the source.
