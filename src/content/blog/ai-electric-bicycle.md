@@ -9,28 +9,24 @@ tags:
   - AI
   - reflection
   - growth
-description: "Ask what you want to accomplish, what you understand, and which capabilities deserve practice when using AI or any other helpful tool."
+description: "Choose what to practice, adjust the amount of help, and keep responsibility for where the work is taking you."
 ogImage: /assets/images/ai-electric-bicycle-tinyfied.png
 ---
 
 ![Turtleand pedaling an electric bicycle along a gently rising path](/assets/images/ai-electric-bicycle-tinyfied.png)
 
-An electric bicycle can help us reach a place that once felt too far away. AI can also make a task easier to start or finish. The assistance is useful. These questions help us decide how to use it.
+An electric bicycle can make a journey easier without making it less worthwhile. AI can do the same for everyday work. The useful question is how to enjoy the assistance while keeping our capabilities and direction.
 
-## Where am I trying to go?
+## What would I like to keep practicing?
 
-Before asking for a plan, name the purpose. Is this suggestion taking you toward it? What might happen if you follow it? The tool can help with the route; choosing it and judging the consequences remain human responsibilities.
+Choose one small capability, such as recalling a phrase or estimating a total. Occasionally attempt that part before asking for help. Studies of [recalling information](https://pubmed.ncbi.nlm.nih.gov/16507066/) show that retrieving it can support later retention. That gives a reason for small practice opportunities, not a rule to do everything manually.
 
-## What kind of help do I need?
+## How much help do I need now?
 
-Sometimes we need a finished calculation. Sometimes we want to learn how to estimate. Research on [cognitive offloading](https://samgilbert.net/pubs/Risko2016TiCS.pdf) describes how external aids reduce mental demands. That can be useful without answering what we have learned.
+You do not have to jump from a complete answer to working alone. Ask AI for an example, then a hint, then try one step yourself. Check it before moving on. Research on [learning support](https://doi.org/10.1007/s10648-010-9127-6) describes gradually reducing help as understanding grows. The amount of support can change with the task.
 
-## Could I explain the important step?
+## Am I still choosing the route?
 
-Try it in your own words. Which assumption makes the answer work? If you cannot tell, ask for an example or attempt a simpler case. A gap becomes easier to explore when you can point to it.
+A smooth ride can still take us somewhere we did not intend to go. Before following a suggestion, ask what purpose it serves and who could be affected. The tool may handle the calculation or draft. We keep responsibility for deciding what to do with it.
 
-## What do I want to remain able to do?
-
-Choose something that matters to you. Studies of [recalling information](https://pubmed.ncbi.nlm.nih.gov/16507066/) show benefits for later retention. Practice can include help, feedback, and correction. More manual work is not automatically more learning.
-
-**A small experiment:** Estimate one everyday total before using a calculator. Compare the answers and explain one difference.
+**A small experiment:** On one familiar task, ask for a hint instead of the answer. Try the next step, then check it.
