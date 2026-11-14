@@ -6,36 +6,32 @@
 
 # AI Is an Electric Bicycle. Keep Pedaling.
 
-> Use assistance while keeping responsibility for direction, checking what you understand, and practicing the capabilities you want to carry forward.
+> Ask what you want to accomplish, what you understand, and which capabilities deserve practice when using AI or any other helpful tool.
 
 Published: 2026-11-14T09:02:00Z
 URL: https://growth.turtleand.com/posts/ai-electric-bicycle/
 
 ![Turtleand pedaling an electric bicycle along a gently rising path](/assets/images/ai-electric-bicycle-tinyfied.png)
 
-An electric bicycle makes each push carry us farther. AI can feel similar: a rough thought becomes an outline, and a difficult task becomes possible.
+An electric bicycle can help us reach a place that once felt too far away. AI can also make a task easier to start or finish. The assistance is useful. These questions help us decide how to use it.
 
-That help is valuable. Three things still belong to the rider.
+## Where am I trying to go?
 
-## Keep responsibility for direction
+Before asking for a plan, name the purpose. Is this suggestion taking you toward it? What might happen if you follow it? The tool can help with the route; choosing it and judging the consequences remain human responsibilities.
 
-The motor helps us move. We choose the destination, question the route, and judge the consequences.
+## What kind of help do I need?
 
-An AI suggestion may sound convincing and still be wrong. Before acting, ask whether it serves the purpose and who could be affected. A tool can suggest a path; responsibility for taking it stays with us.
+Sometimes we need a finished calculation. Sometimes we want to learn how to estimate. Research on [cognitive offloading](https://samgilbert.net/pubs/Risko2016TiCS.pdf) describes how external aids reduce mental demands. That can be useful without answering what we have learned.
 
-## Protect understanding
+## Could I explain the important step?
 
-A useful result does not automatically mean we understand it. Research on [cognitive offloading](https://samgilbert.net/pubs/Risko2016TiCS.pdf) describes how external aids reduce mental demands, with both benefits and costs.
+Try it in your own words. Which assumption makes the answer work? If you cannot tell, ask for an example or attempt a simpler case. A gap becomes easier to explore when you can point to it.
 
-Try part of the problem before looking at an answer. Then explain the reasoning in your own words. A missing step or an assumption you cannot justify shows where to look more closely. Use help to explore that gap, then check the explanation against evidence.
+## What do I want to remain able to do?
 
-## Practice what matters
+Choose something that matters to you. Studies of [recalling information](https://pubmed.ncbi.nlm.nih.gov/16507066/) show benefits for later retention. Practice can include help, feedback, and correction. More manual work is not automatically more learning.
 
-Finishing a task and learning from it are different aims. A [review of learning and performance](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf) finds that immediate success can be a poor guide to lasting learning, and recalling information can help us retain it.
-
-Choose a capability you want to carry forward: explaining an idea, estimating a cost, or finding your way. Give that capability some practice. Assistance can provide examples, feedback, or relief from routine work. Doing everything manually is no guarantee of learning.
-
-**A small experiment:** After using any helpful tool today, look away and explain one key step yourself. Then check it. What did you miss?
+**A small experiment:** Estimate one everyday total before using a calculator. Compare the answers and explain one difference.
 
 ---
 
