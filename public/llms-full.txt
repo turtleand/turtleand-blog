@@ -4,12 +4,14 @@
 
 ---
 
-# Follow One Signup
+# AI Should Meet You Where You Are
 
-> A developer finds his way through an unfamiliar codebase when an explanation follows one signup and leaves room for questions.
+> Better help starts with what you understand, where you get lost, and what makes the next step clearer.
 
 Published: 2026-11-14T09:03:00Z
 URL: https://growth.turtleand.com/posts/routine-built-around-you/
+
+_Better help starts with what you understand, where you get lost, and what makes the next step clearer._
 
 ![Turtleand at an ordinary desk, following a signup request through linked files and a simple diagram on his monitor.](/assets/images/workflow-story-a-signup.png)
 

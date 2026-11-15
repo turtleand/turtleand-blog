@@ -1,7 +1,7 @@
 ---
 author: Turtleand
 pubDatetime: 2026-11-14T09:03:00Z
-title: "Follow One Signup"
+title: "AI Should Meet You Where You Are"
 slug: routine-built-around-you
 featured: true
 draft: false
@@ -9,9 +9,11 @@ tags:
   - AI
   - reflection
   - growth
-description: "A developer finds his way through an unfamiliar codebase when an explanation follows one signup and leaves room for questions."
+description: "Better help starts with what you understand, where you get lost, and what makes the next step clearer."
 ogImage: /assets/images/workflow-story-a-signup.png
 ---
+
+_Better help starts with what you understand, where you get lost, and what makes the next step clearer._
 
 ![Turtleand at an ordinary desk, following a signup request through linked files and a simple diagram on his monitor.](/assets/images/workflow-story-a-signup.png)
 

@@ -3,7 +3,7 @@
 > Essays on AI, technology, human potential, and personal growth. Where humans and technology evolve together.
 
 ## Articles
-- [Follow One Signup](https://growth.turtleand.com/posts/routine-built-around-you/): A developer finds his way through an unfamiliar codebase when an explanation follows one signup and leaves room for questions.
+- [AI Should Meet You Where You Are](https://growth.turtleand.com/posts/routine-built-around-you/): Better help starts with what you understand, where you get lost, and what makes the next step clearer.
 - [AI Is an Electric Bicycle. Keep Pedaling.](https://growth.turtleand.com/posts/ai-electric-bicycle/): Enjoy AI assistance while keeping brief moments of practice and responsibility for direction and consequences.
 - [Keep Your Footing Under Pressure](https://growth.turtleand.com/posts/keeping-your-footing-under-pressure/): Three reminders for keeping direction, understanding what is happening, and protecting judgment when work feels uncertain.
 - [Alignment Should Be Part of Winning](https://growth.turtleand.com/posts/alignment-should-be-part-of-winning/): Alignment benchmarks deserve at least as much attention as coding and math scores, with the whole AI community helping improve the tests and check the results.
