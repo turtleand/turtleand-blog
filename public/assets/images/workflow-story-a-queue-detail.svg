@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="744" viewBox="0 0 640 744" role="img" aria-labelledby="title description">
+  <title id="title">Waiting is one step. Sending is another.</title>
+  <desc id="description">A simplified queue example. First, a job to send a welcome email waits in the queue. When a worker picks it up, the worker runs the job and sends the message.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M2 2L6 5L2 8" fill="none" stroke="#17776d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="640" height="744" rx="24" fill="#fbf5e8"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="55" fill="#65746b" font-size="18" letter-spacing="2">A CLOSER LOOK AT THE QUEUE</text>
+    <text x="40" y="101" fill="#173f36" font-size="32" font-weight="700">Two different moments</text>
+
+    <rect x="40" y="140" width="560" height="214" rx="18" fill="#fffdf7" stroke="#bdccc1" stroke-width="2"/>
+    <circle cx="83" cy="185" r="22" fill="#edd9af"/>
+    <text x="83" y="193" text-anchor="middle" fill="#76522a" font-size="24" font-weight="700">1</text>
+    <text x="122" y="194" fill="#173f36" font-size="29" font-weight="700">Waiting in the queue</text>
+    <rect x="78" y="225" width="484" height="87" rx="12" fill="#f2e6c9"/>
+    <rect x="98" y="244" width="12" height="49" rx="6" fill="#b79153"/>
+    <text x="130" y="261" fill="#76522a" font-size="18" letter-spacing="1">JOB</text>
+    <text x="130" y="290" fill="#173f36" font-size="26">Send welcome email</text>
+
+    <path d="M320 357V428" fill="none" stroke="#17776d" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="348" y="390" fill="#52695f" font-size="20">A worker</text>
+    <text x="348" y="417" fill="#52695f" font-size="20">picks it up</text>
+
+    <rect x="40" y="444" width="560" height="214" rx="18" fill="#e2f0e9" stroke="#17776d" stroke-width="2"/>
+    <circle cx="83" cy="489" r="22" fill="#17776d"/>
+    <text x="83" y="497" text-anchor="middle" fill="#fffdf7" font-size="24" font-weight="700">2</text>
+    <text x="122" y="498" fill="#173f36" font-size="29" font-weight="700">Sending the message</text>
+    <rect x="78" y="538" width="210" height="70" rx="12" fill="#fffdf7" stroke="#9fbdb0" stroke-width="2"/>
+    <text x="183" y="568" text-anchor="middle" fill="#173f36" font-size="24" font-weight="700">Worker</text>
+    <text x="183" y="594" text-anchor="middle" fill="#52695f" font-size="19">Runs the job</text>
+    <path d="M302 573H385" fill="none" stroke="#17776d" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="411" y="540" width="126" height="68" rx="9" fill="#fffdf7" stroke="#17776d" stroke-width="3"/>
+    <path d="M414 546L474 584L534 546" fill="none" stroke="#17776d" stroke-width="3" stroke-linejoin="round"/>
+    <text x="40" y="710" fill="#65746b" font-size="19">Conceptual example, with other steps left out.</text>
+  </g>
+</svg>

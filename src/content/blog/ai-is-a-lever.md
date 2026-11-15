@@ -3,7 +3,7 @@ author: Turtleand
 pubDatetime: 2026-07-25T18:25:19Z
 title: "AI Is a Lever. You Choose the Direction."
 slug: ai-is-a-lever
-featured: true
+featured: false
 draft: false
 tags:
   - ai
