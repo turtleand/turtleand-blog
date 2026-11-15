@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="840" viewBox="0 0 640 840" role="img" aria-labelledby="title description">
+  <title id="title">Follow one signup</title>
+  <desc id="description">A conceptual example with five connected steps: signup form, request, account, queue, and email.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M2 2L6 5L2 8" fill="none" stroke="#17776d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="640" height="840" rx="24" fill="#fbf5e8"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="55" fill="#65746b" font-size="18" letter-spacing="2">ONE CONCRETE EXAMPLE</text>
+    <text x="40" y="104" fill="#173f36" font-size="36" font-weight="700">Follow one signup</text>
+    <g fill="none" stroke="#17776d" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M320 236V267"/>
+      <path d="M320 360V391"/>
+      <path d="M320 484V515"/>
+      <path d="M320 608V639"/>
+    </g>
+
+    <rect x="40" y="148" width="560" height="88" rx="16" fill="#fffdf7" stroke="#bdccc1" stroke-width="2"/>
+    <circle cx="86" cy="192" r="24" fill="#e0eee6"/>
+    <text x="86" y="201" text-anchor="middle" fill="#17776d" font-size="26" font-weight="700">1</text>
+    <text x="132" y="185" fill="#173f36" font-size="29" font-weight="700">Signup form</text>
+    <text x="132" y="215" fill="#52695f" font-size="21">Someone presses the button</text>
+
+    <rect x="40" y="272" width="560" height="88" rx="16" fill="#fffdf7" stroke="#bdccc1" stroke-width="2"/>
+    <circle cx="86" cy="316" r="24" fill="#e0eee6"/>
+    <text x="86" y="325" text-anchor="middle" fill="#17776d" font-size="26" font-weight="700">2</text>
+    <text x="132" y="309" fill="#173f36" font-size="29" font-weight="700">Request</text>
+    <text x="132" y="339" fill="#52695f" font-size="21">The application receives it</text>
+
+    <rect x="40" y="396" width="560" height="88" rx="16" fill="#fffdf7" stroke="#bdccc1" stroke-width="2"/>
+    <circle cx="86" cy="440" r="24" fill="#e0eee6"/>
+    <text x="86" y="449" text-anchor="middle" fill="#17776d" font-size="26" font-weight="700">3</text>
+    <text x="132" y="433" fill="#173f36" font-size="29" font-weight="700">Account</text>
+    <text x="132" y="463" fill="#52695f" font-size="21">The new account is saved</text>
+
+    <rect x="40" y="520" width="560" height="88" rx="16" fill="#e2f0e9" stroke="#17776d" stroke-width="2"/>
+    <circle cx="86" cy="564" r="24" fill="#17776d"/>
+    <text x="86" y="573" text-anchor="middle" fill="#fffdf7" font-size="26" font-weight="700">4</text>
+    <text x="132" y="557" fill="#173f36" font-size="29" font-weight="700">Queue</text>
+    <text x="132" y="587" fill="#52695f" font-size="21">A job waits to send the email</text>
+
+    <rect x="40" y="644" width="560" height="88" rx="16" fill="#fffdf7" stroke="#bdccc1" stroke-width="2"/>
+    <circle cx="86" cy="688" r="24" fill="#e0eee6"/>
+    <text x="86" y="697" text-anchor="middle" fill="#17776d" font-size="26" font-weight="700">5</text>
+    <text x="132" y="681" fill="#173f36" font-size="29" font-weight="700">Email</text>
+    <text x="132" y="711" fill="#52695f" font-size="21">A worker sends the message</text>
+
+    <text x="40" y="790" fill="#65746b" font-size="19">A simplified path through the story's application.</text>
+  </g>
+</svg>

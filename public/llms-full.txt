@@ -4,42 +4,50 @@
 
 ---
 
-# What If the Workflow Adapted to You?
+# Follow One Signup
 
-> Start with one difficulty, make understanding easier, and keep the person in control of the workflow.
+> A developer finds his way through an unfamiliar codebase when an explanation follows one signup and leaves room for questions.
 
 Published: 2026-11-14T09:03:00Z
 URL: https://growth.turtleand.com/posts/routine-built-around-you/
 
-![Turtleand considering simple interfaces around an open notebook at a sunlit desk](/assets/images/routine-built-around-you-tinyfied.png)
+![Turtleand at an ordinary desk, following a signup request through linked files and a simple diagram on his monitor.](/assets/images/workflow-story-a-signup.png)
 
-You open a tool to understand one decision. It gives you a dashboard, a long summary, and twelve suggested next steps.
+On Monday morning, Turtleand opened a codebase he had never worked on. His first task looked simple: change the subject line of the welcome email.
 
-The system has produced plenty. You still have to work out what deserves your attention.
+He asked the AI in his editor how signup worked. It returned a detailed overview of routes, services, background jobs, and configuration. He scrolled back to the top.
 
-That gap can appear while studying, choosing a household purchase, or reviewing a proposal. A useful workflow should leave us better able to understand what matters.
+He knew more names now. He still did not know where the email came from.
 
-## Start with the actual difficulty
+“Follow one signup with me,” he typed. “Start when someone presses the button. Show me the relevant file at each step, and pause so I can ask questions.”
 
-Notice where understanding breaks down. Are you missing context? Is the explanation too abstract? Are too many decisions competing at once?
+The explanation began with the form. Turtleand opened the linked file, then followed the request to the code that created the account.
 
-Choose one concrete problem. If you cannot compare two options, first ask which difference matters for your decision. Let that difficulty guide the change.
+Turtleand asked for a small diagram. Five boxes appeared: form, request, account, queue, email. Each linked back to the code.
 
-## Make understanding easier
+![One signup follows five steps: form, request, account, queue, and email.](/assets/images/workflow-story-a-signup-flow.svg)
 
-A worked example can make an unfamiliar idea easier to follow. [Cognitive load guidance](https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/practical-guides-for-educators/cognitive-load-theory-in-practice.html) recommends these examples when teaching new material, reducing unnecessary demands on working memory.
+Next came a background job.
 
-For a purchase or proposal, begin with a clear question and a short explanation, with evidence available to check. AI can help prepare this, but its claims still need checking.
+“Wait. Is this where the email gets sent?”
 
-Judge usefulness by what you can explain, question, or apply afterward. A preferred format alone does not show that understanding improved.
+“Here, the application adds it to a queue. Another part picks it up and sends it.”
 
-## Keep the person in control
+![A job waits in the queue until a worker picks it up and sends the welcome email.](/assets/images/workflow-story-a-queue-detail.svg)
 
-[CAST's learner-control guidance](https://udlguidelines.cast.org/engagement/interests-identities/choice-autonomy/) supports meaningful choices about tools, timing, and support.
+He clicked the last box and found the message template.
 
-Our capacity changes. A routine should allow a smaller step or a different pace, while remaining understandable and editable. We should be able to question priorities, correct assumptions, and decline suggestions. We remain responsible for the decision.
+Now the filenames had a place in a sequence he could follow.
 
-**A small experiment:** In your next task, name one thing you do not understand. Change one thing about how it is presented. Before moving on, explain what became clearer and what you still need to ask.
+Before editing, he explained the journey aloud. At the queue, he stopped again. What happened if sending failed? This time, he knew which part to ask about.
+
+He imagined opening unfamiliar work this way more often: a short route through one example, with longer explanations available where he needed them. Sometimes he would want a conversation. Sometimes a diagram would be enough.
+
+He could connect the pieces and decide where to look next.
+
+He returned to the subject line, with a clearer picture of the system around it.
+
+**Try this next:** Ask for one concrete example to be followed from beginning to end. Pause at the first step you cannot explain.
 
 ---
 
