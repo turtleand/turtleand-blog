@@ -4,6 +4,182 @@
 
 ---
 
+# AI Should Meet You Where You Are
+
+> Better help starts with what you understand, where you get lost, and what makes the next step clearer.
+
+Published: 2026-11-15T15:00:00Z
+URL: https://growth.turtleand.com/posts/routine-built-around-you/
+
+_Better help starts with what you understand, where you get lost, and what makes the next step clearer._
+
+![Turtleand at an ordinary desk, following a signup request through linked files and a simple diagram on his monitor.](/assets/images/workflow-story-a-signup.png)
+
+On Monday morning, Turtleand opened a codebase he had never worked on. His first task looked simple: change the subject line of the welcome email.
+
+He asked the AI in his editor how signup worked. It returned a detailed overview of routes, services, background jobs, and configuration. He scrolled back to the top.
+
+He knew more names now. He still did not know where the email came from.
+
+“Follow one signup with me,” he typed. “Start when someone presses the button. Show me the relevant file at each step, and pause so I can ask questions.”
+
+The explanation began with the form. Turtleand opened the linked file, then followed the request to the code that created the account.
+
+Turtleand asked for a small diagram. Five boxes appeared: form, request, account, queue, email. Each linked back to the code.
+
+![One signup follows five steps: form, request, account, queue, and email.](/assets/images/workflow-story-a-signup-flow.svg)
+
+Next came a background job.
+
+“Wait. Is this where the email gets sent?”
+
+“Here, the application adds it to a queue. Another part picks it up and sends it.”
+
+![A job waits in the queue until a worker picks it up and sends the welcome email.](/assets/images/workflow-story-a-queue-detail.svg)
+
+He clicked the last box and found the message template.
+
+Now the filenames had a place in a sequence he could follow.
+
+Before editing, he explained the journey aloud. At the queue, he stopped again. What happened if sending failed? This time, he knew which part to ask about.
+
+He imagined opening unfamiliar work this way more often: a short route through one example, with longer explanations available where he needed them. Sometimes he would want a conversation. Sometimes a diagram would be enough.
+
+He could connect the pieces and decide where to look next.
+
+He returned to the subject line, with a clearer picture of the system around it.
+
+**Try this next:** Ask for one concrete example to be followed from beginning to end. Pause at the first step you cannot explain.
+
+---
+
+# AI Is an Electric Bicycle. Keep Pedaling.
+
+> Enjoy AI assistance while keeping brief moments of practice and responsibility for direction and consequences.
+
+Published: 2026-11-15T14:59:00Z
+URL: https://growth.turtleand.com/posts/ai-electric-bicycle/
+
+![Turtleand riding an electric treadle tricycle with short steering grips and leaf-shaped pedals on a sunset path](/assets/images/ai-electric-bicycle-treadle-tricycle.png)
+
+An electric bicycle makes the ride smoother. A small push carries us farther, and a difficult hill becomes manageable. AI can feel much the same: it handles a calculation, shapes a draft, or helps us find a useful next step.
+
+There is no need to make every journey harder. Two things still deserve our attention.
+
+- **Keep some pedaling in the ride.** Occasionally reduce the assistance on a small, familiar part of the work. Recall an idea before reading the explanation, or make an estimate before checking the total. [Recalling information can help us retain it](https://pubmed.ncbi.nlm.nih.gov/16507066/). Begin with one step, use a hint when needed, and take on more as understanding grows. This gives the capabilities we value a place to stay in use, without making every task an exercise.
+- **Keep the steering.** Assistance can suggest a route. We still decide where to go, whether the route makes sense, and who might be affected. A smooth result does not settle those questions. We can delegate parts of the work while keeping responsibility for direction and consequences.
+
+**A small experiment:** On one familiar task today, try the first step without help. Then bring the help back and compare.
+
+---
+
+# Keep Your Footing Under Pressure
+
+> Three reminders for keeping direction, understanding what is happening, and protecting judgment when work feels uncertain.
+
+Published: 2026-11-14T09:01:00Z
+URL: https://growth.turtleand.com/posts/keeping-your-footing-under-pressure/
+
+![Turtleand holding a compass beside a golden path through a landscape of branching trails](/assets/images/keeping-your-footing-under-pressure.png)
+
+The work keeps coming. A colleague is laid off. A new target arrives. Even after you close the laptop, part of you is still at work, trying to prove you deserve to stay.
+
+That pressure can follow us into studying, caring for someone, or looking for a job. There is something we need to protect, and no clear point at which we have done enough.
+
+I keep coming back to three things.
+
+## Keep a direction that lasts
+
+A job can change before we are ready. A direction can travel with us: explaining clearly, making sound decisions, or helping people through difficult situations.
+
+Choose one quality you want your work to strengthen, then one useful step toward it. You can adjust the route while keeping that direction.
+
+## Separate facts from fears
+
+A colleague's layoff is a fact. "I will be next" is a prediction. Ask what supports it, what remains unknown, and what you can check.
+
+You can prepare for a real risk without assuming the worst outcome is certain. Understanding the situation helps you choose your response.
+
+## Leave room to judge
+
+[Fatigue can impair decisions](https://www.ccohs.ca/oshanswers/psychosocial/fatigue.html). Keep room for sleep, meals, and a pause before consequential choices.
+
+Ask what would be enough for today. When a new demand arrives, agree on what can wait. Where possible, give messages and news a stopping point so you have attention left to understand the work and its consequences.
+
+These habits cannot fix an impossible workload. The people setting expectations also need to make them realistic.
+
+**A small experiment:** Choose one unclear demand. Ask what a sufficient result would look like.
+
+---
+
+# Alignment Should Be Part of Winning
+
+> Alignment benchmarks deserve at least as much attention as coding and math scores, with the whole AI community helping improve the tests and check the results.
+
+Published: 2026-09-12T12:00:00Z
+URL: https://growth.turtleand.com/posts/alignment-should-be-part-of-winning/
+
+![People working together to build a transparent path with shared plans and safety rails](/assets/alignment-should-be-part-of-winning-tinyfied.webp)
+
+AI models compete on benchmark scores: [SWE-bench Pro](https://labs.scale.com/papers/swe_bench_pro) tests coding, while [AIME](https://artificialanalysis.ai/evaluations/aime-2025) and [GPQA Diamond](https://artificialanalysis.ai/evaluations/gpqa-diamond), tracked by Artificial Analysis, test math and science.
+
+What if alignment benchmarks mattered just as much, or more? They seem to exist, but deserve more attention. Alongside solving problems, models should be judged on whether they are honest, accept corrections, respect people's choices, and stay under human control.
+
+The whole AI community could build on this work and maintain a shared set of tests. Researchers, labs, and independent testers would share challenges, methods, and findings in a public collection that everyone could improve.
+
+The aim would be to set the requirements before the next, more capable models arrive. Labs would develop ways to meet them, and independent testers would check the results. Under a shared, enforced release rule, a model that fails could not be released or used for high-stakes work inside a lab, such as building future AI systems.
+
+The community would set the bar and check the evidence. Each lab would work out how to reach it.
+
+Tests would examine behavior in unfamiliar situations, supported by research into how models work internally. Passing would be useful evidence, not a promise that nothing could go wrong.
+
+If customers and reviewers valued these results at least as highly as coding, math, and other skills, labs would have a stronger reason to improve alignment. Helping people stay in control would become part of what makes a model good.
+
+---
+
+# Four Ways to Work with Agentic AI
+
+> Four observed ways people participate in work with AI agents: intermediary, reviewer, thinking partner, and selective delegator.
+
+Published: 2026-09-06T12:00:00Z
+URL: https://growth.turtleand.com/posts/four-ways-to-work-with-agentic-ai/
+
+![Turtleand beside a paper sketch while autonomous tools explore and build two bridge designs](/assets/four-ways-to-work-with-agentic-ai-tinyfied.png)
+
+I broadly see four alternative patterns when working with AI agents, which execute by themselves:
+
+## The intermediary
+
+The intermediary carries another person's request to an agent and passes the result back. The agent does the work. The person acts as the intermediary between the requester and the agent.
+
+## The reviewer
+
+The reviewer delegates implementation and examines the resulting work. They compare it with the original request, identify what needs changing, and ask the agent for corrections. The agent carries out those changes, and the person reviews the result again. This repeats as needed.
+
+## The thinking partner
+
+Here, the person brings an initial understanding of the problem and a possible solution. The agent uses that contribution as a starting point for investigation. It explores alternatives, tests possibilities, and returns findings that can reshape both the solution and the problem itself.
+
+The person and agent continue working through those findings together. Each round gives them something to question, investigate, or revise in the next.
+
+This is the pattern I prefer because I remain involved in the thinking and understand the work as it develops. I contribute what I understand and how I would approach the problem, then use the agent to expand, challenge, and reshape that view. My starting context does not limit what the agent may explore.
+
+## The selective delegator
+
+The selective delegator continues doing substantial thinking themselves. For unfamiliar problems, they reason through the situation, design possible solutions, and decide how to proceed. Agents execute familiar, repetitive tasks within that work.
+
+The person retains the cognitive work through this continued involvement: forming an understanding, working through why a solution fits, and making the decisions themselves.
+
+## Choosing where to participate
+
+These are flexible working patterns. The same person may review one task, explore another with an agent, and selectively delegate a third. They describe choices within work, not fixed identities or levels of maturity.
+
+A percentage of AI usage tells us little about those choices. What matters is where understanding and judgment remain, and whether someone can recognize when the arrangement needs to change.
+
+As with [a lever](/posts/ai-is-a-lever/), greater reach makes direction consequential. Delegating the work does not remove our responsibility for what we accept or set in motion.
+
+---
+
 # AI Is a Lever. You Choose the Direction.
 
 > AI amplifies human effort, but judgment, creativity, intent, and ethics must decide where that force goes.

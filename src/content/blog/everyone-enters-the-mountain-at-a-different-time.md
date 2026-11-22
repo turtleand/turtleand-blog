@@ -4,7 +4,7 @@ pubDatetime: 2026-06-07T23:05:11Z
 modDatetime: 2026-06-13T19:58:44Z
 title: "Everyone Enters the Mountain at a Different Time"
 slug: everyone-enters-the-mountain-at-a-different-time
-featured: true
+featured: false
 draft: false
 tags:
   - personal-growth
