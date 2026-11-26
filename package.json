@@ -21,7 +21,7 @@
     "@astrojs/rss": "^4.0.18",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^7.2.10",
-    "d3": "^7.9.0",
+    "d3": "^7.9.2",
     "framer-motion": "^12.19.2",
     "fuse.js": "^7.5.0",
     "lodash.kebabcase": "^4.1.1",
